@@ -1,0 +1,817 @@
+date,vehicle_category,maker,electric_vehicles_sold,uuid,year,month,cumulative_sales,segment
+2021-04-01,2-Wheelers,OLA ELECTRIC,0,465931d3-9bd6-43b5-ab1f-aace65b11dfb,2021,April,0,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,OKAYA EV,0,1d7ca2e2-988c-42e9-9d44-8b08a759fbbf,2022,April,0,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,OLA ELECTRIC,0,9da18de8-1173-4717-a894-f3b0748e3249,2021,May,0,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,OLA ELECTRIC,0,ac373721-db45-46df-bc6a-86f0d663253a,2021,June,0,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,OLA ELECTRIC,0,9919575b-4d9d-4823-a9a1-f2a1b7c037c7,2021,July,0,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,OLA ELECTRIC,0,38528ea6-6061-420a-87dc-050bf3e0c29e,2021,August,0,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,OLA ELECTRIC,0,cd61c582-27a7-4e93-b129-e211057bb393,2021,September,0,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,OLA ELECTRIC,0,cb4e25b0-fa81-4599-982e-9016e82f2140,2021,October,0,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,OLA ELECTRIC,0,06a91415-0872-415e-91d4-598ed513c82c,2021,November,0,Two-Wheeler Manufacturer
+2021-04-01,4-Wheelers,BYD India,0,c57fec52-2208-46e0-933c-7bd100265253,2021,April,0,Four-Wheeler Manufacturer
+2021-04-01,4-Wheelers,PCA Automobiles,0,058777d2-ee66-4d2a-b050-e95bfdf75870,2021,April,0,Four-Wheeler Manufacturer
+2021-04-01,4-Wheelers,BMW India,0,4cdb0c49-c11c-40f3-b7af-f070dd2bfc4f,2021,April,0,Four-Wheeler Manufacturer
+2021-04-01,4-Wheelers,Volvo Auto India,0,9e338527-5dab-4026-9238-69477647121b,2021,April,0,Four-Wheeler Manufacturer
+2021-04-01,4-Wheelers,KIA Motors,0,6a0c21ff-98f4-4bf2-b44c-178b156ed89c,2021,April,0,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,PCA Automobiles,0,8d35154b-43fc-4fd4-9daa-44e513e3a2c4,2022,April,0,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,Volvo Auto India,0,850b913f-0053-4eb9-b189-56d1cf2047df,2022,April,4,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,KIA Motors,0,7f976ff0-a883-4b92-8340-dc9de14fe89e,2022,April,0,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,BYD India,0,8712185d-a335-4769-bddf-f4e6396bbf83,2021,May,0,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,PCA Automobiles,0,f2e1b259-0958-42eb-9a42-ec8957243a6e,2021,May,0,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,BMW India,0,bc760552-20e1-4a52-b121-d9e0d52e6584,2021,May,0,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,Mercedes-Benz AG,0,62c859c3-9a91-483a-a8fe-e280b91baac5,2021,May,3,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,Volvo Auto India,0,08534996-2f0f-40f8-bc5f-92dbd1fb4b96,2021,May,0,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,KIA Motors,0,b83f2ca6-7086-4ea3-b4da-efda6953f0a8,2021,May,0,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,PCA Automobiles,0,277d17c4-f61b-4d91-8beb-529f0bd1ce83,2022,May,0,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,Volvo Auto India,0,c3f82d35-c3e9-4870-9190-dc3d3364d45f,2022,May,4,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,KIA Motors,0,ef093b6d-f925-47fa-a6f1-1dc45b152758,2022,May,0,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,BYD India,0,4cd3de41-1609-4551-94bc-c7d15c2c6c75,2021,June,0,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,PCA Automobiles,0,c3621786-693c-41e9-b809-91554b231e34,2021,June,0,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,BMW India,0,90ad3510-59ae-4d2d-93ec-b3878a44e1c3,2021,June,0,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,Volvo Auto India,0,fdc4e781-03b2-4c30-bf5b-55928f65670a,2021,June,0,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,KIA Motors,0,19f49d8a-a06b-4795-a049-77ea298cdf95,2021,June,0,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,PCA Automobiles,0,e79996b1-14aa-46a8-a2bb-dfa9cb5b5946,2022,June,0,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,Volvo Auto India,0,6601f568-3eef-41ce-b693-68aad987af7a,2022,June,4,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,KIA Motors,0,308e82b6-301b-4d33-9ad3-226aede7f1fd,2022,June,0,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,BYD India,0,719b1c28-2b78-45fa-97c0-9c3681d27799,2021,July,0,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,PCA Automobiles,0,4ee3e41a-91ba-4fdf-9a32-8b813a63be63,2021,July,0,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,BMW India,0,ffb75768-d1cc-4823-8f5f-26c4be3d4be5,2021,July,0,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,Volvo Auto India,0,c2997e3f-1fa9-4185-8082-9abd03d1bc0f,2021,July,0,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,KIA Motors,0,6bc573c3-23ed-4c0e-bbee-803eebab0ada,2021,July,0,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,PCA Automobiles,0,f786f803-dcad-49ca-b1b0-51d10226d41b,2022,July,0,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,Volvo Auto India,0,faf4bc56-436c-46e2-80b7-8b268f4b94db,2022,July,4,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,KIA Motors,0,09f249da-83e4-4ce3-b427-9f43b4d5792e,2022,July,0,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,BYD India,0,5552718c-4d74-45e9-bde6-d4214751df4a,2021,August,0,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,PCA Automobiles,0,a41a5067-dd1e-4ce2-bc09-472ca4443d23,2021,August,0,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,BMW India,0,11bee00a-8a7c-4a9f-82ee-c0accf37dada,2021,August,0,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,Volvo Auto India,0,bf00b789-3daf-4779-b21a-01c9c3d83050,2021,August,0,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,KIA Motors,0,d16b0c76-5681-4566-b9e8-8e8e35b342a8,2021,August,0,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,PCA Automobiles,0,e9d4af9a-337f-43e7-91d1-ffa46df4c7fd,2022,August,0,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,Volvo Auto India,0,53c10ea9-b123-4214-8410-ef5e4c84428a,2022,August,4,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,KIA Motors,0,9585f6b3-40c7-4aff-b0a3-ce6e968be139,2022,August,0,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,BYD India,0,3dcb9754-2d5a-49b7-9b5b-4096b224fbe4,2021,September,0,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,PCA Automobiles,0,b8fb8ca9-f867-4db9-955c-93a73e7bb4f8,2021,September,0,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,BMW India,0,aa334047-0de7-47df-81f4-f1980aa47b0c,2021,September,0,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,Volvo Auto India,0,2e341874-4b25-473c-b463-bb7d3a6fe505,2021,September,0,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,KIA Motors,0,77f992f3-77bf-44ea-8fc7-12217b332581,2021,September,0,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,PCA Automobiles,0,e1bbd6bc-7f9d-49b6-8121-acbd243cf046,2022,September,0,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,Volvo Auto India,0,b493eccf-1e0f-4eb7-8f37-6aa9cde60f69,2022,September,4,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,KIA Motors,0,5881cf0e-0d1b-416e-8153-f5b82aed5b87,2022,September,0,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,BYD India,0,28c83c0e-4a3e-431f-a5b5-cd556f5b3930,2021,October,0,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,PCA Automobiles,0,9306e31e-119c-4b99-aaaf-cae682fbbdd4,2021,October,0,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,BMW India,0,8c6bdce8-679a-4127-8775-d67275819a7a,2021,October,0,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,Volvo Auto India,0,06b1ce3a-0407-45dd-928b-607dff85767e,2021,October,0,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,KIA Motors,0,c979f378-922a-478e-bc9d-ba3e5d5e2311,2021,October,0,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,PCA Automobiles,0,1ddf05ea-b582-4dd2-9fcd-80f786ce35dd,2022,October,0,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,Volvo Auto India,0,692ce2fa-a9db-4b28-b9a9-8f1988f03448,2022,October,4,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,BYD India,0,0c5cf766-0da6-415e-81a2-8d2b1649b8fc,2021,November,0,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,PCA Automobiles,0,f080cef9-9a4c-4fce-a63a-61242f9a3804,2021,November,0,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,BMW India,0,3f759cad-7f79-4f21-ae4b-bc547af5ac4b,2021,November,0,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,Volvo Auto India,0,5aba6b8b-22e7-4aaa-9e87-73c9940338e3,2021,November,0,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,KIA Motors,0,0c3f6bed-c1b1-4956-94d1-30c651453960,2021,November,0,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,PCA Automobiles,0,0bb3cfae-5aa2-437a-bb40-663bf4583a6c,2022,November,0,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,PCA Automobiles,0,139cfc81-b0cd-495b-8712-7a6353ece3ec,2021,December,0,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,BMW India,0,65fe455b-f893-4815-ab5f-3200bf256c5f,2021,December,0,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,Volvo Auto India,0,ca75bd81-253b-4bc2-9763-48fe3c84845d,2021,December,0,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,KIA Motors,0,ff643a7c-e192-4a04-941d-0f2a28ab18cd,2021,December,0,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,PCA Automobiles,0,dbf1a8c4-599a-4275-92dd-9fe1d447f979,2022,December,0,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,PCA Automobiles,0,7882b24a-35bd-4676-a729-d06f6825c6d8,2022,January,0,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,BMW India,0,a6ba966a-e648-4f18-a179-e1abce852d07,2022,January,0,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,Volvo Auto India,0,37d78072-9ff1-4e62-a66e-0fecf1166436,2022,January,0,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,KIA Motors,0,c4d676e1-8398-45d7-9206-202aeb27f841,2022,January,0,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,PCA Automobiles,0,7a748737-47e8-4bd5-a2c0-73e097e81d3a,2023,January,0,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,PCA Automobiles,0,62653950-3e1d-413c-a8b8-ffec2d79514f,2022,February,0,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,BMW India,0,5747c6b7-08b5-49bf-8716-c5ebc3be2df0,2022,February,0,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,Volvo Auto India,0,7e12a261-86fa-48a7-8db5-b284790cfe7e,2022,February,0,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,KIA Motors,0,ae6a27b8-010f-43e5-ad4b-b09045ec864e,2022,February,0,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,PCA Automobiles,0,bdbd19c1-387e-4766-b8d9-2a16d1f00bc0,2023,February,0,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,PCA Automobiles,0,90501a0c-292d-41fc-bde2-8cebb536fd88,2022,March,0,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,KIA Motors,0,30bd3f4b-f526-4b77-81ce-f70470c81756,2022,March,0,Four-Wheeler Manufacturer
+2021-04-01,4-Wheelers,Tata Motors,322,28d13e1c-9b5e-4290-9c81-de8c6dfa83d4,2021,April,322,Four-Wheeler Manufacturer
+2021-04-01,4-Wheelers,MG Motor,118,cac2c171-aa8f-431e-af87-00096483cb25,2021,April,118,Four-Wheeler Manufacturer
+2021-04-01,4-Wheelers,Mahindra and Mahindra,171,10316a94-2b73-4a38-baa2-9b7cf1130949,2021,April,171,Four-Wheeler Manufacturer
+2021-04-01,4-Wheelers,Hyundai Motor,12,7a7543ee-7a24-4abc-944e-5d030b88c182,2021,April,12,Four-Wheeler Manufacturer
+2021-04-01,4-Wheelers,Mercedes-Benz AG,3,ee28ab9b-0c40-4627-81f5-c59871be548a,2021,April,3,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,Tata Motors,1409,b727ea46-5028-4256-9a7e-2d7688ea3382,2022,April,14117,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,MG Motor,177,e49dc950-ada3-4edc-827a-18fb029a0b64,2022,April,1824,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,Mahindra and Mahindra,611,4a35acb1-d8a0-4638-bed5-e541d095c708,2022,April,4653,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,BYD India,15,1c776e96-a2bd-4123-9994-ac7ea06fc2a2,2022,April,48,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,Hyundai Motor,17,8feadbbd-d059-4bb0-8c46-2cc6f4c2de95,2022,April,127,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,BMW India,12,ef3c3def-d66e-40d9-be9d-70389322a97f,2022,April,19,Four-Wheeler Manufacturer
+2022-04-01,4-Wheelers,Mercedes-Benz AG,8,4238de4f-6b31-4bc8-8787-89220f9112cf,2022,April,34,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,Tata Motors,364,5cc0f3d9-a371-4732-b0f4-d39e6b5a9f23,2023,April,41118,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,MG Motor,265,304b7f47-a951-4daa-b5a2-b5fb7c003693,2023,April,5189,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,Mahindra and Mahindra,4880,fad1f1d1-ed69-4077-80c3-05ea983482ae,2023,April,22727,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,BYD India,156,bfe0a753-9ed5-4776-9d35-072dbff8d84c,2023,April,1109,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,Hyundai Motor,42,86a48970-3e90-4a33-94e3-15df31dab296,2023,April,728,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,PCA Automobiles,181,8fba2918-f523-46ce-8439-101dc0b28cef,2023,April,332,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,BMW India,51,ff8994a2-2341-4394-962a-0e4622542bcd,2023,April,343,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,Mercedes-Benz AG,8,6a946063-73c8-42cc-8631-411f83129746,2023,April,105,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,Volvo Auto India,27,2c8f968f-1d73-4911-8ac5-8dfe47db014f,2023,April,136,Four-Wheeler Manufacturer
+2023-04-01,4-Wheelers,KIA Motors,30,2557ee90-674f-4aa7-8219-efd05f23e106,2023,April,259,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,Tata Motors,137,603a7073-6a16-4bc2-bc55-d6daedc1f6bf,2021,May,459,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,MG Motor,39,92733716-3b30-43d6-aa61-cb4f34bdd385,2021,May,157,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,Mahindra and Mahindra,78,992a348b-2a2b-467b-b7f0-366795547db9,2021,May,249,Four-Wheeler Manufacturer
+2021-05-01,4-Wheelers,Hyundai Motor,3,5b65a0ed-8057-431b-b879-967f1515aadb,2021,May,15,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,Tata Motors,2097,9b8affe7-83c0-4423-ab0b-08c73d96ab2a,2022,May,16214,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,MG Motor,181,732a466b-99d5-4d1a-b577-c0c2fc2a73b4,2022,May,2005,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,Mahindra and Mahindra,622,abb4ff63-229b-42d3-bd68-f44137854dae,2022,May,5275,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,BYD India,30,97f1e3e9-a111-4e37-85eb-6efdfcc6ffb0,2022,May,78,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,Hyundai Motor,19,1027cd55-c86b-4a4d-a17b-5084810f6f0e,2022,May,146,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,BMW India,6,8a39c2b4-aeb8-4dc4-bcb1-cb3e874350dc,2022,May,25,Four-Wheeler Manufacturer
+2022-05-01,4-Wheelers,Mercedes-Benz AG,4,c857b1df-9b9a-4e8c-abcb-6477750c0e63,2022,May,38,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,Tata Motors,3212,dfe98a74-d823-4db5-a9ff-1b2e3a2c55e4,2023,May,44330,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,MG Motor,351,68cdb5d0-558f-4f30-9119-961517abf247,2023,May,5540,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,Mahindra and Mahindra,3457,db30d1e2-82ab-4fa5-b82f-78aa98199ff1,2023,May,26184,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,BYD India,110,2c0cb349-e1a3-4528-b842-23f9fce7d38e,2023,May,1219,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,Hyundai Motor,129,744a9421-fce6-46d7-a908-e0a9299084b6,2023,May,857,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,PCA Automobiles,245,d7431b35-401b-41de-a267-aade9ede5904,2023,May,577,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,BMW India,57,09c0a42d-673f-4241-9248-f9311ac6449b,2023,May,400,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,Mercedes-Benz AG,9,85a913b9-e221-47a3-ba6c-8ba41011adf7,2023,May,114,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,Volvo Auto India,34,7aa8e143-ec1e-4acc-a56d-3321cc7fe417,2023,May,170,Four-Wheeler Manufacturer
+2023-05-01,4-Wheelers,KIA Motors,36,117a7d16-2493-4295-9aff-c6b51740411d,2023,May,295,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,Tata Motors,572,45252136-a9d1-4873-8be1-d452253aa013,2021,June,1031,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,MG Motor,128,e334ee88-0a16-4d83-ac1b-d164ce313b69,2021,June,285,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,Mahindra and Mahindra,106,2253b75f-891b-4bf1-8e7e-d2e0e916e1bd,2021,June,355,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,Hyundai Motor,10,6a743a26-b5f2-400b-b1fa-5c5e9f0e47dd,2021,June,25,Four-Wheeler Manufacturer
+2021-06-01,4-Wheelers,Mercedes-Benz AG,2,98763a49-597d-412e-85f4-59d2a2de3598,2021,June,5,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,Tata Motors,2169,032dda12-ea0c-4d48-be82-6c079e0f5172,2022,June,18383,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,MG Motor,173,0ac0ba99-a3b3-4b12-89a4-fbf347ff5ce9,2022,June,2178,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,Mahindra and Mahindra,787,2cd1b2a9-4a8b-4d55-9e80-67e98610e3bc,2022,June,6062,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,BYD India,36,7e4ef4f4-bf63-40bb-80d9-9b0738297f31,2022,June,114,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,Hyundai Motor,39,7b53f083-a414-40b5-86a2-732df8940f67,2022,June,185,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,BMW India,4,3e7093ba-fe24-4d22-ba03-e5fc81e6255d,2022,June,29,Four-Wheeler Manufacturer
+2022-06-01,4-Wheelers,Mercedes-Benz AG,2,025f8379-425a-48f3-9b61-dad501ab973b,2022,June,40,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,Tata Motors,3671,481de178-9178-48fe-bd79-21d25569855a,2023,June,48001,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,MG Motor,877,4c3e4cc0-8518-4944-aafa-2a65029ee8b6,2023,June,6417,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,Mahindra and Mahindra,2574,5c93910e-fcf7-47ed-9fa7-a8a00b4dde2d,2023,June,28758,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,BYD India,140,fdb26c60-18e7-472c-8c1b-75a0401144a4,2023,June,1359,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,Hyundai Motor,121,6de93b2c-1670-462f-aefe-3f7d3a7cf001,2023,June,978,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,PCA Automobiles,254,222649df-5e0c-486d-bfc0-eb3956e2adcf,2023,June,831,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,BMW India,76,2977b347-6d13-4d9d-ad66-2ff934853035,2023,June,476,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,Mercedes-Benz AG,14,5acdfed4-3666-4781-b43e-ba37bfe97de8,2023,June,128,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,Volvo Auto India,33,4df3da45-1c04-497b-85d6-2c6bc820f6a0,2023,June,203,Four-Wheeler Manufacturer
+2023-06-01,4-Wheelers,KIA Motors,30,4960700c-188f-447d-baf3-94eb8181c3b3,2023,June,325,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,Tata Motors,696,ed81cc84-6fb1-4cc9-8233-c5c24d2c549f,2021,July,1727,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,MG Motor,232,29fdbd88-9478-4144-acb8-3d1cbbc1f84c,2021,July,517,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,Mahindra and Mahindra,171,05fe5833-96bf-4eb9-9f07-be4ff8f48cc9,2021,July,526,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,Hyundai Motor,18,3b6276db-68da-4c01-8961-d04351df2883,2021,July,43,Four-Wheeler Manufacturer
+2021-07-01,4-Wheelers,Mercedes-Benz AG,1,9f25f612-bc4f-423b-ab3b-dbd540954604,2021,July,6,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,Tata Motors,2264,ccff49f9-0061-44a0-b2b7-df6c180d2ec9,2022,July,20647,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,MG Motor,194,98fbed17-ece1-4371-a5a4-bb572b179039,2022,July,2372,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,Mahindra and Mahindra,866,6c886fc5-ad39-4c06-b512-b4f3bafc5b94,2022,July,6928,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,BYD India,32,3db8c730-3660-4017-8dd8-48b1d9b8a4a1,2022,July,146,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,Hyundai Motor,45,04b71f32-7df4-4dc0-843d-c5a295d76c6e,2022,July,230,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,BMW India,4,ffa0487a-79fd-49fe-bc3d-6839fea75f06,2022,July,33,Four-Wheeler Manufacturer
+2022-07-01,4-Wheelers,Mercedes-Benz AG,1,332a1d17-4b40-445d-a3bf-30bc7e3246c8,2022,July,41,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,Tata Motors,3823,0d5f8494-fa45-4d1e-9cdd-df279a84a286,2023,July,51824,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,MG Motor,935,7b274496-6129-45cc-9a00-b3d984afd184,2023,July,7352,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,Mahindra and Mahindra,2174,38b0b698-b349-4696-a0bc-0e9b67affccd,2023,July,30932,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,BYD India,89,5f45a385-25dd-490e-8913-f8c2328f4716,2023,July,1448,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,Hyundai Motor,88,16328cf8-6f45-4d86-aaaa-53717c07db56,2023,July,1066,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,PCA Automobiles,169,5d742b2a-8beb-42b7-b0e2-abc3b7296851,2023,July,1000,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,BMW India,81,be346277-61f0-4d82-90f7-509342cb9d86,2023,July,557,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,Mercedes-Benz AG,23,555dbd99-4347-4d0a-9439-c145771fd50a,2023,July,151,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,Volvo Auto India,26,ad5f7361-fecf-489c-ae31-3b7abd0ff101,2023,July,229,Four-Wheeler Manufacturer
+2023-07-01,4-Wheelers,KIA Motors,22,4ae9aaaa-1f1f-428c-9bbf-d2107211d0a0,2023,July,347,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,Tata Motors,584,f560b9f5-1917-4261-a191-f06615695e2b,2021,August,2311,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,MG Motor,303,cb0e5dcc-5ef6-4400-8cab-00138544ae0b,2021,August,820,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,Mahindra and Mahindra,204,277d1912-f68d-44f6-bea5-e50f8eb9f87e,2021,August,730,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,Hyundai Motor,10,f880bd2e-5353-4699-b9a3-836805985cc4,2021,August,53,Four-Wheeler Manufacturer
+2021-08-01,4-Wheelers,Mercedes-Benz AG,2,c038f0f5-da0c-4cdb-9c5e-1f3723e00511,2021,August,8,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,Tata Motors,1931,e79d9d05-8359-4add-afb1-f56c91ca72f5,2022,August,22578,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,MG Motor,234,11d9b0cc-a67e-4bcf-ad05-7cffbbc4591e,2022,August,2606,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,Mahindra and Mahindra,1085,907ac018-06a0-4299-a487-6a1d329be29e,2022,August,8013,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,BYD India,33,ab997679-bcaa-455b-9eff-4191ac14b2a9,2022,August,179,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,Hyundai Motor,53,8ce8677a-ef83-4cef-927e-68ebdd84262d,2022,August,283,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,BMW India,19,5a34e700-98fa-44fd-ac5b-3adb78d44dfb,2022,August,52,Four-Wheeler Manufacturer
+2022-08-01,4-Wheelers,Mercedes-Benz AG,3,a146b91f-8ec3-4a5f-8538-b6ba594b7176,2022,August,44,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,Tata Motors,3388,71a14e0b-a527-4448-b917-bf90cfbc4cdb,2023,August,55212,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,MG Motor,913,cf0fd5fb-0dd7-4723-ae2c-db3ffbc98a5d,2023,August,8265,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,Mahindra and Mahindra,2013,01cf2cc6-e3e8-4d4a-80a1-80488f1acaef,2023,August,32945,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,BYD India,80,ce8f3bfb-5ffd-4607-b364-93c710e2f387,2023,August,1528,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,Hyundai Motor,141,ffced3b2-df35-4b89-ac19-c6d9ba06ed0e,2023,August,1207,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,PCA Automobiles,89,0649ed41-c1de-4d58-8042-642cbc284b60,2023,August,1089,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,BMW India,64,f0eb9a20-a7f7-413e-b05a-5d16d800c4c5,2023,August,621,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,Mercedes-Benz AG,8,15c4720f-bfc4-4415-b9ea-b5f4dfe281c5,2023,August,159,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,Volvo Auto India,36,03c8833a-094d-4451-a141-c8c67417c449,2023,August,265,Four-Wheeler Manufacturer
+2023-08-01,4-Wheelers,KIA Motors,21,0dd3f27b-7856-4675-bc7d-b1e16ab77bf1,2023,August,368,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,Tata Motors,772,439c3840-8e2d-4e0d-9466-2aa041c28def,2021,September,3083,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,MG Motor,263,7edca9c4-bbbf-4484-b4d9-c884c5d95a26,2021,September,1083,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,Mahindra and Mahindra,276,87e73934-ce6a-4d88-9aa3-4510210ddfcb,2021,September,1006,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,Hyundai Motor,6,a479432b-6fde-4534-a569-f39e6ca06c4d,2021,September,59,Four-Wheeler Manufacturer
+2021-09-01,4-Wheelers,Mercedes-Benz AG,2,45858c5c-0592-43b4-89df-2b661c382445,2021,September,10,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,Tata Motors,1997,b4dbd890-b76e-4e7c-bbf4-c1c0c789678b,2022,September,24575,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,MG Motor,207,cc2d757d-1e62-4a14-a391-fe2438183d2f,2022,September,2813,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,Mahindra and Mahindra,1213,9d38afff-db99-4d7e-80b7-1e268312fb9b,2022,September,9226,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,BYD India,48,d6498988-f594-46db-a1a8-e1f616af12c7,2022,September,227,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,Hyundai Motor,57,012489f4-5a72-4fb3-aeb3-a3069397ec22,2022,September,340,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,BMW India,21,5fbb293d-53b7-4b70-9c16-55e6d5663099,2022,September,73,Four-Wheeler Manufacturer
+2022-09-01,4-Wheelers,Mercedes-Benz AG,3,f990fdb2-2c47-41d7-a70e-bb1fe4271d83,2022,September,47,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,Tata Motors,3126,1d9df0e9-4625-4fc5-80a6-8bb177e26b4b,2023,September,58338,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,MG Motor,676,c8e648ee-8b28-4246-8269-bda4dd6566cf,2023,September,8941,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,Mahindra and Mahindra,1668,c1a4c5b6-1bb3-4dae-a2d5-33c7e59ec671,2023,September,34613,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,BYD India,141,bbc51026-5f22-48c2-b8d9-5e72d1d80bbd,2023,September,1669,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,Hyundai Motor,161,f47200f6-b436-44ac-b919-04b597c3d5d7,2023,September,1368,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,PCA Automobiles,108,ef1d3210-ed7e-43c7-b7a0-4e668905787f,2023,September,1197,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,BMW India,58,629ba3fc-af4d-48c5-ad34-8af88c131f71,2023,September,679,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,Mercedes-Benz AG,41,8549363b-a794-4a40-9b26-2dfcd895b066,2023,September,200,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,Volvo Auto India,42,dfa1025e-427d-4b6c-b423-030d66fa7802,2023,September,307,Four-Wheeler Manufacturer
+2023-09-01,4-Wheelers,KIA Motors,26,74ecb1b2-b523-4a5a-876d-ade0ff1ee7fe,2023,September,394,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,Tata Motors,803,3c5983c2-66fc-4429-a1ee-e2ff7dbb703c,2021,October,3886,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,MG Motor,194,1655c7f3-e8a8-4348-8e35-763e0a6b146b,2021,October,1277,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,Mahindra and Mahindra,369,aeacbc19-ac93-467a-a7d3-faeba4786a89,2021,October,1375,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,Hyundai Motor,8,d593d716-0422-4993-860e-89b858a75797,2021,October,67,Four-Wheeler Manufacturer
+2021-10-01,4-Wheelers,Mercedes-Benz AG,3,9a0d9206-ab04-4888-a2f5-0b298fb7825a,2021,October,13,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,Tata Motors,2395,4aed62d6-1b94-48fd-aa36-aa70b6b41581,2022,October,26970,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,MG Motor,338,bf1178e0-106a-4afe-92d6-2a24c4980cdf,2022,October,3151,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,Mahindra and Mahindra,1051,a2d5af60-75e8-4030-8f9c-03e986c5ccc5,2022,October,10277,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,BYD India,27,5163bd67-e408-4185-9e36-9abd160aac51,2022,October,254,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,Hyundai Motor,64,207f4ff1-5d1d-4b23-825e-8b7dc9f38ad9,2022,October,404,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,BMW India,4,36bcb9fd-876d-4dcd-abe5-e1f88073ed60,2022,October,77,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,Mercedes-Benz AG,4,7faba826-e860-47f5-845e-11912712594c,2022,October,51,Four-Wheeler Manufacturer
+2022-10-01,4-Wheelers,KIA Motors,29,8c8255f8-2088-4007-bd69-660e57bd2a0b,2022,October,29,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,Tata Motors,3911,ff9512ad-c712-476f-ba36-e2b41c52ec8f,2023,October,62249,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,MG Motor,714,ed77c21b-af05-40c4-a556-6c175e378d40,2023,October,9655,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,Mahindra and Mahindra,2027,6e86c0b0-63eb-400c-9be2-f094b996b7c2,2023,October,36640,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,BYD India,109,21d43619-bce6-4102-8640-193e80c1575f,2023,October,1778,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,Hyundai Motor,148,4b204e6e-e62a-4df3-9f51-b99787a133c1,2023,October,1516,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,PCA Automobiles,132,9342614d-460c-414b-ab88-2eff90440e94,2023,October,1329,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,BMW India,71,7d10472c-339b-489d-891c-0b141bc788ee,2023,October,750,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,Mercedes-Benz AG,18,6caf3868-2fe2-4d3b-8fb1-10fcb9ff1605,2023,October,218,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,Volvo Auto India,41,2ab2838c-ff18-4df1-8f99-5da6695abc09,2023,October,348,Four-Wheeler Manufacturer
+2023-10-01,4-Wheelers,KIA Motors,39,525f8873-6dbb-40ff-afa5-ee8fd86792c4,2023,October,433,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,Tata Motors,1036,d6e3dd37-e30a-462f-8482-8b4590be457a,2021,November,4922,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,MG Motor,118,66eca3c9-446c-492a-90fc-ff950ea300c2,2021,November,1395,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,Mahindra and Mahindra,462,3e8c1874-ae2c-48e7-9f27-188bdef3ac28,2021,November,1837,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,Hyundai Motor,7,755cf5e8-5a74-4085-8779-d4d6fbf92d64,2021,November,74,Four-Wheeler Manufacturer
+2021-11-01,4-Wheelers,Mercedes-Benz AG,2,7e220012-6bb8-4634-a80e-719b543568df,2021,November,15,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,Tata Motors,2264,dd35a7fd-2fd9-42cd-a60f-d8dd13d4a2c8,2022,November,29234,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,MG Motor,464,234206f9-0982-4ce3-b1bc-d6d3bf1c1a36,2022,November,3615,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,Mahindra and Mahindra,1067,399af34c-d267-4b5c-81db-8809d82b5149,2022,November,11344,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,BYD India,39,52f387e2-1772-406a-98f9-fc5f1893eedc,2022,November,293,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,Hyundai Motor,59,4f6b66c7-cd0a-44dd-a336-4cdb36aa07a5,2022,November,463,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,BMW India,14,16885edd-c977-4a91-ad42-83017364ab90,2022,November,91,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,Mercedes-Benz AG,4,b442d41f-ec55-4f33-b60b-b421952cf57a,2022,November,55,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,Volvo Auto India,5,a62fbfe9-dd78-44cd-af19-6579bd852738,2022,November,9,Four-Wheeler Manufacturer
+2022-11-01,4-Wheelers,KIA Motors,61,178af56d-d741-45c5-b10f-4d9f35dff80b,2022,November,90,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,Tata Motors,4432,abf222d4-0f59-45b7-8d6c-9f8560a6dd35,2023,November,66681,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,MG Motor,723,7b6028d8-6a04-4c0c-88c3-86211816d349,2023,November,10378,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,Mahindra and Mahindra,1222,f855f852-ca12-4d63-b893-6f0f0434de05,2023,November,37862,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,BYD India,106,4334ea68-404e-4e85-8e47-6d5f650d7f24,2023,November,1884,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,Hyundai Motor,125,ce98304c-385c-43cf-ad47-c582c05ffcc2,2023,November,1641,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,PCA Automobiles,98,c78adeb4-df6a-49cc-bef4-2735263f6243,2023,November,1427,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,BMW India,215,45ed6bd3-afcf-4954-9fe5-3569eaa3bb20,2023,November,965,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,Mercedes-Benz AG,35,373f91e3-bb05-4db1-b36d-3de0920ad382,2023,November,253,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,Volvo Auto India,57,351f840d-595e-402a-a236-247d893882eb,2023,November,405,Four-Wheeler Manufacturer
+2023-11-01,4-Wheelers,KIA Motors,29,e180a748-c0f1-4a24-8dcf-cd374a953723,2023,November,462,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,Tata Motors,1952,52e30fb0-816f-408d-92a3-3319bd3cd910,2021,December,6874,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,MG Motor,99,123eb142-a14d-4588-86ee-649e3c696278,2021,December,1494,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,Mahindra and Mahindra,552,479ed22e-b7cf-400c-8603-c329d50f1823,2021,December,2389,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,BYD India,1,5667c004-f9fc-4c62-9284-6561ca87b6c3,2021,December,1,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,Hyundai Motor,10,58ffabf2-a9dd-48b8-abe4-6b7692af1d5b,2021,December,84,Four-Wheeler Manufacturer
+2021-12-01,4-Wheelers,Mercedes-Benz AG,1,cbdfacbc-3549-4412-8073-60ed54da4424,2021,December,16,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,Tata Motors,1992,9feb21a9-7420-4d7f-8490-ec0185de1d23,2022,December,31226,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,MG Motor,363,386725f0-cb23-4fa8-a3cd-9bb2cf32b4e5,2022,December,3978,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,Mahindra and Mahindra,1260,1ca041b5-95b7-4a71-977c-dbea6a477891,2022,December,12604,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,BYD India,37,f7e281e4-4ecb-433b-b47a-3c6c9e91bfe4,2022,December,330,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,Hyundai Motor,68,c56a184f-666b-4e96-8bd2-91e3518d7284,2022,December,531,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,BMW India,27,ab3513f0-8838-4eaf-9bb7-88e8df6ad289,2022,December,118,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,Mercedes-Benz AG,6,79790f68-f2ed-45ae-aa56-9d750b692c26,2022,December,61,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,Volvo Auto India,16,a362f1a5-ec5b-4823-a552-ec3e376396f2,2022,December,25,Four-Wheeler Manufacturer
+2022-12-01,4-Wheelers,KIA Motors,65,25ff5fe7-58f2-431c-b783-4abaf7fce905,2022,December,155,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,Tata Motors,4893,652dee16-75c4-44b0-b14e-a3dbf4f8bff1,2023,December,71574,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,MG Motor,753,10c3b478-a19b-4255-a6d4-97a7c2e3891f,2023,December,11131,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,Mahindra and Mahindra,1015,fc3a0f1e-a207-4951-ba9c-f2dfb7d575eb,2023,December,38877,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,BYD India,135,cfb2fb4e-0b29-4b6f-b968-8cf7300d8dc3,2023,December,2019,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,Hyundai Motor,97,9e8ae079-d9d1-48eb-aad4-26f5053397c7,2023,December,1738,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,PCA Automobiles,40,d04aaeff-8f91-4d71-90a3-14e2ca2a1355,2023,December,1467,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,BMW India,137,af98d6a8-486e-4efb-9f9f-a7d22b513dc3,2023,December,1102,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,Mercedes-Benz AG,51,b2893121-e214-4a71-9e31-b6e448947c2f,2023,December,304,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,Volvo Auto India,47,154520c2-9f8e-4b1d-89d1-2a72dddb8196,2023,December,452,Four-Wheeler Manufacturer
+2023-12-01,4-Wheelers,KIA Motors,23,6e0bdd7f-267c-47cd-aed1-5a918f57f42a,2023,December,485,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,Tata Motors,1012,16a6daf3-8c3a-4c39-a1b0-f82d5dc58554,2022,January,7886,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,MG Motor,48,f2b4adb2-5a20-45cc-b559-07d2652f2673,2022,January,1542,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,Mahindra and Mahindra,474,990a8e45-9ad8-417b-93a6-ef614e43e0b7,2022,January,2863,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,BYD India,8,27da91f3-7caf-40d6-ad51-c1b7b3b0676d,2022,January,9,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,Hyundai Motor,6,4fadcd46-35b9-48bf-9bbc-dc76175d3720,2022,January,90,Four-Wheeler Manufacturer
+2022-01-01,4-Wheelers,Mercedes-Benz AG,2,5ea48805-ee52-462a-a46e-0f8fc92668fb,2022,January,18,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,Tata Motors,1812,21a9808c-ffc6-44e4-9b82-8d060bf8347c,2023,January,33038,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,MG Motor,313,89564b6a-2b50-4a19-ac5e-9bc686f15387,2023,January,4291,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,Mahindra and Mahindra,967,7f683141-1021-4199-b88d-f27f9e898187,2023,January,13571,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,BYD India,101,70e656f3-d4ac-4247-8b8a-0f8dba8b1edd,2023,January,431,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,Hyundai Motor,84,07ac58bb-1db6-4b0b-bf09-5b6bd3feeebe,2023,January,615,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,BMW India,91,28468618-00db-426c-ae7a-9f4b16c265f0,2023,January,209,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,Mercedes-Benz AG,14,f5a1b399-e1e4-412c-8db3-00d9b3cb0a73,2023,January,75,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,Volvo Auto India,21,46bf892b-539b-4bed-b86f-7e7d675123b0,2023,January,46,Four-Wheeler Manufacturer
+2023-01-01,4-Wheelers,KIA Motors,35,36e63b52-90ba-4a36-8216-2f696cfd62ad,2023,January,190,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,Tata Motors,5674,56cc3570-b6df-4c83-a163-3bb4c8257797,2024,January,77248,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,MG Motor,908,bd4d63ba-0aed-43f8-8d16-0baff182877a,2024,January,12039,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,Mahindra and Mahindra,896,235fef1a-6fee-467a-9764-8b481ed3e592,2024,January,39773,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,BYD India,123,0056c117-bd0a-4356-94a3-cf96c8fc4025,2024,January,2142,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,Hyundai Motor,128,b187e387-cd31-478c-a2be-6cc5b1d3b59c,2024,January,1866,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,PCA Automobiles,23,8e5586f4-c186-4b85-a8a5-cd33cb3f6dd4,2024,January,1490,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,BMW India,116,9c9faae5-7192-4834-8597-210672d96d64,2024,January,1218,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,Mercedes-Benz AG,29,42d7d63f-2497-4b37-b9f8-c0f5f91540d8,2024,January,333,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,Volvo Auto India,42,2363c425-9789-4d72-a636-88124c518e3d,2024,January,494,Four-Wheeler Manufacturer
+2024-01-01,4-Wheelers,KIA Motors,29,a52a097c-36f8-49d9-9ed3-aa663c484e35,2024,January,514,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,Tata Motors,1922,93ce03e7-e39c-4a5e-8bbd-c0d945958461,2022,February,9808,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,MG Motor,30,37196697-1927-4ee3-bbdb-0fe2e0859d3f,2022,February,1572,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,Mahindra and Mahindra,478,3bde19c6-7e36-4230-a70c-698d7f83a3db,2022,February,3341,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,BYD India,10,3fda567f-eec8-4c90-a586-3cca7523d022,2022,February,19,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,Hyundai Motor,6,b4f3c9d0-743e-405b-bd67-e226bec604ac,2022,February,96,Four-Wheeler Manufacturer
+2022-02-01,4-Wheelers,Mercedes-Benz AG,3,5e5ccadf-e823-4ccf-87fd-2b5777daa29b,2022,February,21,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,Tata Motors,2651,102b04c6-f6bf-45df-9a7d-0eb1f8fce890,2023,February,35689,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,MG Motor,261,2cc0202d-57f5-4cce-a9dd-77e6a62b4c91,2023,February,4552,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,Mahindra and Mahindra,1531,1e1f6f47-7c2f-4eb3-8b63-592a807dfa98,2023,February,15102,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,BYD India,174,bd50f71a-6749-4efa-bfd8-5d3dcb71ec30,2023,February,605,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,Hyundai Motor,36,6ef520bb-3055-4875-ae27-001db0b0d834,2023,February,651,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,BMW India,43,556aafd3-4f1c-4f76-ac6e-baa94d865d3e,2023,February,252,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,Mercedes-Benz AG,12,9e8ee6f1-b2ea-488e-acd4-8230e08f0630,2023,February,87,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,Volvo Auto India,26,736a2bc0-db5e-49e6-a7ba-3786e337fd3e,2023,February,72,Four-Wheeler Manufacturer
+2023-02-01,4-Wheelers,KIA Motors,22,bcd61dfb-56d9-4085-a2b9-fa0d78ccdf5d,2023,February,212,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,Tata Motors,5081,cb423926-9a92-4f44-ab4f-45a0b1d26a48,2024,February,82329,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,MG Motor,829,eb5296a2-ec08-470d-b013-b39273b02c53,2024,February,12868,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,Mahindra and Mahindra,712,c3e2385e-ce81-4368-a9a5-d376ee9204c8,2024,February,40485,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,BYD India,135,7090393c-95bb-4110-8b26-47b85d3665f3,2024,February,2277,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,Hyundai Motor,94,46b4cd2b-3242-495a-abd5-cbcbe05937d9,2024,February,1960,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,PCA Automobiles,64,538455e7-d170-43ad-bc56-b3b77e5fe16d,2024,February,1554,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,BMW India,97,43d5a2ca-5853-4371-b232-10f4aa7153d5,2024,February,1315,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,Mercedes-Benz AG,24,a3a63532-ac6d-420a-a7bc-b0094ba14520,2024,February,357,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,Volvo Auto India,35,09b862e0-c146-422d-bbe0-8180c9fd4574,2024,February,529,Four-Wheeler Manufacturer
+2024-02-01,4-Wheelers,KIA Motors,17,c5f3d753-14a2-41f2-b6a2-a7874c2a320e,2024,February,531,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,Tata Motors,2900,9f97456a-4201-476f-8c49-7b6911341230,2022,March,12708,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,MG Motor,75,15403c79-9e67-4b5f-be90-91ed8097eaa2,2022,March,1647,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,Mahindra and Mahindra,701,e03bb09b-022b-4a3b-b072-d09dc5eedbc1,2022,March,4042,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,BYD India,14,fd88497c-d4ee-4b77-9854-cd733d548ee6,2022,March,33,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,Hyundai Motor,14,0e24d605-eef7-4e2f-933e-3512e121dca0,2022,March,110,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,BMW India,7,0536be22-8446-44aa-be0e-1da331f2ecff,2022,March,7,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,Mercedes-Benz AG,5,22be5918-2838-4cf0-a634-94cbfed56d09,2022,March,26,Four-Wheeler Manufacturer
+2022-03-01,4-Wheelers,Volvo Auto India,4,7951af05-695e-4fa6-b40b-a0e2f4ad72f4,2022,March,4,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,Tata Motors,5065,0e42658b-7b10-490a-99db-4a8981570943,2023,March,40754,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,MG Motor,372,2dfe949d-8f08-45c5-b020-2e544f639dc7,2023,March,4924,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,Mahindra and Mahindra,2745,61dad20f-0b44-4c42-bbe5-0e9c2300b032,2023,March,17847,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,BYD India,348,e10803a1-60ef-40d1-b40a-023aedbdb937,2023,March,953,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,Hyundai Motor,35,ca140b6f-a296-48e7-a626-b2b819cb3c66,2023,March,686,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,PCA Automobiles,151,178a8128-930e-4de9-9858-be0b714938fa,2023,March,151,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,BMW India,40,cf9c02ef-a615-48ea-9db3-f11dedf1ddb1,2023,March,292,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,Mercedes-Benz AG,10,b0361f6c-5715-4abe-9bc8-4e93420017b2,2023,March,97,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,Volvo Auto India,37,0f43aa20-3ee1-4a49-88f3-bb043ff8435b,2023,March,109,Four-Wheeler Manufacturer
+2023-03-01,4-Wheelers,KIA Motors,17,18ab7c98-1863-4840-8228-ed81bc6f878b,2023,March,229,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,Tata Motors,6606,0f3a6c89-cf88-4801-bab9-911d0c06c97a,2024,March,88935,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,MG Motor,885,c73cb176-9592-44e2-b5f6-3d03730e42d0,2024,March,13753,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,Mahindra and Mahindra,708,dbda7baf-fbbd-4d9f-ae5a-b5ec8a09d0b9,2024,March,41193,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,BYD India,142,7e7dc3f4-268c-46d3-84ce-d45fc5b9a5f1,2024,March,2419,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,Hyundai Motor,116,904ce40b-2a70-49f1-817c-8aea619c4d5b,2024,March,2076,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,PCA Automobiles,130,bba7460d-fce5-44a4-8d65-49ab5d56c81f,2024,March,1684,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,BMW India,55,b4428d4c-43b3-4ab0-838f-0449bceb0f6d,2024,March,1370,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,Mercedes-Benz AG,31,27849e65-3983-466d-adb9-c36ef8f6b8bb,2024,March,388,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,Volvo Auto India,39,e373f537-0bb0-437a-a68d-07697f140fcd,2024,March,568,Four-Wheeler Manufacturer
+2024-03-01,4-Wheelers,KIA Motors,26,287724ca-a2e4-4bb7-b3e3-f482c37cde48,2024,March,557,Four-Wheeler Manufacturer
+2021-04-01,2-Wheelers,HERO ELECTRIC,759,95f915c8-0147-44a5-bf6e-9f911c38f567,2021,April,759,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,OKINAWA,1251,fd6309ce-0633-4f5d-a127-c1ac91a35402,2021,April,1251,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,AMPERE,751,e7454514-5232-489f-90f2-7b3114a4b2de,2021,April,751,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,ATHER,903,e6e5f41f-c6ef-4521-a3a9-e39cd3a9ba0f,2021,April,903,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,PURE EV,581,d47ec795-9d28-45c0-ac43-78a248327327,2021,April,581,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,TVS,302,1533f46e-1503-4e45-9b60-280eed9cafbc,2021,April,302,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,REVOLT,138,e69c4d46-6669-45fc-a6cd-93f5f942d318,2021,April,138,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,BAJAJ,48,010fb75f-7bb5-4999-8c0c-a0e73b608c2b,2021,April,48,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,BEING,171,68fcb91b-5c75-413b-9df7-0aad2bbb6d25,2021,April,171,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,JITENDRA,36,861b126b-6ea6-40e8-8dfe-d1f094ca9f95,2021,April,36,Two-Wheeler Manufacturer
+2021-04-01,2-Wheelers,OTHERS,749,b7d5d037-d60d-4e93-a8b1-d66612e6032d,2021,April,749,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,OLA ELECTRIC,13601,680b38db-9b20-46df-b149-8dd3954b2e68,2022,April,28002,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,OKINAWA,11341,4698724b-758a-45aa-b748-856fc6c8afa1,2022,April,59006,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,HERO ELECTRIC,6803,b0be4e37-2f34-42a1-b874-fa1f2818ab1c,2022,April,76255,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,AMPERE,6864,d6b4e0db-b4fd-4b05-b8e8-acc373df5e33,2022,April,32374,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,TVS,1498,3fe49629-47af-42bd-86e4-5b42b7cf9783,2022,April,11237,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,ATHER,2451,a977d3be-b0de-4e1f-ae10-ef1ea1fc3b75,2022,April,22427,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,BAJAJ,1223,ee88876b-2a39-4183-b1aa-6c4673824225,2022,April,8337,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,REVOLT,1241,7d04e529-3fa4-4ded-9387-76241b71af4f,2022,April,8882,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,PURE EV,1756,74e6a36a-8f33-4021-afe6-88589086e3bf,2022,April,16724,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,BEING,874,d422f32c-0e95-473f-ab70-d0e0c4dec498,2022,April,8248,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,JITENDRA,940,1bfbd496-cd7b-498a-b890-62a667c64cfe,2022,April,4815,Two-Wheeler Manufacturer
+2022-04-01,2-Wheelers,OTHERS,4683,a384e4c0-0ae9-4dd0-a5d2-27d3f080b957,2022,April,29541,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,OLA ELECTRIC,22548,276336da-0931-47ab-b80f-e3f9f9edf221,2023,April,189532,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,TVS,8654,e6319542-fd19-46f8-8e1f-8943b9b534d0,2023,April,100486,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,ATHER,7707,b40d8879-64b1-455f-b4a6-a78489f81798,2023,April,104604,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,BAJAJ,4043,d201bf48-2633-40ae-ac45-20b2ef84fef0,2023,April,43954,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,AMPERE,8767,a0441e32-bc41-4f0b-8261-5cdddf789d4a,2023,April,121653,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,OKINAWA,3179,92a13cfb-e149-46ac-8c16-379f5241d821,2023,April,147789,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,HERO ELECTRIC,3293,3338dfba-3fa6-4461-82a7-4e9758fc6ee5,2023,April,161738,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,OKAYA EV,1544,ef2c961c-9314-430b-802d-580b4e2e7ef7,2023,April,14716,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,BGAUSS,762,60967f89-23dc-4c8d-9e18-760b0aab7d48,2023,April,762,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,BATTRE ELECTRIC,644,9ad12af9-f272-4126-99a1-cbe7b850e25d,2023,April,644,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,KINETIC GREEN,838,4a799cd1-6d0b-421c-8573-e3bf66971c7e,2023,April,838,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,REVOLT,520,c896978d-2ed0-4e15-b486-2196a5f5b010,2023,April,21094,Two-Wheeler Manufacturer
+2023-04-01,2-Wheelers,OTHERS,4315,d2155013-97bd-463b-b384-fcc3a5f3fc7d,2023,April,82126,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,HERO ELECTRIC,170,701fdb74-aa04-47fd-a2b2-95bee613dad7,2021,May,929,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,OKINAWA,245,1b48edc0-b848-4bc4-b098-12ee254317bd,2021,May,1496,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,AMPERE,147,921fd392-2dcf-4eb3-8dc4-a0566fd8ab31,2021,May,898,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,ATHER,160,b0994dfd-53d3-4d0c-b36e-db907f8516b3,2021,May,1063,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,PURE EV,122,b43302b5-20b4-4e1c-807e-11bd34fe2a10,2021,May,703,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,TVS,9,bf642941-e65e-42c5-b95c-b96ceb088a3e,2021,May,311,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,REVOLT,42,b8d8692b-9f31-43ea-a475-3f0ebb738691,2021,May,180,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,BAJAJ,20,baebe83b-bddc-4373-bd13-8b5347b2d596,2021,May,68,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,BEING,54,3b0fc72a-144a-4df9-811e-af5617b57c51,2021,May,225,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,JITENDRA,13,d6dce0d3-947e-4f10-8676-c87d993f826e,2021,May,49,Two-Wheeler Manufacturer
+2021-05-01,2-Wheelers,OTHERS,260,1ee19f77-3b05-4648-a7be-c4e4f5763533,2021,May,1009,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,OLA ELECTRIC,9266,761474a4-d333-4cc1-aeb9-d2bc11df104d,2022,May,37268,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,OKINAWA,10340,3d9704bf-a339-4ade-90f1-4bee59e02a04,2022,May,69346,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,HERO ELECTRIC,2970,052d4af6-6cd7-4d9f-846f-86ac9d640d8b,2022,May,79225,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,AMPERE,6176,c76df541-fe46-44d6-9ad1-1b868d2e739c,2022,May,38550,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,TVS,478,f396567a-8795-4640-b469-c6fa530471f1,2022,May,11715,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,ATHER,3337,4555c088-2de3-41ca-9bc9-9c30ad901b91,2022,May,25764,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,BAJAJ,1812,2c4ceeb4-a056-49da-8494-4546e8a54497,2022,May,10149,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,OKAYA EV,19,bd1c0636-7ccc-4e7b-b20c-6e927f1f5284,2022,May,19,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,REVOLT,1589,c310ecf4-8317-4971-be6e-3b19b7ceba4a,2022,May,10471,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,PURE EV,1464,302ca0ef-24bc-4d11-a632-7e668aef62a0,2022,May,18188,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,BEING,862,ce8c220a-db2c-4f8c-8981-bfc0e3eb3f90,2022,May,9110,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,JITENDRA,646,51013b85-8a95-452f-ab05-908d70a0aac6,2022,May,5461,Two-Wheeler Manufacturer
+2022-05-01,2-Wheelers,OTHERS,3455,6d3a5307-4730-438b-bef6-1b4ba00cdb51,2022,May,32996,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,OLA ELECTRIC,29447,2066a9eb-3d4c-45fb-ba0a-20c91fa76e90,2023,May,218979,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,TVS,20188,d2c6e163-a4cf-4464-ad39-2e22e864f3ec,2023,May,120674,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,ATHER,15243,67d23b7d-ff24-4b23-88ad-00c2d0596ab7,2023,May,119847,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,BAJAJ,9976,0ad00192-fcb4-45ce-9530-c714444b290c,2023,May,53930,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,AMPERE,10659,bf499591-fe8a-4c81-8355-62f87d249b33,2023,May,132312,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,OKINAWA,2873,d1b41d15-cf3e-4f13-944f-f6680acbe0db,2023,May,150662,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,HERO ELECTRIC,2085,df571f2b-1162-45ed-a99f-a871c73e1a2c,2023,May,163823,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,OKAYA EV,3831,adffad32-9023-4916-8d5e-f87f01cfcc67,2023,May,18547,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,BGAUSS,1792,b93a27e7-34ec-4dd8-9d27-8403bb5e70ea,2023,May,2554,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,BATTRE ELECTRIC,1185,d2abf0db-7f25-4605-9d81-0037984f72f9,2023,May,1829,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,KINETIC GREEN,886,95f4f56d-89ff-4d12-b8d9-a04b78195afa,2023,May,1724,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,REVOLT,565,dcdb2d9e-07fe-4558-9719-490ab63ef2d8,2023,May,21659,Two-Wheeler Manufacturer
+2023-05-01,2-Wheelers,OTHERS,6627,ecb23950-4322-47c9-b8da-e659c93c1788,2023,May,88753,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,HERO ELECTRIC,1355,2526fcbf-b418-4f04-9e72-5e41dd73cb2d,2021,June,2284,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,OKINAWA,984,24b93562-4faf-4096-8be6-e16b126ec1ab,2021,June,2480,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,AMPERE,299,c2264cef-543f-433f-afa9-c3dce34ba022,2021,June,1197,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,ATHER,320,26208069-10ac-44d4-af51-42997e7d29a9,2021,June,1383,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,PURE EV,460,26dd5eb0-26be-4fb2-b5e1-2af3f9ab71ad,2021,June,1163,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,TVS,208,5655627e-e30c-4337-9ed4-a89b1af929e2,2021,June,519,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,REVOLT,59,349504fb-4c46-45cc-8935-ffbd9c128230,2021,June,239,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,BAJAJ,176,4c6dc4b7-3b7a-4422-ae43-17d5f313d3ca,2021,June,244,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,BEING,198,e48c13c9-e754-4075-8993-b7dea9fba2f1,2021,June,423,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,JITENDRA,43,8d0becaf-bb30-433a-a097-a95e32437e12,2021,June,92,Two-Wheeler Manufacturer
+2021-06-01,2-Wheelers,OTHERS,567,a0db3491-789a-4dd7-9eea-51a6ea6f6f7b,2021,June,1576,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,OLA ELECTRIC,5897,b7c08491-596c-42de-8e20-4e55f405c066,2022,June,43165,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,OKINAWA,7554,0648c8d6-38c3-4b73-8f77-addf1a188b7b,2022,June,76900,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,HERO ELECTRIC,6836,567a5c64-e99c-4a8d-a5b8-6d00649e8689,2022,June,86061,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,AMPERE,6919,28f87937-08bd-4f17-b34b-adca55b1bab7,2022,June,45469,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,TVS,1983,92a95e36-7d3b-4f25-9e3a-0600c541fb70,2022,June,13698,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,ATHER,3829,79a3473b-55dd-4af4-9b32-cb294e3face0,2022,June,29593,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,BAJAJ,1824,734c0799-a66e-478d-8410-931b328d75ee,2022,June,11973,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,OKAYA EV,760,c29b618f-80b5-4373-87b2-b4a4f9cc8a8d,2022,June,779,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,REVOLT,2423,0af20147-d91d-48c7-a1ac-fc406da4cc7e,2022,June,12894,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,PURE EV,1125,aa55e378-18d7-41a0-b7ba-e4008666c860,2022,June,19313,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,BEING,1005,b28d1055-cde1-4382-8137-f0f1c6f4111d,2022,June,10115,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,JITENDRA,568,b14ef983-c6b2-4079-9de4-4961d9638b16,2022,June,6029,Two-Wheeler Manufacturer
+2022-06-01,2-Wheelers,OTHERS,3658,c1581333-75c7-4fb1-9def-92808de3ebf1,2022,June,36654,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,OLA ELECTRIC,17768,ed8ec0aa-d005-4261-8f74-dbc76cf1cdb5,2023,June,236747,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,TVS,7772,3eba3ba6-6548-46cf-b053-d80a811c7270,2023,June,128446,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,ATHER,4547,78521aa6-7240-43bd-8505-bb5cfe9f6963,2023,June,124394,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,BAJAJ,2975,f3fb766e-cf19-4b00-9831-76751f23d55c,2023,June,56905,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,AMPERE,3006,7d1734bd-264d-4054-9ee3-45300d36a82a,2023,June,135318,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,OKINAWA,2588,6f2d774b-e8ff-468f-ae40-245d7e2672c2,2023,June,153250,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,HERO ELECTRIC,1123,716d45d3-1fea-4535-8c83-2ab675e421cb,2023,June,164946,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,OKAYA EV,419,76509fbe-ad63-4d24-b303-356643744c36,2023,June,18966,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,BGAUSS,189,dbf43b30-1d6a-44f7-8664-a9548c936d82,2023,June,2743,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,BATTRE ELECTRIC,82,55afbb26-2c49-4d6a-9b85-c3a1f1b15edc,2023,June,1911,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,KINETIC GREEN,201,2d8c8906-275a-439f-aa4a-331f70310faa,2023,June,1925,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,REVOLT,705,5f535849-15e8-4c08-ac00-fdcf096e849f,2023,June,22364,Two-Wheeler Manufacturer
+2023-06-01,2-Wheelers,OTHERS,4466,19aa140e-86f6-4ef1-9b10-4665a3784def,2023,June,93219,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,HERO ELECTRIC,4557,08413ca4-a8b9-4576-bd6c-0ecd0cd2df58,2021,July,6841,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,OKINAWA,2633,a1fbab6b-1405-4cd7-abf1-7ff5e20ad5ed,2021,July,5113,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,AMPERE,663,f22a9cc7-7b80-4c83-90e5-6593f5f3eb6e,2021,July,1860,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,ATHER,1799,8a74a53c-caa6-4a20-959e-191af584d35f,2021,July,3182,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,PURE EV,1417,a3577875-8198-4da5-a5ad-8c82eba0ee6d,2021,July,2580,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,TVS,648,4398ed1a-486b-4e83-ab76-0eb5751d2244,2021,July,1167,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,REVOLT,321,6827e0bb-965b-46b8-bea2-21c549351278,2021,July,560,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,BAJAJ,730,3f039b6e-d4ce-49cd-9f81-d81b961b1a69,2021,July,974,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,BEING,494,d33633c4-0c47-47af-9ad2-4ac10be1b9f2,2021,July,917,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,JITENDRA,212,9d430f12-7d21-49fc-84ea-9b737e3df7b8,2021,July,304,Two-Wheeler Manufacturer
+2021-07-01,2-Wheelers,OTHERS,1202,7ab6e1a2-bd26-4d4e-ae42-253515267bd9,2021,July,2778,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,OLA ELECTRIC,3864,54a5b646-b809-408a-aea0-60468ce13e0d,2022,July,47029,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,OKINAWA,8394,943e6b70-85be-41cd-9c4d-0e7f442669c4,2022,July,85294,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,HERO ELECTRIC,9334,a5a77b7d-6a80-4059-a3b5-90aaaa7a9693,2022,July,95395,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,AMPERE,6812,5447b5c0-eafa-4ccd-9b7a-fa29f61d0eff,2022,July,52281,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,TVS,4348,8cdc556f-0ecb-417a-ac48-c2253e521cbe,2022,July,18046,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,ATHER,1289,9689cf98-910f-42b2-908d-428a8cc89fd7,2022,July,30882,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,BAJAJ,2482,60330653-2161-4cb4-9f66-8edea478ab2a,2022,July,14455,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,OKAYA EV,1076,fc84f8bf-cff1-4c09-855e-a3a1270e6e72,2022,July,1855,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,REVOLT,2318,13a37948-75c7-4ec3-aae4-fe65d7463e15,2022,July,15212,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,PURE EV,1000,fc4337bd-ecae-48db-a364-25e204d7a985,2022,July,20313,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,BEING,1245,33eb42c5-2f98-4a6e-9480-2220ab10bd4e,2022,July,11360,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,JITENDRA,880,bc08c100-2612-46a0-b4c0-627167dba855,2022,July,6909,Two-Wheeler Manufacturer
+2022-07-01,2-Wheelers,OTHERS,3562,fe1f5bec-27a9-4260-9c0c-5e7ee8e761bf,2022,July,40216,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,OLA ELECTRIC,19409,2bf8afb1-d7ac-4c0e-8fba-444e536d13ae,2023,July,256156,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,TVS,10272,cbdc01a5-d297-4caa-804e-5bc315073ec2,2023,July,138718,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,ATHER,6604,94bb37d2-fb97-46d6-8352-caa074a2d0de,2023,July,130998,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,BAJAJ,4081,c31fb957-2e5d-4e66-b7be-561f2de64d2e,2023,July,60986,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,AMPERE,3530,47cc8448-2039-48d9-85b0-3b0def41eb1d,2023,July,138848,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,OKINAWA,2238,c5efaf80-b5dc-4f31-80d5-b8344cfb09dd,2023,July,155488,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,HERO ELECTRIC,770,e6bbdc07-1065-44c8-9c7e-cd6cd1164335,2023,July,165716,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,OKAYA EV,775,1e4ebd0f-de68-4388-9da2-8386405f3999,2023,July,19741,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,BGAUSS,653,73fec0f1-ab78-453b-ae32-a174ddec9a94,2023,July,3396,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,BATTRE ELECTRIC,133,06e4be18-e689-48a0-b70b-6e7fa19d2f71,2023,July,2044,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,KINETIC GREEN,229,2e467f32-6223-48a8-9e03-72fcf059a3e4,2023,July,2154,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,REVOLT,478,91c08ee1-a0b3-491c-8ee7-d3eeef5e3cfb,2023,July,22842,Two-Wheeler Manufacturer
+2023-07-01,2-Wheelers,OTHERS,5020,6aaedb2e-b972-4f82-a55d-c9766c620407,2023,July,98239,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,HERO ELECTRIC,5527,0162b012-3586-4c48-9143-0163626121a2,2021,August,12368,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,OKINAWA,2894,0f89a1cd-c8ca-4a85-bf83-91c7fed938bd,2021,August,8007,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,AMPERE,810,c3874cee-8ec3-4048-9e8f-6a12a5b98ad3,2021,August,2670,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,ATHER,1613,b02d1516-bacf-4ff5-8721-46e0b0ce5af6,2021,August,4795,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,PURE EV,1094,fd064191-d22b-433d-b94f-5fd124953601,2021,August,3674,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,TVS,651,d1828009-71b3-4d08-8850-dfd38790d5c9,2021,August,1818,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,REVOLT,853,7891d3e8-aafc-48fe-aa33-5be733668363,2021,August,1413,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,BAJAJ,796,4adbd60b-b8c3-41b6-98aa-ea260d1fd0cb,2021,August,1770,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,BEING,325,e8cc2449-d981-48ee-b726-d35d2f5a3fd8,2021,August,1242,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,JITENDRA,208,b1bb4816-9cb4-4df9-b26a-03e3ca44bc09,2021,August,512,Two-Wheeler Manufacturer
+2021-08-01,2-Wheelers,OTHERS,1279,9f5ae219-9e7c-4fa4-9a64-246b649eda86,2021,August,4057,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,OLA ELECTRIC,3475,96ba4df1-e0b2-430e-9ce5-ce2d13ab87c0,2022,August,50504,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,OKINAWA,8756,9c7da14b-9e9e-4ca3-89a1-e37a0c4de77f,2022,August,94050,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,HERO ELECTRIC,9925,865bcbf8-a04e-41ed-93ab-dd257e832753,2022,August,105320,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,AMPERE,6771,168609f6-f19f-40de-ab69-2a07da9a7bfe,2022,August,59052,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,TVS,6426,0ef1ebfe-9740-4c9c-8c0a-44a72bb38743,2022,August,24472,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,ATHER,5376,5ce8c88b-010b-4f36-bb02-4910bbae36c9,2022,August,36258,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,BAJAJ,2620,e1ad09b5-6982-4d97-9c1a-87551ff11a7f,2022,August,17075,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,OKAYA EV,905,0c8e4ab8-0772-4180-8863-2a90b35b2c10,2022,August,2760,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,REVOLT,1662,34bd9a95-a697-4c0d-a239-b0c201479895,2022,August,16874,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,PURE EV,880,c21caf9d-7ad8-42b6-a239-6f5665a8f7c6,2022,August,21193,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,BEING,1099,dba6f1bc-4c52-4433-9152-edfbacd68040,2022,August,12459,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,JITENDRA,653,2d851d4b-ba55-40a8-b6eb-944916b4115d,2022,August,7562,Two-Wheeler Manufacturer
+2022-08-01,2-Wheelers,OTHERS,3678,32879faf-9ef4-49e3-aac6-f64a8fb44df0,2022,August,43894,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,OLA ELECTRIC,18983,aa0511e5-51dd-4bfd-beb7-6ecc20a595dd,2023,August,275139,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,TVS,15296,ea80d72f-4d4a-4817-9db5-a676dfb64bd0,2023,August,154014,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,ATHER,7065,f2bcc19a-cef5-4a08-b326-9fe983672c89,2023,August,138063,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,BAJAJ,6508,54c878f5-ac72-4684-9131-5b7447585edd,2023,August,67494,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,AMPERE,3654,ed066721-16a1-42c5-ba65-3512db4cad1d,2023,August,142502,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,OKINAWA,1977,6b97af61-7c18-45e7-96f7-c4e715ce2f39,2023,August,157465,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,HERO ELECTRIC,774,3e945587-22af-4e02-a14c-54492be3991b,2023,August,166490,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,OKAYA EV,1137,4f034079-1e5e-4e21-b579-64abfbf8116f,2023,August,20878,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,BGAUSS,912,bbdb3b4f-ac1c-4d7c-a5ad-764ad064871e,2023,August,4308,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,BATTRE ELECTRIC,287,7a52bfdd-bb9d-4412-864d-b3976a2246d7,2023,August,2331,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,KINETIC GREEN,380,452da8dc-4091-40dc-beb7-7700ad659173,2023,August,2534,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,REVOLT,508,7b048dcf-04b9-4b2c-b6c0-0bc101a6cdb0,2023,August,23350,Two-Wheeler Manufacturer
+2023-08-01,2-Wheelers,OTHERS,4990,9e15ce83-361a-4601-85ae-632edf55fd9a,2023,August,103229,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,HERO ELECTRIC,6727,e6ee8281-4bda-42f9-902e-cf23890f88a4,2021,September,19095,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,OKINAWA,3321,a51670ca-d353-46c6-983b-54db06950ba4,2021,September,11328,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,AMPERE,807,836fb0b1-3690-4bc8-ad63-60ab08a69467,2021,September,3477,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,ATHER,2174,be5381fe-0088-4e7a-97f8-885d40098f04,2021,September,6969,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,PURE EV,1337,fa7d826e-0dbb-4523-b242-df72d673d7d3,2021,September,5011,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,TVS,688,563ef229-0de7-4ffa-967d-824e1187ddbc,2021,September,2506,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,REVOLT,499,ad462ac7-8975-41cb-8c42-52d73cdbe942,2021,September,1912,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,BAJAJ,381,9479ec08-8be0-4b3b-8c32-43c9e989f53e,2021,September,2151,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,BEING,337,8c46a37e-0223-4513-9d3d-13ce3f29d553,2021,September,1579,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,JITENDRA,134,574240db-5c37-4662-8922-73251731e622,2021,September,646,Two-Wheeler Manufacturer
+2021-09-01,2-Wheelers,OTHERS,1627,a7af495c-acd9-4337-af6e-3dd9bf70a45b,2021,September,5684,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,OLA ELECTRIC,8065,3c700a4d-8fc0-489f-99e7-80ea06f6c44e,2022,September,58569,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,OKINAWA,8497,9f25dd95-ca59-430e-8dc9-d0d168a5bd85,2022,September,102547,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,HERO ELECTRIC,8208,205ce8e8-da61-4626-b3ac-74625ce4d03f,2022,September,113528,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,AMPERE,6488,b584ce3d-24d7-4bde-8d18-d3ad8c26bb02,2022,September,65540,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,TVS,4001,a134d3dc-c305-4f95-9427-de2384097cfd,2022,September,28473,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,ATHER,6280,e8086ffd-b5ab-4313-84ec-7576ae5c2b0b,2022,September,42538,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,BAJAJ,3649,005d6fb1-428b-4e97-b96b-0439b178a34e,2022,September,20724,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,OKAYA EV,954,5fd1ad0f-2b7b-455c-a84d-cf41ff8b22d2,2022,September,3714,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,REVOLT,865,7fdb2a7e-231c-43b4-acd1-d850ce70442a,2022,September,17739,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,PURE EV,790,a060069a-459a-447d-8ea9-6f51a000ca6d,2022,September,21983,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,BEING,975,04becfef-000b-4adf-a6e4-2ba59b2acd9f,2022,September,13434,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,JITENDRA,661,af1fc916-abaf-4f8f-b1a8-9768b2c4fb79,2022,September,8223,Two-Wheeler Manufacturer
+2022-09-01,2-Wheelers,OTHERS,3849,81aa5fcc-f9fe-469d-8e75-477fa04b595d,2022,September,47743,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,OLA ELECTRIC,18926,26bae6d2-5c8a-4ce8-8cf6-3418af65dafc,2023,September,294065,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,TVS,15425,0bab3261-0360-43c2-895a-0fb7c102e97b,2023,September,169439,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,ATHER,7107,b036357b-1cc2-4cda-abc6-e0a1d510e1d5,2023,September,145170,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,BAJAJ,7019,3bbdc689-9fdf-44a9-911a-f98aa3e89faa,2023,September,74513,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,AMPERE,4148,7dfb81dd-85fb-4c7d-ab04-f4fa0906ce56,2023,September,146650,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,OKINAWA,1769,b7bd3716-98a3-4864-9172-9bbdccb4bb3a,2023,September,159234,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,HERO ELECTRIC,835,f820ca47-f209-4626-b4b6-e7e22d9f2fb4,2023,September,167325,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,OKAYA EV,873,ea2c0958-d538-48a6-be23-978afe1e56af,2023,September,21751,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,BGAUSS,924,0fe19546-3fab-4c53-8c01-422a03aa489e,2023,September,5232,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,BATTRE ELECTRIC,255,a9a40db6-0e06-4616-bdf4-74f571e7199e,2023,September,2586,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,KINETIC GREEN,231,adb6f275-ff43-470f-8f74-5270cd1acc8e,2023,September,2765,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,REVOLT,879,22a78a74-84d5-49b5-8f00-ac506afefca3,2023,September,24229,Two-Wheeler Manufacturer
+2023-09-01,2-Wheelers,OTHERS,5355,2e65c2cb-5e38-4f68-8b8e-deb27034897b,2023,September,108584,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,HERO ELECTRIC,6799,01aff3b6-39e2-4e64-8182-d3cc96f8d74d,2021,October,25894,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,OKINAWA,4166,b414d972-32b4-4de1-b75b-9b86c255e7c0,2021,October,15494,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,AMPERE,1083,fc1b4266-3d20-4bce-a234-1d63f2eadf2f,2021,October,4560,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,ATHER,2647,ea7b8c00-e5e3-43fe-bff7-78cf5b9913a2,2021,October,9616,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,PURE EV,1400,92f56d24-d917-48e5-94a6-b084842e71fa,2021,October,6411,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,TVS,486,811ccb31-e506-4115-8f6d-584416a4f48c,2021,October,2992,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,REVOLT,900,62213d8c-c67a-40a0-8628-a00b811bfc40,2021,October,2812,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,BAJAJ,754,e556d937-b28f-4b2a-a42c-d3e6c2959e0d,2021,October,2905,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,BEING,469,b03e2eb8-ef24-42d0-beb7-90dc0e338844,2021,October,2048,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,JITENDRA,283,0b80f284-685a-4d5e-9446-a9328c9a4eea,2021,October,929,Two-Wheeler Manufacturer
+2021-10-01,2-Wheelers,OTHERS,1826,227664bc-505c-44b5-ae9b-cafc76840ae3,2021,October,7510,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,OLA ELECTRIC,15391,aea7f3d3-4c5c-4c5e-9c00-cd6dfba855af,2022,October,73960,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,OKINAWA,14950,9d483087-fc56-452b-8ab5-215e6a26d921,2022,October,117497,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,HERO ELECTRIC,8868,371383a2-a88b-4afd-a0e5-8ca5eccac316,2022,October,122396,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,AMPERE,10113,30e59260-1625-4b5b-a101-7052fe592771,2022,October,75653,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,TVS,5820,8314771c-437e-4318-9d0f-7085dc4af1e7,2022,October,34293,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,ATHER,7356,168abebb-df78-4e00-a957-457923e6f3f4,2022,October,49894,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,BAJAJ,3549,ff5091e0-5f91-4c3e-bbb8-3d300cfe56f7,2022,October,24273,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,OKAYA EV,1968,4f6263ae-92f8-4c03-ac9e-da98b7334e92,2022,October,5682,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,REVOLT,1041,10af5fa5-3522-4c07-bc3a-38f7452bb1d9,2022,October,18780,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,PURE EV,1047,b305ae83-3b48-4e60-b19a-165ecb17588e,2022,October,23030,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,BEING,1422,d1a13624-bcb9-45a7-ba7f-b1ce27d925c6,2022,October,14856,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,JITENDRA,1111,843684dc-98b7-4011-8642-03ed979a1252,2022,October,9334,Two-Wheeler Manufacturer
+2022-10-01,2-Wheelers,OTHERS,4614,b062fa00-4274-4dc2-8e25-c4b303d92b38,2022,October,52357,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,OLA ELECTRIC,23968,333dc184-2203-448b-b963-d6fa1dbf0a19,2023,October,318033,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,TVS,16309,0c498406-0656-4b2e-ace7-dba1cdc3010d,2023,October,185748,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,ATHER,8375,b5e670e5-4019-40d2-96bb-2c6d559edfc6,2023,October,153545,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,BAJAJ,8960,ccc2b078-7a83-4f79-86c9-9f766fa9e5bb,2023,October,83473,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,AMPERE,4487,f3ebfeb8-3895-4abe-a70d-3e4a240d4ee9,2023,October,151137,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,OKINAWA,1457,a5aca9f0-e819-4a0a-9b9f-3a8d3b0ac396,2023,October,160691,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,HERO ELECTRIC,658,f315c3d0-7400-426b-9249-af92e7d52bc5,2023,October,167983,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,OKAYA EV,863,48b4de6d-8542-4ded-ad39-4734c7981fa4,2023,October,22614,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,BGAUSS,1157,670f7f35-cf71-4fed-9cde-b66a9c3591b3,2023,October,6389,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,BATTRE ELECTRIC,227,c9580bcf-134f-46f1-937c-f8681ff4f245,2023,October,2813,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,KINETIC GREEN,389,c6ec85dd-cd9d-4982-84dd-b7e5f148bf20,2023,October,3154,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,REVOLT,681,e0726b14-bee3-4274-8985-732fdec1d998,2023,October,24910,Two-Wheeler Manufacturer
+2023-10-01,2-Wheelers,OTHERS,7092,ce29299f-be13-47bc-b823-b15a313bc8ec,2023,October,115676,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,HERO ELECTRIC,7493,4a8ee58e-43c5-400a-a68f-fbc958479555,2021,November,33387,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,OKINAWA,5542,32eee47f-ca33-4443-bf83-70e0138b33d7,2021,November,21036,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,AMPERE,2077,d1a74179-307b-4f73-b81f-e99d26b04d93,2021,November,6637,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,ATHER,2202,9fa28760-ee4b-4a3f-a3d7-de745afa6371,2021,November,11818,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,PURE EV,1688,5bd05794-4283-4dad-ad03-1c622df7ca55,2021,November,8099,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,TVS,522,5d2dd98e-53f3-43ad-9347-7795c1ff6a5a,2021,November,3514,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,REVOLT,780,7f61dfb9-3008-4660-8f9e-567b97f1b95f,2021,November,3592,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,BAJAJ,728,329a05aa-d73d-435a-8c42-7e288335e2f8,2021,November,3633,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,BEING,912,ee1ac5c3-c99f-4675-b28d-80c514c1cb84,2021,November,2960,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,JITENDRA,273,e9cbf8b2-9f96-4a7d-b225-6f79ad161ee1,2021,November,1202,Two-Wheeler Manufacturer
+2021-11-01,2-Wheelers,OTHERS,2317,238d1a53-7c6f-4742-9eaa-7930843d190c,2021,November,9827,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,OLA ELECTRIC,15797,7f88020e-6643-4e36-92ac-3c36191c444b,2022,November,89757,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,OKINAWA,9068,8926f4de-b507-41b3-abc9-17427b1d9779,2022,November,126565,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,HERO ELECTRIC,9026,f6965da0-f201-4ecc-be4e-5b763cfd1f0e,2022,November,131422,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,AMPERE,12446,80abbda8-7bd9-4745-b416-28fd620d742f,2022,November,88099,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,TVS,8147,1308e584-60a6-42f4-b47b-663ee24c18ad,2022,November,42440,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,ATHER,7837,a8a4a7d0-ffb2-43ce-b61a-52f3e9a10546,2022,November,57731,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,BAJAJ,3057,b680736b-db29-41c3-82ed-1b5bd88fc218,2022,November,27330,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,OKAYA EV,1783,9fc23851-630c-4963-9fcc-cc7865ce1da6,2022,November,7465,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,REVOLT,524,577ec04a-be5e-48f9-adbb-b7d3da8d385f,2022,November,19304,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,PURE EV,925,333e5aa1-d1df-42cd-b804-93bc38ea1633,2022,November,23955,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,BEING,1216,73e11b55-10a9-417b-b045-d1ded6698c12,2022,November,16072,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,JITENDRA,1256,d22f5c9d-db23-4d35-8ae5-657963650f2a,2022,November,10590,Two-Wheeler Manufacturer
+2022-11-01,2-Wheelers,OTHERS,5693,1f4d3735-c4e7-4280-b592-162b6417e70d,2022,November,58050,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,OLA ELECTRIC,29980,d1b65cc1-a224-40a8-b4bc-dc126baf91c7,2023,November,348013,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,TVS,18914,886f823a-e34f-43d5-b1b3-ca72099a6899,2023,November,204662,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,ATHER,9220,4c77ee50-31ac-47a2-87f4-0124c22c7613,2023,November,162765,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,BAJAJ,11769,968632b6-0f07-45b9-ab83-cb01fa1959f9,2023,November,95242,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,AMPERE,4638,af9ec98e-bd87-4a20-b4e6-6e8adbd13477,2023,November,155775,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,OKINAWA,1587,701a7502-c168-4a08-9177-2b27f65e2510,2023,November,162278,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,HERO ELECTRIC,814,42cc6168-fb76-4cbc-8db3-def556e818af,2023,November,168797,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,OKAYA EV,1281,28d0fe42-927e-47ae-acf2-0d18ee986824,2023,November,23895,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,BGAUSS,1589,7ae21929-0960-4eeb-8dd6-228b56e7462b,2023,November,7978,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,BATTRE ELECTRIC,659,a8b9b428-71d5-44b9-bb50-5652668e4a81,2023,November,3472,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,KINETIC GREEN,422,01701252-3135-490c-bd86-60128b74aa71,2023,November,3576,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,REVOLT,663,344bc24e-8025-4115-81fb-3cad57036e6d,2023,November,25573,Two-Wheeler Manufacturer
+2023-11-01,2-Wheelers,OTHERS,9707,cfc094b5-e914-4065-a8ce-3bc354b44a8c,2023,November,125383,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,HERO ELECTRIC,6402,20a3e136-dea7-473a-9e62-e5215767b634,2021,December,39789,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,OKINAWA,6184,056eece6-dc1f-421d-bc7b-f89baadb60a0,2021,December,27220,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,AMPERE,3410,67cfd181-481b-43fc-8f13-48d8b284aef2,2021,December,10047,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,ATHER,1813,f0dc65e8-9239-4dc2-9693-bc3ed2866508,2021,December,13631,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,PURE EV,1685,5bca86d7-4a28-408c-8d2a-d5e1e68ffcd6,2021,December,9784,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,OLA ELECTRIC,240,5a4c9d03-aead-4676-8c00-8c4915a05b50,2021,December,240,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,TVS,1119,10e35fd8-a06a-42e9-b95c-5d996bbe60ba,2021,December,4633,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,REVOLT,835,085e818e-1189-4742-b6ea-23620a175fbb,2021,December,4427,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,BAJAJ,642,4a80bded-5b6b-4900-b83d-f03172d71e37,2021,December,4275,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,BEING,1190,e3ee7576-7fbe-4a90-a70c-96ed368360dc,2021,December,4150,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,JITENDRA,503,dc6066c4-50f8-4aac-a38d-cafde0178223,2021,December,1705,Two-Wheeler Manufacturer
+2021-12-01,2-Wheelers,OTHERS,2603,dfdc92f5-5e6f-463a-9142-d80f3c7b3d5a,2021,December,12430,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,OLA ELECTRIC,16919,93c49662-2e0c-485b-8537-3a500ba33568,2022,December,106676,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,OKINAWA,5281,a06bec12-02b8-47d3-b6b0-6c2d247fed69,2022,December,131846,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,HERO ELECTRIC,8100,b6fc8b9f-92ea-428b-ad94-122dff889b67,2022,December,139522,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,AMPERE,4592,df08c6d3-b162-43c8-9f33-8cd9d60b061e,2022,December,92691,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,TVS,9363,0594deb0-ec5a-4e8f-9089-a17b91ca9f14,2022,December,51803,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,ATHER,7693,aa05782e-b266-477c-8e8e-9f5cc9e108a3,2022,December,65424,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,BAJAJ,3240,5a669077-e6a1-4599-bc8f-01045245efe5,2022,December,30570,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,OKAYA EV,1445,7115ea4a-135e-4280-bd33-ddb2c7aba785,2022,December,8910,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,REVOLT,37,1b02255d-c5f1-445c-811a-bf0f8d28d51c,2022,December,19341,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,PURE EV,780,08309865-2521-4aeb-abdd-1a75c8dc5843,2022,December,24735,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,BEING,966,18322df2-e7a2-4d02-846e-07b98f70e6fb,2022,December,17038,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,JITENDRA,668,03c9257c-15f5-46e9-806c-87d4791d6d0b,2022,December,11258,Two-Wheeler Manufacturer
+2022-12-01,2-Wheelers,OTHERS,5557,4c480212-15b8-43cc-adbf-3795888d03d6,2022,December,63607,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,OLA ELECTRIC,30588,02a8cd56-ad59-4925-ac0f-9a837e44d025,2023,December,378601,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,TVS,12171,4ca0eacf-dcb4-44f7-be32-aecb64d68fbb,2023,December,216833,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,ATHER,6471,cdde4f3e-48db-4108-b964-b00ca3e5b1d9,2023,December,169236,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,BAJAJ,10292,bead6de9-4e92-43f7-9b52-88d3bff00f2f,2023,December,105534,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,AMPERE,3309,9096fed2-8535-4c10-8559-25557a86bd70,2023,December,159084,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,OKINAWA,953,5a943fd2-c097-4ca0-b24a-4603973cf6f7,2023,December,163231,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,HERO ELECTRIC,545,956f9e17-2b91-44b8-bcfd-703a737abed5,2023,December,169342,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,OKAYA EV,700,baab1bb2-ec83-4f1c-ab87-e3a3271bbd40,2023,December,24595,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,BGAUSS,1200,27f70bb4-dacf-4b81-b86a-94fda8b71688,2023,December,9178,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,BATTRE ELECTRIC,241,554098c4-de5a-42d1-a475-33c5ec2cddbb,2023,December,3713,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,KINETIC GREEN,660,fad797ac-caaf-4c7b-96c1-c48f97c478d9,2023,December,4236,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,REVOLT,673,f18c4131-3e7f-447b-a021-8159a84bfd63,2023,December,26246,Two-Wheeler Manufacturer
+2023-12-01,2-Wheelers,OTHERS,7691,840cc83d-aa99-4628-ad0e-a69bd462de93,2023,December,133074,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,HERO ELECTRIC,8238,5aa5f40b-c7bb-453d-b9fe-451cf11169dc,2022,January,48027,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,OKINAWA,5737,b533d616-80f9-4e61-8c28-938377170448,2022,January,32957,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,AMPERE,4366,31eda48a-3b4e-4364-acb6-17beb58c08a8,2022,January,14413,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,ATHER,1881,daba9e1c-3949-46e9-b4dc-cf5ebc31c6ec,2022,January,15512,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,PURE EV,1691,cf4c4997-208b-473e-b48c-9f28fc3fc817,2022,January,11475,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,OLA ELECTRIC,1107,e7b3f318-0b58-4af3-9d52-277e8390a272,2022,January,1347,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,TVS,1155,16b2cf94-05f5-4038-a5a3-b0c2fb0faf85,2022,January,5788,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,REVOLT,673,18c4b50e-f53e-40a5-9015-9ecdaf656d6a,2022,January,5100,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,BAJAJ,612,c5acf93b-25c5-44ff-9a51-a78028f01406,2022,January,4887,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,BEING,1062,29ebbd9f-f1b0-41b1-810e-90c59e9e326f,2022,January,5212,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,JITENDRA,535,d45c30da-4663-4a3b-b5bc-6bf363eb5fd8,2022,January,2240,Two-Wheeler Manufacturer
+2022-01-01,2-Wheelers,OTHERS,3065,5fac7b2c-bd67-4979-a502-7aeff45241d4,2022,January,15495,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,OLA ELECTRIC,20148,18fc4c31-37fb-43a9-a12b-28ff2f68f1d2,2023,January,126824,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,OKINAWA,4407,780ad762-95bb-441b-8d53-f2df1a2c7cd9,2023,January,136253,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,HERO ELECTRIC,6399,ff487dd8-97bd-4c0e-aa91-7f51f58fab20,2023,January,145921,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,AMPERE,4456,93934d64-8bc8-4a3d-8831-23cbcf1cf57d,2023,January,97147,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,TVS,10462,dbd6f3d2-ff6e-4c1a-bc25-a2270db4c708,2023,January,62265,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,ATHER,9224,4469fd3f-077f-4d14-8626-739c2a229d9b,2023,January,74648,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,BAJAJ,2252,205a711b-d94c-4d11-b5b5-144ec0be2952,2023,January,32822,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,OKAYA EV,1265,3748499f-1ddb-4b6c-8f86-7d8c28c3bd98,2023,January,10175,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,REVOLT,14,197f3f40-7139-4c23-8bcd-934b92033ff7,2023,January,19355,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,PURE EV,717,a8a34444-143e-4a20-861b-d44d16a31ca9,2023,January,25452,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,BEING,571,bb354391-6130-4177-b094-a6df7fc31b21,2023,January,17609,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,JITENDRA,522,c66d5ad3-980a-45bd-a39b-68415d3970f5,2023,January,11780,Two-Wheeler Manufacturer
+2023-01-01,2-Wheelers,OTHERS,4241,0e312fce-83d9-4081-9d65-23fb4b00c5a2,2023,January,67848,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,OLA ELECTRIC,32275,711568ba-baa7-4461-a16b-0d5436f816f6,2024,January,410876,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,TVS,15153,b2159ff1-919b-46a0-b1af-8cb3020d64f8,2024,January,231986,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,ATHER,9244,3b8c5e4a-6c8e-4979-bdde-b93f6d667044,2024,January,178480,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,BAJAJ,10753,04bd03dc-65bd-41e6-810d-d6a3a2f0cc44,2024,January,116287,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,AMPERE,2505,2feae1de-9e1e-433d-8a9e-a459ae606084,2024,January,161589,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,OKINAWA,675,0476b1b3-7425-4530-ad49-c69d1ebfe6a5,2024,January,163906,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,HERO ELECTRIC,413,c1e31573-55c3-4ccf-9a4b-190ec86f5972,2024,January,169755,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,OKAYA EV,574,ef9feacb-b44b-4b3b-84a0-54e999201501,2024,January,25169,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,BGAUSS,1469,71c6c9e5-9c3b-4869-84a5-449f45392440,2024,January,10647,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,BATTRE ELECTRIC,284,0f64b85a-8e7a-43fb-b6ab-6557e63240e6,2024,January,3997,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,KINETIC GREEN,810,85b00509-96a0-41cd-9610-34db5ba8860f,2024,January,5046,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,REVOLT,524,39fa4f14-3b58-44c2-bc16-7593092f9455,2024,January,26770,Two-Wheeler Manufacturer
+2024-01-01,2-Wheelers,OTHERS,6664,93af87dd-8d0c-4706-9fc1-f23a13cbf927,2024,January,139738,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,HERO ELECTRIC,7773,25df06ce-df3b-44f0-8a42-ccea7e1eb7f8,2022,February,55800,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,OKINAWA,6122,0ccf058c-c1d2-4661-85bc-7f56d19b2d93,2022,February,39079,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,AMPERE,4431,60124ab9-1603-4167-b708-bdb1d65bc7e1,2022,February,18844,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,ATHER,2232,1d0a5e34-ac02-48b6-813e-34cfa528a778,2022,February,17744,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,PURE EV,1428,308fab0c-260d-4716-a5b2-bb1c3dc61e8e,2022,February,12903,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,OLA ELECTRIC,3911,db7e4bd1-796f-4f23-8554-4c848862647b,2022,February,5258,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,TVS,1560,a4625f6e-d087-462d-b874-761d6079cd11,2022,February,7348,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,REVOLT,1128,d1594d95-00e6-4d4d-b39f-2f50823854d7,2022,February,6228,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,BAJAJ,1372,52c1f825-eaed-4cf6-a151-424007336b54,2022,February,6259,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,BEING,1149,9e069f9a-2e67-4c8d-ae43-0a2988fec685,2022,February,6361,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,JITENDRA,583,a98a0a04-01c6-48d2-ab2f-8a06a9c65c15,2022,February,2823,Two-Wheeler Manufacturer
+2022-02-01,2-Wheelers,OTHERS,4033,c4952f23-9a4b-40f6-8af7-26e42ba2df7e,2022,February,19528,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,OLA ELECTRIC,17762,10e4bd88-263e-46c4-aecf-29cbd85e3b89,2023,February,144586,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,OKINAWA,3848,051a33e2-6dcb-4c24-a747-9acdbec4d0f2,2023,February,140101,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,HERO ELECTRIC,5863,8536e170-b833-4819-81ee-8d7c570fefd8,2023,February,151784,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,AMPERE,6003,449461ad-6c97-4e2a-baec-a0060fc5c6aa,2023,February,103150,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,TVS,12671,65ce70dd-5098-47ab-86b8-e79e9e2aeb41,2023,February,74936,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,ATHER,10069,b58c0405-cce3-40aa-b9e3-16d87688319b,2023,February,84717,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,BAJAJ,2537,07d35f66-5639-4199-a029-fffaa49b3f5e,2023,February,35359,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,OKAYA EV,1232,3efaa4b2-2d73-477e-a057-abab6fdc2eaf,2023,February,11407,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,REVOLT,79,b544a487-5064-4435-b6be-d739ff9683da,2023,February,19434,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,PURE EV,488,5006ba75-5a76-4c7a-afdb-fecb40328d3e,2023,February,25940,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,BEING,337,c2727ca0-bdfb-478b-83e8-f1ac8ee6e6da,2023,February,17946,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,JITENDRA,308,b2934058-0b7e-4886-9c1c-9d1aaf6602dd,2023,February,12088,Two-Wheeler Manufacturer
+2023-02-01,2-Wheelers,OTHERS,4874,cd65c60d-6ac5-4c12-9523-19f1e8952ec4,2023,February,72722,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,OLA ELECTRIC,33967,5d514418-aa78-49ef-b387-6e2fb48a21e5,2024,February,444843,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,TVS,14431,da4a5a62-93c8-490c-8c01-d09dcda2a759,2024,February,246417,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,ATHER,8957,f1d40e39-b23c-4499-9246-a02b90ef01f4,2024,February,187437,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,BAJAJ,11603,4a121c84-9c01-4ac3-b255-772c689d949b,2024,February,127890,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,AMPERE,2577,60de5f21-ba10-4456-97ff-ddba8f934138,2024,February,164166,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,OKINAWA,652,18a53020-61fb-48fa-b5b0-eb8d30e746c9,2024,February,164558,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,HERO ELECTRIC,323,f4cf60af-03c1-4ff0-8e00-ff2daf5871e7,2024,February,170078,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,OKAYA EV,649,0382c8e5-d6dc-4c6f-82d0-c321c25a826f,2024,February,25818,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,BGAUSS,1334,92d37128-d38a-4bf0-b23b-8188ca0c0883,2024,February,11981,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,BATTRE ELECTRIC,219,83998f8d-c751-4805-9d19-ba95d3025f4e,2024,February,4216,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,KINETIC GREEN,624,8299f1ab-0470-49a2-8fec-cbed78642ee4,2024,February,5670,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,REVOLT,473,5167b819-7645-4056-8ff0-0d762861d54c,2024,February,27243,Two-Wheeler Manufacturer
+2024-02-01,2-Wheelers,OTHERS,6154,239e87b1-b01d-48d7-97e0-b8876a256d0c,2024,February,145892,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,HERO ELECTRIC,13652,b4f1ba5b-214d-4930-b6f5-2f42c17066c5,2022,March,69452,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,OKINAWA,8586,30eb3944-e80d-45e7-970c-dce8c9f2deb7,2022,March,47665,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,AMPERE,6666,9f13c220-b312-4db7-9a38-45778812e702,2022,March,25510,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,ATHER,2232,d530c602-a56b-4b82-988b-435d43ea8ce8,2022,March,19976,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,PURE EV,2065,f928910e-0b3e-47af-b18e-d125000044fe,2022,March,14968,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,OLA ELECTRIC,9143,7fe6bbef-a729-421f-afb6-fbbfe546430f,2022,March,14401,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,TVS,2391,1bb21eb6-10a3-40dd-a58e-e2c38d1ce32d,2022,March,9739,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,REVOLT,1413,8db4794e-c577-4b68-b114-6d8c7ca1862b,2022,March,7641,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,BAJAJ,855,826eedde-46ab-401a-9e5b-1b89b41a05c2,2022,March,7114,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,BEING,1013,afe6c6c8-f5b6-4b03-a606-e53d0efd0d66,2022,March,7374,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,JITENDRA,1052,42baed99-579f-45bf-a4e9-eaf14e5d326a,2022,March,3875,Two-Wheeler Manufacturer
+2022-03-01,2-Wheelers,OTHERS,5330,aca129bd-83e7-448e-a824-57bf48ef71d5,2022,March,24858,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,OLA ELECTRIC,22398,7b064072-1282-4621-bf8b-bf8e3e17857d,2023,March,166984,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,OKINAWA,4509,96ff8a53-06dd-47af-9ce8-e37728230b53,2023,March,144610,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,HERO ELECTRIC,6661,a26bc9fa-8b58-4eb6-899f-ede9f1ee9aae,2023,March,158445,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,AMPERE,9736,d820f0f6-9088-4b86-8a58-2c426ea1d6fb,2023,March,112886,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,TVS,16896,2b96d6b6-6314-4fb7-97b6-1495e4b452be,2023,March,91832,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,ATHER,12180,1157556d-9695-46ce-a043-601e51088939,2023,March,96897,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,BAJAJ,4552,f4bbe2ba-6722-40c3-8d20-8611d5342e14,2023,March,39911,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,OKAYA EV,1765,445317ce-8aca-47de-8b97-b320e3411413,2023,March,13172,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,REVOLT,1140,523b2a37-a8a4-40f2-8e16-432efd58a782,2023,March,20574,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,PURE EV,584,7fb1b529-b0ea-4eab-ad82-803daf9cc858,2023,March,26524,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,BEING,446,815e8251-96b3-4f8d-8247-6a86a35523b8,2023,March,18392,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,JITENDRA,350,00ef01f8-b57b-4536-ab33-4996f5f1dc9e,2023,March,12438,Two-Wheeler Manufacturer
+2023-03-01,2-Wheelers,OTHERS,5089,e96aad70-d66a-49c0-ac6d-1ec09ae1bf7a,2023,March,77811,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,OLA ELECTRIC,44630,33971170-457a-45a1-bf4d-3921b1b95ff6,2024,March,489473,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,TVS,26158,ebf0c98a-7f90-4589-b649-dc3e67ef8299,2024,March,272575,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,ATHER,17012,900c52a4-dfc2-4bb3-a91d-188e1e9add27,2024,March,204449,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,BAJAJ,17716,35743f3b-bb93-4e63-8ecb-255bd16d48e1,2024,March,145606,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,AMPERE,3108,6ef2adcd-f05a-4c63-90aa-7c8682b9be19,2024,March,167274,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,OKINAWA,673,c976bc13-37f5-45d4-9e5f-f2392827fc3d,2024,March,165231,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,HERO ELECTRIC,316,43a69f1a-ccb3-4975-8126-a676ac44ae0b,2024,March,170394,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,OKAYA EV,1218,e8eb0dcc-1a37-49de-9317-cc357cb5ea34,2024,March,27036,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,BGAUSS,3070,f2abd34d-ea84-49fb-80b0-f1f1b9aaa80e,2024,March,15051,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,BATTRE ELECTRIC,625,6eb5e827-29a2-4847-875b-91f8ed13c77b,2024,March,4841,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,KINETIC GREEN,3915,823c012c-9bbf-42b7-b4fa-57c70ea6a939,2024,March,9585,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,REVOLT,585,4b35d04a-af62-4d0d-a22c-896ce4ff0de7,2024,March,27828,Two-Wheeler Manufacturer
+2024-03-01,2-Wheelers,OTHERS,10579,6102e8c1-fa2d-43ed-8601-4066713aba5d,2024,March,156471,Two-Wheeler Manufacturer

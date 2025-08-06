@@ -1,0 +1,270 @@
+import streamlit as st
+import pandas as pd
+import os
+import plotly.express as px
+import plotly.graph_objects as go
+
+# Set page layout
+st.set_page_config(page_title="EV Penetration Decline", layout="wide")
+
+                title="📊 Monthly EV Penetration Trend (2022-2023)",               title="📊 Monthly EV Penetration Trend (2022-2023)", Title
+st.title("📉 States with Decline in EV Penetration")
+
+# Load data
+@st.cache_data
+def load_data():
+    data_path = os.path.join(
+        os.path.dirname(__file__),
+        "..", "..", "..",
+        "data", "processed",
+        "ev_sales_by_state_enhanced_20250806.csv"
+    )
+    return pd.read_csv(data_path, parse_dates=["date"])
+
+df = load_data()
+
+# Extract year and compute yearly averages
+df["year"] = df["date"].dt.year
+yearly_avg = df.groupby(["state", "year"])["ev_penetration_rate"].mean().reset_index()
+pivot = yearly_avg.pivot(index="state", columns="year", values="ev_penetration_rate").fillna(0)
+
+# Check years present
+available_years = pivot.columns.tolist()
+st.write("✅ **Available Years in Dataset:**", available_years)
+
+# If all required years exist
+if all(year in available_years for year in [2022, 2023, 2024]):
+    pivot["change_2022_2023"] = pivot[2023] - pivot[2022]
+    pivot["change_2023_2024"] = pivot[2024] - pivot[2023]
+    pivot["change_2022_2024"] = pivot[2024] - pivot[2022]
+
+    decline_22_23 = pivot[pivot["change_2022_2023"] < 0].copy()
+    decline_22_24 = pivot[pivot["change_2022_2024"] < 0].copy()
+
+    with st.expander("🛑 States with Decline in EV Penetration from 2022 to 2023", expanded=True):
+        if decline_22_23.empty:
+            st.success("No states had a decline between 2022 and 2023.")
+        else:
+            st.dataframe(decline_22_23[[2022, 2023, "change_2022_2023"]].round(4))
+
+            fig1 = px.bar(
+                decline_22_23.reset_index().sort_values("change_2022_2023"),
+                x="state",
+                y="change_2022_2023",
+                color="change_2022_2023",
+                color_continuous_scale="Reds",
+                title="🔻 Change in EV Penetration Rate (2022 → 2023)",
+                labels={"change_2022_2023": "Change", "state": "State"},
+                template="plotly_white"
+            )
+            fig1.update_layout(height=400, xaxis_tickangle=-45)
+            st.plotly_chart(fig1, use_container_width=True)
+
+    with st.expander("📊 States with Overall Decline in EV Penetration (2022 to 2024)", expanded=True):
+        if decline_22_24.empty:
+            st.success("✅ No states had an overall decline between 2022 and 2024.")
+        else:
+            st.dataframe(decline_22_24[[2022, 2024, "change_2022_2024"]].round(4))
+
+            fig2 = px.bar(
+                decline_22_24.reset_index().sort_values("change_2022_2024"),
+                x="state",
+                y="change_2022_2024",
+                color="change_2022_2024",
+                color_continuous_scale="Blues",
+                title="🔻 Overall Change in EV Penetration (2022 → 2024)",
+                labels={"change_2022_2024": "Change", "state": "State"},
+                template="plotly_white"
+            )
+            fig2.update_layout(height=400, xaxis_tickangle=-45)
+            st.plotly_chart(fig2, use_container_width=True)
+
+    st.markdown("---")
+    st.markdown("### 📊 More Visuals for States with 2022 → 2023 Decline")
+    
+    # No CSS styling
+
+    if not decline_22_23.empty:
+        # Add rank information
+        decline_22_23["pct_change"] = (decline_22_23["change_2022_2023"] / decline_22_23[2022]) * 100
+        decline_22_23["rank"] = decline_22_23["pct_change"].rank(ascending=True).astype(int)
+        decline_22_23_reset = decline_22_23.reset_index()
+        
+        # Create 2x2 grid using Streamlit columns
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            # 1. Grouped bar chart (2022 vs 2023)
+            bar_df = decline_22_23[[2022, 2023]].reset_index().melt(
+                id_vars="state", var_name="Year", value_name="EV Penetration Rate"
+            )
+            
+            # Add rank information to chart title
+            st.write("**State Rankings:**")
+            for i, row in decline_22_23_reset.iterrows():
+                st.write(f"#{row['rank']}: {row['state']}")
+            
+            fig_grouped = px.bar(
+                bar_df,
+                x="state",
+                y="EV Penetration Rate",
+                color="Year",
+                barmode="group",
+                template="plotly_white",
+                title="📊 EV Penetration Rate Comparison: 2022 vs 2023"
+            )
+            fig_grouped.update_layout(xaxis_tickangle=-45, height=350)
+            st.plotly_chart(fig_grouped, use_container_width=True)
+        
+        with col2:
+            # Calculate month-to-month changes for states with decline
+            states_list = decline_22_23.index.tolist()
+            monthly_data = df[df["state"].isin(states_list)].copy()
+            monthly_data = monthly_data[
+                (monthly_data["date"] >= "2022-01-01") & 
+                (monthly_data["date"] <= "2023-12-31")
+            ]
+            
+            monthly_avg = monthly_data.groupby(["state", pd.Grouper(key="date", freq="M")])["ev_penetration_rate"].mean().reset_index()
+            monthly_avg["year_month"] = monthly_avg["date"].dt.strftime("%Y-%m")
+            
+            # Pivot the data
+            monthly_pivot = monthly_avg.pivot_table(
+                index="state",
+                columns=monthly_avg["date"].dt.strftime("%Y-%m"),
+                values="ev_penetration_rate"
+            )
+            
+            # Calculate month-to-month changes
+            monthly_changes = monthly_pivot.diff(axis=1)
+            
+            # Prepare heatmap data
+            heatmap_data = monthly_changes.fillna(0).round(4)
+            
+            fig_heatmap = go.Figure(
+                data=go.Heatmap(
+                    z=heatmap_data.values,
+                    x=heatmap_data.columns,
+                    y=heatmap_data.index,
+                    colorscale='RdYlGn',
+                    zmid=0,
+                    colorbar=dict(title='Change Rate'),
+                    text=heatmap_data.values,
+                    hovertemplate='State: %{y}<br>Month: %{x}<br>Change: %{z}<extra></extra>'
+                )
+            )
+            
+            fig_heatmap.update_layout(
+                title='🌡️ Monthly EV Penetration Rate Changes (Declining States)',
+                xaxis_nticks=36,
+                xaxis_title='Month',
+                yaxis_title='State',
+                template="plotly_white",
+                height=350
+            )
+            
+            st.plotly_chart(fig_heatmap, use_container_width=True)
+            
+        col3, col4 = st.columns(2)
+        
+        with col3:
+            # 3. Percent Decline with Rankings
+            fig_pct = px.bar(
+                decline_22_23_reset.sort_values("pct_change"),
+                x="state",
+                y="pct_change",
+                color="pct_change",
+                text=decline_22_23_reset["rank"].apply(lambda x: f"#{x}"),
+                color_continuous_scale="OrRd",
+                title="📉 Percentage Decline in EV Penetration",
+                labels={"pct_change": "% Change", "state": "State"},
+                template="plotly_white"
+            )
+            fig_pct.update_traces(textposition='outside')
+            fig_pct.update_layout(height=350, xaxis_tickangle=-45)
+            st.plotly_chart(fig_pct, use_container_width=True)
+        
+        with col4:
+            st.markdown('<div class="chart-container">', unsafe_allow_html=True)
+            # 4. Monthly trend for 2022-2023
+            # Filter the data for these states and create monthly averages
+            states_list = decline_22_23.index.tolist()
+            monthly_data = df[df["state"].isin(states_list)].copy()
+            monthly_data = monthly_data[
+                (monthly_data["date"] >= "2022-01-01") & 
+                (monthly_data["date"] <= "2023-12-31")
+            ]
+            
+            monthly_avg = monthly_data.groupby(["state", pd.Grouper(key="date", freq="M")])["ev_penetration_rate"].mean().reset_index()
+            monthly_avg["year_month"] = monthly_avg["date"].dt.strftime("%Y-%m")
+            
+            fig_monthly = px.line(
+                monthly_avg,
+                x="date",
+                y="ev_penetration_rate",
+                color="state",
+                markers=True,
+                title="� Monthly EV Penetration Trend (2022-2023)",
+                labels={"date": "Month", "ev_penetration_rate": "EV Penetration Rate"},
+                template="plotly_white"
+            )
+            fig_monthly.update_layout(height=350, xaxis_tickangle=-45)
+            st.plotly_chart(fig_monthly, use_container_width=True)
+            st.markdown('</div>', unsafe_allow_html=True)
+        
+        # Add detailed analysis summary
+        st.markdown('<div class="chart-container">', unsafe_allow_html=True)
+        st.markdown("""
+        ### Analysis Summary
+        
+        Based on the analysis we performed, we found four states that showed a decline in EV penetration rate from 2022 to 2023:
+        
+        - **Ladakh**: Highest decline of -56.99% (penetration dropped from 0.015 to 0.006)
+        - **Haryana**: Decline of -16.84% (penetration dropped from 0.017 to 0.014)
+        - **Jammu and Kashmir**: Decline of -8.45% (penetration dropped from 0.014 to 0.013)
+        - **Uttarakhand**: Slight decline of -3.11% (penetration dropped from 0.022 to 0.021)
+        
+        However, the analysis revealed that there were no states with an overall decline in EV penetration from 2022 to 2024. This indicates that while these four states experienced temporary setbacks between 2022 and 2023, they all recovered in the 2023-2024 period, resulting in overall growth for the entire 2022-2024 timeframe.
+        
+        The visualizations above show these trends clearly, demonstrating how these states recovered after their initial decline.
+        """)
+        st.markdown('</div>', unsafe_allow_html=True)
+    else:
+        st.info("No decline between 2022-2023 found, so additional visualizations are not shown.")
+
+    # Trend line chart
+    st.markdown("### 📈 Trend of EV Penetration for Declining States (2022-2024)")
+
+    if not decline_22_24.empty:
+        melted = pivot.loc[decline_22_24.index, [2022, 2023, 2024]].reset_index().melt(
+            id_vars="state", var_name="Year", value_name="EV Penetration Rate"
+        )
+        fig_line = px.line(
+            melted,
+            x="Year",
+            y="EV Penetration Rate",
+            color="state",
+            markers=True,
+            title="📉 EV Penetration Trend (2022–2024) for Declining States",
+            template="plotly_white"
+        )
+        fig_line.update_traces(mode="lines+markers")
+        st.plotly_chart(fig_line, use_container_width=True)
+    else:
+        st.info("No overall decline found, so trend lines are not plotted.")
+
+    # Final summary
+    st.markdown("---")
+    st.subheader("📌 Final Answer")
+
+    if decline_22_24.empty:
+        st.success(
+            "✅ No states showed an overall decline in EV penetration from 2022 to 2024. "
+            "Some states declined temporarily (e.g., Ladakh, Haryana) between 2022–2023 but recovered later."
+        )
+    else:
+        st.error(
+            f"⚠️ The following states had an overall decline from 2022 to 2024:\n\n**{', '.join(decline_22_24.index)}**"
+        )
+else:
+    st.warning("⚠️ Data for years 2022, 2023, and 2024 is not complete.")
