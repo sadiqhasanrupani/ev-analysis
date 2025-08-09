@@ -1,0 +1,817 @@
+date,year,month,maker,vehicle_category,electric_vehicles_sold,cumulative_sales,maker_rank,market_position,leader_gap_pct,performance_vs_avg,market_share_fraction,hhi_index,market_concentration,effective_competitors,market_share_tier,share_change_status,dual_segment_presence,primary_segment,primary_segment_contribution,segment_specialization
+2021-04-01,2021,April,OLA ELECTRIC,2-Wheelers,0,0,12.0,Other,100.0,-1.0,0.0,0.1409603685445024,Unconcentrated,7.1,<5%,Stable,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,OKAYA EV,2-Wheelers,0,0,13.0,Other,100.0,-1.0,0.0,0.15677030715273027,Moderately Concentrated,6.4,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,OLA ELECTRIC,2-Wheelers,0,0,12.0,Other,100.0,-1.0,0.0,0.14517906550392715,Unconcentrated,6.9,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,OLA ELECTRIC,2-Wheelers,0,0,12.0,Other,100.0,-1.0,0.0,0.16734029643991447,Moderately Concentrated,6.0,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,OLA ELECTRIC,2-Wheelers,0,0,12.0,Other,100.0,-1.0,0.0,0.16794312524379593,Moderately Concentrated,6.0,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,OLA ELECTRIC,2-Wheelers,0,0,12.0,Other,100.0,-1.0,0.0,0.182247555827292,Moderately Concentrated,5.5,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,OLA ELECTRIC,2-Wheelers,0,0,12.0,Other,100.0,-1.0,0.0,0.2063423036164043,Moderately Concentrated,4.8,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,OLA ELECTRIC,2-Wheelers,0,0,12.0,Other,100.0,-1.0,0.0,0.18230369903438662,Moderately Concentrated,5.5,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,OLA ELECTRIC,2-Wheelers,0,0,12.0,Other,100.0,-1.0,0.0,0.1770285477624764,Moderately Concentrated,5.6,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,BYD India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3751237636395186,Highly Concentrated,2.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,PCA Automobiles,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3751237636395186,Highly Concentrated,2.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,BMW India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3751237636395186,Highly Concentrated,2.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,Volvo Auto India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3751237636395186,Highly Concentrated,2.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,KIA Motors,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3751237636395186,Highly Concentrated,2.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,PCA Automobiles,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.47264779109375415,Highly Concentrated,2.1,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,Volvo Auto India,4-Wheelers,0,4,8.0,Top 10,100.0,-1.0,0.0,0.47264779109375415,Highly Concentrated,2.1,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,KIA Motors,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.47264779109375415,Highly Concentrated,2.1,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,BYD India,4-Wheelers,0,0,5.0,Top 5,100.0,-1.0,0.0,0.3994458659480083,Highly Concentrated,2.5,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,PCA Automobiles,4-Wheelers,0,0,5.0,Top 5,100.0,-1.0,0.0,0.3994458659480083,Highly Concentrated,2.5,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,BMW India,4-Wheelers,0,0,5.0,Top 5,100.0,-1.0,0.0,0.3994458659480083,Highly Concentrated,2.5,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,Mercedes-Benz AG,4-Wheelers,0,3,5.0,Top 5,100.0,-1.0,0.0,0.3994458659480083,Highly Concentrated,2.5,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,Volvo Auto India,4-Wheelers,0,0,5.0,Top 5,100.0,-1.0,0.0,0.3994458659480083,Highly Concentrated,2.5,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,KIA Motors,4-Wheelers,0,0,5.0,Top 5,100.0,-1.0,0.0,0.3994458659480083,Highly Concentrated,2.5,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,PCA Automobiles,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.550313219497147,Highly Concentrated,1.8,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,Volvo Auto India,4-Wheelers,0,4,8.0,Top 10,100.0,-1.0,0.0,0.550313219497147,Highly Concentrated,1.8,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,KIA Motors,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.550313219497147,Highly Concentrated,1.8,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,BYD India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.5304069200925389,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,PCA Automobiles,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.5304069200925389,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,BMW India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.5304069200925389,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,Volvo Auto India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.5304069200925389,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,KIA Motors,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.5304069200925389,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,PCA Automobiles,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.5198606379984666,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,Volvo Auto India,4-Wheelers,0,4,8.0,Top 10,100.0,-1.0,0.0,0.5198606379984666,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,KIA Motors,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.5198606379984666,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,BYD India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.45427241976312155,Highly Concentrated,2.2,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,PCA Automobiles,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.45427241976312155,Highly Concentrated,2.2,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,BMW India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.45427241976312155,Highly Concentrated,2.2,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,Volvo Auto India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.45427241976312155,Highly Concentrated,2.2,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,KIA Motors,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.45427241976312155,Highly Concentrated,2.2,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,PCA Automobiles,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.5099937625184944,Highly Concentrated,2.0,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,Volvo Auto India,4-Wheelers,0,4,8.0,Top 10,100.0,-1.0,0.0,0.5099937625184944,Highly Concentrated,2.0,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,KIA Motors,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.5099937625184944,Highly Concentrated,2.0,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,BYD India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3900883521328545,Highly Concentrated,2.6,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,PCA Automobiles,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3900883521328545,Highly Concentrated,2.6,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,BMW India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3900883521328545,Highly Concentrated,2.6,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,Volvo Auto India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3900883521328545,Highly Concentrated,2.6,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,KIA Motors,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.3900883521328545,Highly Concentrated,2.6,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,PCA Automobiles,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.4403101976877952,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,Volvo Auto India,4-Wheelers,0,4,8.0,Top 10,100.0,-1.0,0.0,0.4403101976877952,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,KIA Motors,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.4403101976877952,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,BYD India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.42613266994719384,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,PCA Automobiles,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.42613266994719384,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,BMW India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.42613266994719384,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,Volvo Auto India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.42613266994719384,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,KIA Motors,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.42613266994719384,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,PCA Automobiles,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.4380610135933214,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,Volvo Auto India,4-Wheelers,0,4,8.0,Top 10,100.0,-1.0,0.0,0.4380610135933214,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,KIA Motors,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.4380610135933214,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,BYD India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.43176334521543625,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,PCA Automobiles,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.43176334521543625,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,BMW India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.43176334521543625,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,Volvo Auto India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.43176334521543625,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,KIA Motors,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.43176334521543625,Highly Concentrated,2.3,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,PCA Automobiles,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.45482778593264495,Highly Concentrated,2.2,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,Volvo Auto India,4-Wheelers,0,4,8.0,Top 10,100.0,-1.0,0.0,0.45482778593264495,Highly Concentrated,2.2,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,BYD India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.4925792189349112,Highly Concentrated,2.0,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,PCA Automobiles,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.4925792189349112,Highly Concentrated,2.0,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,BMW India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.4925792189349112,Highly Concentrated,2.0,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,Volvo Auto India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.4925792189349112,Highly Concentrated,2.0,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,KIA Motors,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.4925792189349112,Highly Concentrated,2.0,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,PCA Automobiles,4-Wheelers,0,0,10.0,Top 10,100.0,-1.0,0.0,0.4102316633440878,Highly Concentrated,2.4,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,PCA Automobiles,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.6032136994614831,Highly Concentrated,1.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,BMW India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.6032136994614831,Highly Concentrated,1.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,Volvo Auto India,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.6032136994614831,Highly Concentrated,1.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,KIA Motors,4-Wheelers,0,0,6.0,Top 10,100.0,-1.0,0.0,0.6032136994614831,Highly Concentrated,1.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,PCA Automobiles,4-Wheelers,0,0,10.0,Top 10,100.0,-1.0,0.0,0.3876764713165486,Highly Concentrated,2.6,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,PCA Automobiles,4-Wheelers,0,0,7.0,Top 10,100.0,-1.0,0.0,0.5208024973985432,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,BMW India,4-Wheelers,0,0,7.0,Top 10,100.0,-1.0,0.0,0.5208024973985432,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,Volvo Auto India,4-Wheelers,0,0,7.0,Top 10,100.0,-1.0,0.0,0.5208024973985432,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,KIA Motors,4-Wheelers,0,0,7.0,Top 10,100.0,-1.0,0.0,0.5208024973985432,Highly Concentrated,1.9,<5%,Stable,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,PCA Automobiles,4-Wheelers,0,0,10.0,Top 10,100.0,-1.0,0.0,0.3675007893505192,Highly Concentrated,2.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,PCA Automobiles,4-Wheelers,0,0,7.0,Top 10,100.0,-1.0,0.0,0.654197069795073,Highly Concentrated,1.5,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,BMW India,4-Wheelers,0,0,7.0,Top 10,100.0,-1.0,0.0,0.654197069795073,Highly Concentrated,1.5,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,Volvo Auto India,4-Wheelers,0,0,7.0,Top 10,100.0,-1.0,0.0,0.654197069795073,Highly Concentrated,1.5,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,KIA Motors,4-Wheelers,0,0,7.0,Top 10,100.0,-1.0,0.0,0.654197069795073,Highly Concentrated,1.5,<5%,Stable,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,PCA Automobiles,4-Wheelers,0,0,10.0,Top 10,100.0,-1.0,0.0,0.4188683622864766,Highly Concentrated,2.4,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,PCA Automobiles,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.6436804832928661,Highly Concentrated,1.6,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,KIA Motors,4-Wheelers,0,0,8.0,Top 10,100.0,-1.0,0.0,0.6436804832928661,Highly Concentrated,1.6,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,Tata Motors,4-Wheelers,322,322,1.0,Market Leader,0.0,4.14,0.5143769968051118,0.3751237636395186,Highly Concentrated,2.7,>30%,Stable,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,MG Motor,4-Wheelers,118,118,3.0,Top 3,63.35,0.88,0.1884984025559105,0.3751237636395186,Highly Concentrated,2.7,10-20%,Stable,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,Mahindra and Mahindra,4-Wheelers,171,171,2.0,Top 3,46.89,1.73,0.2731629392971246,0.3751237636395186,Highly Concentrated,2.7,20-30%,Stable,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,Hyundai Motor,4-Wheelers,12,12,4.0,Top 5,96.27,-0.81,0.0191693290734824,0.3751237636395186,Highly Concentrated,2.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,Mercedes-Benz AG,4-Wheelers,3,3,5.0,Top 5,99.07,-0.95,0.0047923322683706,0.3751237636395186,Highly Concentrated,2.7,<5%,Stable,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,Tata Motors,4-Wheelers,1409,14117,1.0,Market Leader,0.0,5.27,0.6265006669630947,0.47264779109375415,Highly Concentrated,2.1,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,MG Motor,4-Wheelers,177,1824,3.0,Top 3,87.44,-0.21,0.0787016451756336,0.47264779109375415,Highly Concentrated,2.1,5-10%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,Mahindra and Mahindra,4-Wheelers,611,4653,2.0,Top 3,56.64,1.72,0.2716763005780346,0.47264779109375415,Highly Concentrated,2.1,20-30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,BYD India,4-Wheelers,15,48,5.0,Top 5,98.94,-0.93,0.0066696309470875,0.47264779109375415,Highly Concentrated,2.1,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,Hyundai Motor,4-Wheelers,17,127,4.0,Top 5,98.79,-0.92,0.0075589150733659,0.47264779109375415,Highly Concentrated,2.1,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,BMW India,4-Wheelers,12,19,6.0,Top 10,99.15,-0.95,0.00533570475767,0.47264779109375415,Highly Concentrated,2.1,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-04-01,2022,April,Mercedes-Benz AG,4-Wheelers,8,34,7.0,Top 10,99.43,-0.96,0.0035571365051133,0.47264779109375415,Highly Concentrated,2.1,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,Tata Motors,4-Wheelers,364,41118,2.0,Top 3,92.54,-0.39,0.0606262491672218,0.6680055845514493,Highly Concentrated,1.5,5-10%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,MG Motor,4-Wheelers,265,5189,3.0,Top 3,94.57,-0.56,0.0441372418387741,0.6680055845514493,Highly Concentrated,1.5,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,Mahindra and Mahindra,4-Wheelers,4880,22727,1.0,Market Leader,0.0,7.13,0.8127914723517655,0.6680055845514493,Highly Concentrated,1.5,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,BYD India,4-Wheelers,156,1109,5.0,Top 5,96.8,-0.74,0.0259826782145236,0.6680055845514493,Highly Concentrated,1.5,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,Hyundai Motor,4-Wheelers,42,728,7.0,Top 10,99.14,-0.93,0.0069953364423717,0.6680055845514493,Highly Concentrated,1.5,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,PCA Automobiles,4-Wheelers,181,332,4.0,Top 5,96.29,-0.7,0.0301465689540306,0.6680055845514493,Highly Concentrated,1.5,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,BMW India,4-Wheelers,51,343,6.0,Top 10,98.95,-0.92,0.0084943371085942,0.6680055845514493,Highly Concentrated,1.5,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,Mercedes-Benz AG,4-Wheelers,8,105,10.0,Top 10,99.84,-0.99,0.0013324450366422,0.6680055845514493,Highly Concentrated,1.5,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,Volvo Auto India,4-Wheelers,27,136,9.0,Top 10,99.45,-0.96,0.0044970019986675,0.6680055845514493,Highly Concentrated,1.5,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-04-01,2023,April,KIA Motors,4-Wheelers,30,259,8.0,Top 10,99.39,-0.95,0.0049966688874083,0.6680055845514493,Highly Concentrated,1.5,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,Tata Motors,4-Wheelers,137,459,1.0,Market Leader,0.0,4.33,0.5330739299610895,0.3994458659480083,Highly Concentrated,2.5,>30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,MG Motor,4-Wheelers,39,157,3.0,Top 3,71.53,0.52,0.1517509727626459,0.3994458659480083,Highly Concentrated,2.5,10-20%,Strong Loss,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,Mahindra and Mahindra,4-Wheelers,78,249,2.0,Top 3,43.07,2.04,0.3035019455252918,0.3994458659480083,Highly Concentrated,2.5,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-05-01,2021,May,Hyundai Motor,4-Wheelers,3,15,4.0,Top 5,97.81,-0.88,0.0116731517509727,0.3994458659480083,Highly Concentrated,2.5,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,Tata Motors,4-Wheelers,2097,16214,1.0,Market Leader,0.0,6.09,0.7086853666779317,0.550313219497147,Highly Concentrated,1.8,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,MG Motor,4-Wheelers,181,2005,3.0,Top 3,91.37,-0.39,0.061169313957418,0.550313219497147,Highly Concentrated,1.8,5-10%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,Mahindra and Mahindra,4-Wheelers,622,5275,2.0,Top 3,70.34,1.1,0.2102061507265968,0.550313219497147,Highly Concentrated,1.8,20-30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,BYD India,4-Wheelers,30,78,4.0,Top 5,98.57,-0.9,0.0101385603244339,0.550313219497147,Highly Concentrated,1.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,Hyundai Motor,4-Wheelers,19,146,5.0,Top 5,99.09,-0.94,0.0064210882054748,0.550313219497147,Highly Concentrated,1.8,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,BMW India,4-Wheelers,6,25,6.0,Top 10,99.71,-0.98,0.0020277120648867,0.550313219497147,Highly Concentrated,1.8,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-05-01,2022,May,Mercedes-Benz AG,4-Wheelers,4,38,7.0,Top 10,99.81,-0.99,0.0013518080432578,0.550313219497147,Highly Concentrated,1.8,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,Tata Motors,4-Wheelers,3212,44330,2.0,Top 3,7.09,3.2,0.4204188481675392,0.3852269331981031,Highly Concentrated,2.6,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,MG Motor,4-Wheelers,351,5540,3.0,Top 3,89.85,-0.54,0.0459424083769633,0.3852269331981031,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,Mahindra and Mahindra,4-Wheelers,3457,26184,1.0,Market Leader,0.0,3.52,0.4524869109947644,0.3852269331981031,Highly Concentrated,2.6,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,BYD India,4-Wheelers,110,1219,6.0,Top 10,96.82,-0.86,0.0143979057591623,0.3852269331981031,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,Hyundai Motor,4-Wheelers,129,857,5.0,Top 5,96.27,-0.83,0.0168848167539267,0.3852269331981031,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,PCA Automobiles,4-Wheelers,245,577,4.0,Top 5,92.91,-0.68,0.0320680628272251,0.3852269331981031,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,BMW India,4-Wheelers,57,400,7.0,Top 10,98.35,-0.93,0.0074607329842931,0.3852269331981031,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,Mercedes-Benz AG,4-Wheelers,9,114,10.0,Top 10,99.74,-0.99,0.0011780104712041,0.3852269331981031,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,Volvo Auto India,4-Wheelers,34,170,9.0,Top 10,99.02,-0.96,0.0044502617801047,0.3852269331981031,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-05-01,2023,May,KIA Motors,4-Wheelers,36,295,8.0,Top 10,98.96,-0.95,0.0047120418848167,0.3852269331981031,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,Tata Motors,4-Wheelers,572,1031,1.0,Market Leader,0.0,5.99,0.6992665036674817,0.5304069200925389,Highly Concentrated,1.9,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,MG Motor,4-Wheelers,128,285,2.0,Top 3,77.62,0.56,0.1564792176039119,0.5304069200925389,Highly Concentrated,1.9,10-20%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,Mahindra and Mahindra,4-Wheelers,106,355,3.0,Top 3,81.47,0.3,0.1295843520782396,0.5304069200925389,Highly Concentrated,1.9,10-20%,Strong Loss,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,Hyundai Motor,4-Wheelers,10,25,4.0,Top 5,98.25,-0.88,0.0122249388753056,0.5304069200925389,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-06-01,2021,June,Mercedes-Benz AG,4-Wheelers,2,5,5.0,Top 5,99.65,-0.98,0.0024449877750611,0.5304069200925389,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,Tata Motors,4-Wheelers,2169,18383,1.0,Market Leader,0.0,5.76,0.6757009345794392,0.5198606379984666,Highly Concentrated,1.9,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,MG Motor,4-Wheelers,173,2178,3.0,Top 3,92.02,-0.46,0.0538940809968847,0.5198606379984666,Highly Concentrated,1.9,5-10%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,Mahindra and Mahindra,4-Wheelers,787,6062,2.0,Top 3,63.72,1.45,0.2451713395638629,0.5198606379984666,Highly Concentrated,1.9,20-30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,BYD India,4-Wheelers,36,114,5.0,Top 5,98.34,-0.89,0.011214953271028,0.5198606379984666,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,Hyundai Motor,4-Wheelers,39,185,4.0,Top 5,98.2,-0.88,0.0121495327102803,0.5198606379984666,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,BMW India,4-Wheelers,4,29,6.0,Top 10,99.82,-0.99,0.0012461059190031,0.5198606379984666,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-06-01,2022,June,Mercedes-Benz AG,4-Wheelers,2,40,7.0,Top 10,99.91,-0.99,0.0006230529595015,0.5198606379984666,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,Tata Motors,4-Wheelers,3671,48001,1.0,Market Leader,0.0,3.71,0.4712451861360719,0.34568468511521133,Highly Concentrated,2.9,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,MG Motor,4-Wheelers,877,6417,3.0,Top 3,76.11,0.13,0.1125802310654685,0.34568468511521133,Highly Concentrated,2.9,10-20%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,Mahindra and Mahindra,4-Wheelers,2574,28758,2.0,Top 3,29.88,2.3,0.3304236200256739,0.34568468511521133,Highly Concentrated,2.9,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,BYD India,4-Wheelers,140,1359,5.0,Top 5,96.19,-0.82,0.017971758664955,0.34568468511521133,Highly Concentrated,2.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,Hyundai Motor,4-Wheelers,121,978,6.0,Top 10,96.7,-0.84,0.0155327342747111,0.34568468511521133,Highly Concentrated,2.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,PCA Automobiles,4-Wheelers,254,831,4.0,Top 5,93.08,-0.67,0.0326059050064184,0.34568468511521133,Highly Concentrated,2.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,BMW India,4-Wheelers,76,476,7.0,Top 10,97.93,-0.9,0.0097560975609756,0.34568468511521133,Highly Concentrated,2.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,Mercedes-Benz AG,4-Wheelers,14,128,10.0,Top 10,99.62,-0.98,0.0017971758664955,0.34568468511521133,Highly Concentrated,2.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,Volvo Auto India,4-Wheelers,33,203,8.0,Top 10,99.1,-0.96,0.0042362002567394,0.34568468511521133,Highly Concentrated,2.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-06-01,2023,June,KIA Motors,4-Wheelers,30,325,9.0,Top 10,99.18,-0.96,0.0038510911424903,0.34568468511521133,Highly Concentrated,2.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,Tata Motors,4-Wheelers,696,1727,1.0,Market Leader,0.0,5.23,0.6225402504472272,0.45427241976312155,Highly Concentrated,2.2,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,MG Motor,4-Wheelers,232,517,2.0,Top 3,66.67,1.08,0.2075134168157424,0.45427241976312155,Highly Concentrated,2.2,20-30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,Mahindra and Mahindra,4-Wheelers,171,526,3.0,Top 3,75.43,0.53,0.1529516994633273,0.45427241976312155,Highly Concentrated,2.2,10-20%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,Hyundai Motor,4-Wheelers,18,43,4.0,Top 5,97.41,-0.84,0.0161001788908765,0.45427241976312155,Highly Concentrated,2.2,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-07-01,2021,July,Mercedes-Benz AG,4-Wheelers,1,6,5.0,Top 5,99.86,-0.99,0.0008944543828264,0.45427241976312155,Highly Concentrated,2.2,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,Tata Motors,4-Wheelers,2264,20647,1.0,Market Leader,0.0,5.65,0.6647093364650617,0.5099937625184944,Highly Concentrated,2.0,>30%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,MG Motor,4-Wheelers,194,2372,3.0,Top 3,91.43,-0.43,0.0569583088667058,0.5099937625184944,Highly Concentrated,2.0,5-10%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,Mahindra and Mahindra,4-Wheelers,866,6928,2.0,Top 3,61.75,1.54,0.2542571931884909,0.5099937625184944,Highly Concentrated,2.0,20-30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,BYD India,4-Wheelers,32,146,5.0,Top 5,98.59,-0.91,0.009395184967704,0.5099937625184944,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,Hyundai Motor,4-Wheelers,45,230,4.0,Top 5,98.01,-0.87,0.0132119788608338,0.5099937625184944,Highly Concentrated,2.0,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,BMW India,4-Wheelers,4,33,6.0,Top 10,99.82,-0.99,0.001174398120963,0.5099937625184944,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-07-01,2022,July,Mercedes-Benz AG,4-Wheelers,1,41,7.0,Top 10,99.96,-1.0,0.0002935995302407,0.5099937625184944,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,Tata Motors,4-Wheelers,3823,51824,1.0,Market Leader,0.0,4.15,0.514535666218035,0.367146865586207,Highly Concentrated,2.7,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,MG Motor,4-Wheelers,935,7352,3.0,Top 3,75.54,0.26,0.1258411843876177,0.367146865586207,Highly Concentrated,2.7,10-20%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,Mahindra and Mahindra,4-Wheelers,2174,30932,2.0,Top 3,43.13,1.93,0.2925975773889636,0.367146865586207,Highly Concentrated,2.7,20-30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,BYD India,4-Wheelers,89,1448,5.0,Top 5,97.67,-0.88,0.0119784656796769,0.367146865586207,Highly Concentrated,2.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,Hyundai Motor,4-Wheelers,88,1066,6.0,Top 10,97.7,-0.88,0.0118438761776581,0.367146865586207,Highly Concentrated,2.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,PCA Automobiles,4-Wheelers,169,1000,4.0,Top 5,95.58,-0.77,0.0227456258411843,0.367146865586207,Highly Concentrated,2.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,BMW India,4-Wheelers,81,557,7.0,Top 10,97.88,-0.89,0.0109017496635262,0.367146865586207,Highly Concentrated,2.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,Mercedes-Benz AG,4-Wheelers,23,151,9.0,Top 10,99.4,-0.97,0.0030955585464333,0.367146865586207,Highly Concentrated,2.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,Volvo Auto India,4-Wheelers,26,229,8.0,Top 10,99.32,-0.97,0.0034993270524899,0.367146865586207,Highly Concentrated,2.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-07-01,2023,July,KIA Motors,4-Wheelers,22,347,10.0,Top 10,99.42,-0.97,0.0029609690444145,0.367146865586207,Highly Concentrated,2.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,Tata Motors,4-Wheelers,584,2311,1.0,Market Leader,0.0,4.29,0.5294650951949229,0.3900883521328545,Highly Concentrated,2.6,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,MG Motor,4-Wheelers,303,820,2.0,Top 3,48.12,1.75,0.2747053490480508,0.3900883521328545,Highly Concentrated,2.6,20-30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,Mahindra and Mahindra,4-Wheelers,204,730,3.0,Top 3,65.07,0.85,0.184950135992747,0.3900883521328545,Highly Concentrated,2.6,10-20%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,Hyundai Motor,4-Wheelers,10,53,4.0,Top 5,98.29,-0.91,0.0090661831368993,0.3900883521328545,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-08-01,2021,August,Mercedes-Benz AG,4-Wheelers,2,8,5.0,Top 5,99.66,-0.98,0.0018132366273798,0.3900883521328545,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,Tata Motors,4-Wheelers,1931,22578,1.0,Market Leader,0.0,4.75,0.5750446694460989,0.4403101976877952,Highly Concentrated,2.3,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,MG Motor,4-Wheelers,234,2606,3.0,Top 3,87.88,-0.3,0.0696843359142346,0.4403101976877952,Highly Concentrated,2.3,5-10%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,Mahindra and Mahindra,4-Wheelers,1085,8013,2.0,Top 3,43.81,2.23,0.3231089934484812,0.4403101976877952,Highly Concentrated,2.3,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,BYD India,4-Wheelers,33,179,5.0,Top 5,98.29,-0.9,0.009827278141751,0.4403101976877952,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,Hyundai Motor,4-Wheelers,53,283,4.0,Top 5,97.26,-0.84,0.0157832042882668,0.4403101976877952,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,BMW India,4-Wheelers,19,52,6.0,Top 10,99.02,-0.94,0.0056581298391899,0.4403101976877952,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-08-01,2022,August,Mercedes-Benz AG,4-Wheelers,3,44,7.0,Top 10,99.84,-0.99,0.0008933889219773,0.4403101976877952,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,Tata Motors,4-Wheelers,3388,55212,1.0,Market Leader,0.0,4.02,0.5017029468384422,0.35972146048520615,Highly Concentrated,2.8,>30%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,MG Motor,4-Wheelers,913,8265,3.0,Top 3,73.05,0.35,0.1351991707389308,0.35972146048520615,Highly Concentrated,2.8,10-20%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,Mahindra and Mahindra,4-Wheelers,2013,32945,2.0,Top 3,40.58,1.98,0.2980897378942692,0.35972146048520615,Highly Concentrated,2.8,20-30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,BYD India,4-Wheelers,80,1528,6.0,Top 10,97.64,-0.88,0.0118465867022064,0.35972146048520615,Highly Concentrated,2.8,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,Hyundai Motor,4-Wheelers,141,1207,4.0,Top 5,95.84,-0.79,0.0208796090626388,0.35972146048520615,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,PCA Automobiles,4-Wheelers,89,1089,5.0,Top 5,97.37,-0.87,0.0131793277062046,0.35972146048520615,Highly Concentrated,2.8,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,BMW India,4-Wheelers,64,621,7.0,Top 10,98.11,-0.91,0.0094772693617651,0.35972146048520615,Highly Concentrated,2.8,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,Mercedes-Benz AG,4-Wheelers,8,159,10.0,Top 10,99.76,-0.99,0.0011846586702206,0.35972146048520615,Highly Concentrated,2.8,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,Volvo Auto India,4-Wheelers,36,265,8.0,Top 10,98.94,-0.95,0.0053309640159928,0.35972146048520615,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-08-01,2023,August,KIA Motors,4-Wheelers,21,368,9.0,Top 10,99.38,-0.97,0.0031097290093291,0.35972146048520615,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,Tata Motors,4-Wheelers,772,3083,1.0,Market Leader,0.0,4.85,0.5852918877937832,0.42613266994719384,Highly Concentrated,2.3,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,MG Motor,4-Wheelers,263,1083,3.0,Top 3,65.93,0.99,0.1993934799090219,0.42613266994719384,Highly Concentrated,2.3,10-20%,Strong Loss,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,Mahindra and Mahindra,4-Wheelers,276,1006,2.0,Top 3,64.25,1.09,0.2092494313874147,0.42613266994719384,Highly Concentrated,2.3,20-30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,Hyundai Motor,4-Wheelers,6,59,4.0,Top 5,99.22,-0.95,0.0045489006823351,0.42613266994719384,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-09-01,2021,September,Mercedes-Benz AG,4-Wheelers,2,10,5.0,Top 5,99.74,-0.98,0.001516300227445,0.42613266994719384,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,Tata Motors,4-Wheelers,1997,24575,1.0,Market Leader,0.0,4.63,0.5631697687535251,0.4380610135933214,Highly Concentrated,2.3,>30%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,MG Motor,4-Wheelers,207,2813,3.0,Top 3,89.63,-0.42,0.0583756345177665,0.4380610135933214,Highly Concentrated,2.3,5-10%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,Mahindra and Mahindra,4-Wheelers,1213,9226,2.0,Top 3,39.26,2.42,0.3420755781161873,0.4380610135933214,Highly Concentrated,2.3,>30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,BYD India,4-Wheelers,48,227,5.0,Top 5,97.6,-0.86,0.0135363790186125,0.4380610135933214,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,Hyundai Motor,4-Wheelers,57,340,4.0,Top 5,97.15,-0.84,0.0160744500846023,0.4380610135933214,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,BMW India,4-Wheelers,21,73,6.0,Top 10,98.95,-0.94,0.0059221658206429,0.4380610135933214,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-09-01,2022,September,Mercedes-Benz AG,4-Wheelers,3,47,7.0,Top 10,99.85,-0.99,0.0008460236886632,0.4380610135933214,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,Tata Motors,4-Wheelers,3126,58338,1.0,Market Leader,0.0,4.17,0.5169505539937159,0.3575986507105508,Highly Concentrated,2.8,>30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,MG Motor,4-Wheelers,676,8941,3.0,Top 3,78.37,0.12,0.1117909707292872,0.3575986507105508,Highly Concentrated,2.8,10-20%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,Mahindra and Mahindra,4-Wheelers,1668,34613,2.0,Top 3,46.64,1.76,0.275839259136762,0.3575986507105508,Highly Concentrated,2.8,20-30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,BYD India,4-Wheelers,141,1669,5.0,Top 5,95.49,-0.77,0.023317347445014,0.3575986507105508,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,Hyundai Motor,4-Wheelers,161,1368,4.0,Top 5,94.85,-0.73,0.0266247726145195,0.3575986507105508,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,PCA Automobiles,4-Wheelers,108,1197,6.0,Top 10,96.55,-0.82,0.0178600959153299,0.3575986507105508,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,BMW India,4-Wheelers,58,679,7.0,Top 10,98.14,-0.9,0.009591532991566,0.3575986507105508,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,Mercedes-Benz AG,4-Wheelers,41,200,9.0,Top 10,98.69,-0.93,0.0067802215974863,0.3575986507105508,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,Volvo Auto India,4-Wheelers,42,307,8.0,Top 10,98.66,-0.93,0.0069455928559616,0.3575986507105508,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-09-01,2023,September,KIA Motors,4-Wheelers,26,394,10.0,Top 10,99.17,-0.96,0.0042996527203572,0.3575986507105508,Highly Concentrated,2.8,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,Tata Motors,4-Wheelers,803,3886,1.0,Market Leader,0.0,4.83,0.5831517792302106,0.43176334521543625,Highly Concentrated,2.3,>30%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,MG Motor,4-Wheelers,194,1277,3.0,Top 3,75.84,0.41,0.1408859840232389,0.43176334521543625,Highly Concentrated,2.3,10-20%,Strong Loss,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,Mahindra and Mahindra,4-Wheelers,369,1375,2.0,Top 3,54.05,1.68,0.2679738562091503,0.43176334521543625,Highly Concentrated,2.3,20-30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,Hyundai Motor,4-Wheelers,8,67,4.0,Top 5,99.0,-0.94,0.0058097312999273,0.43176334521543625,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-10-01,2021,October,Mercedes-Benz AG,4-Wheelers,3,13,5.0,Top 5,99.63,-0.98,0.0021786492374727,0.43176334521543625,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,Tata Motors,4-Wheelers,2395,26970,1.0,Market Leader,0.0,5.12,0.6122188139059305,0.45482778593264495,Highly Concentrated,2.2,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,MG Motor,4-Wheelers,338,3151,3.0,Top 3,85.89,-0.14,0.08640081799591,0.45482778593264495,Highly Concentrated,2.2,5-10%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,Mahindra and Mahindra,4-Wheelers,1051,10277,2.0,Top 3,56.12,1.69,0.2686605316973415,0.45482778593264495,Highly Concentrated,2.2,20-30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,BYD India,4-Wheelers,27,254,6.0,Top 10,98.87,-0.93,0.0069018404907975,0.45482778593264495,Highly Concentrated,2.2,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,Hyundai Motor,4-Wheelers,64,404,4.0,Top 5,97.33,-0.84,0.016359918200409,0.45482778593264495,Highly Concentrated,2.2,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,BMW India,4-Wheelers,4,77,7.0,Top 10,99.83,-0.99,0.0010224948875255,0.45482778593264495,Highly Concentrated,2.2,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,Mercedes-Benz AG,4-Wheelers,4,51,7.0,Top 10,99.83,-0.99,0.0010224948875255,0.45482778593264495,Highly Concentrated,2.2,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-10-01,2022,October,KIA Motors,4-Wheelers,29,29,5.0,Top 5,98.79,-0.93,0.0074130879345603,0.45482778593264495,Highly Concentrated,2.2,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,Tata Motors,4-Wheelers,3911,62249,1.0,Market Leader,0.0,4.42,0.5424410540915395,0.3842371417414171,Highly Concentrated,2.6,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,MG Motor,4-Wheelers,714,9655,3.0,Top 3,81.74,-0.01,0.0990291262135922,0.3842371417414171,Highly Concentrated,2.6,5-10%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,Mahindra and Mahindra,4-Wheelers,2027,36640,2.0,Top 3,48.17,1.81,0.2811373092926491,0.3842371417414171,Highly Concentrated,2.6,20-30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,BYD India,4-Wheelers,109,1778,6.0,Top 10,97.21,-0.85,0.0151178918169209,0.3842371417414171,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,Hyundai Motor,4-Wheelers,148,1516,4.0,Top 5,96.22,-0.79,0.0205270457697642,0.3842371417414171,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,PCA Automobiles,4-Wheelers,132,1329,5.0,Top 5,96.62,-0.82,0.0183079056865464,0.3842371417414171,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,BMW India,4-Wheelers,71,750,7.0,Top 10,98.18,-0.9,0.0098474341192787,0.3842371417414171,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,Mercedes-Benz AG,4-Wheelers,18,218,10.0,Top 10,99.54,-0.98,0.0024965325936199,0.3842371417414171,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,Volvo Auto India,4-Wheelers,41,348,8.0,Top 10,98.95,-0.94,0.0056865464632454,0.3842371417414171,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-10-01,2023,October,KIA Motors,4-Wheelers,39,433,9.0,Top 10,99.0,-0.95,0.0054091539528432,0.3842371417414171,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,Tata Motors,4-Wheelers,1036,4922,1.0,Market Leader,0.0,5.38,0.6375384615384615,0.4925792189349112,Highly Concentrated,2.0,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,MG Motor,4-Wheelers,118,1395,3.0,Top 3,88.61,-0.27,0.0726153846153846,0.4925792189349112,Highly Concentrated,2.0,5-10%,Strong Loss,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,Mahindra and Mahindra,4-Wheelers,462,1837,2.0,Top 3,55.41,1.84,0.2843076923076923,0.4925792189349112,Highly Concentrated,2.0,20-30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,Hyundai Motor,4-Wheelers,7,74,4.0,Top 5,99.32,-0.96,0.0043076923076923,0.4925792189349112,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-11-01,2021,November,Mercedes-Benz AG,4-Wheelers,2,15,5.0,Top 5,99.81,-0.99,0.0012307692307692,0.4925792189349112,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,Tata Motors,4-Wheelers,2264,29234,1.0,Market Leader,0.0,4.69,0.5692733215991954,0.4102316633440878,Highly Concentrated,2.4,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,MG Motor,4-Wheelers,464,3615,3.0,Top 3,79.51,0.17,0.1166708574302237,0.4102316633440878,Highly Concentrated,2.4,10-20%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,Mahindra and Mahindra,4-Wheelers,1067,11344,2.0,Top 3,52.87,1.68,0.2682926829268293,0.4102316633440878,Highly Concentrated,2.4,20-30%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,BYD India,4-Wheelers,39,293,6.0,Top 10,98.28,-0.9,0.009806386723661,0.4102316633440878,Highly Concentrated,2.4,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,Hyundai Motor,4-Wheelers,59,463,5.0,Top 5,97.39,-0.85,0.0148353029922051,0.4102316633440878,Highly Concentrated,2.4,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,BMW India,4-Wheelers,14,91,7.0,Top 10,99.38,-0.96,0.0035202413879808,0.4102316633440878,Highly Concentrated,2.4,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,Mercedes-Benz AG,4-Wheelers,4,55,9.0,Top 10,99.82,-0.99,0.0010057832537088,0.4102316633440878,Highly Concentrated,2.4,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,Volvo Auto India,4-Wheelers,5,9,8.0,Top 10,99.78,-0.99,0.001257229067136,0.4102316633440878,Highly Concentrated,2.4,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-11-01,2022,November,KIA Motors,4-Wheelers,61,90,4.0,Top 5,97.31,-0.85,0.0153381946190595,0.4102316633440878,Highly Concentrated,2.4,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,Tata Motors,4-Wheelers,4432,66681,1.0,Market Leader,0.0,5.29,0.6293666571996592,0.4385308629417959,Highly Concentrated,2.3,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,MG Motor,4-Wheelers,723,10378,3.0,Top 3,83.69,0.03,0.1026696961090599,0.4385308629417959,Highly Concentrated,2.3,10-20%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,Mahindra and Mahindra,4-Wheelers,1222,37862,2.0,Top 3,72.43,0.74,0.1735302470888952,0.4385308629417959,Highly Concentrated,2.3,10-20%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,BYD India,4-Wheelers,106,1884,6.0,Top 10,97.61,-0.85,0.015052541891508,0.4385308629417959,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,Hyundai Motor,4-Wheelers,125,1641,5.0,Top 5,97.18,-0.82,0.0177506390230048,0.4385308629417959,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,PCA Automobiles,4-Wheelers,98,1427,7.0,Top 10,97.79,-0.86,0.0139165009940357,0.4385308629417959,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,BMW India,4-Wheelers,215,965,4.0,Top 5,95.15,-0.69,0.0305310991195683,0.4385308629417959,Highly Concentrated,2.3,<5%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,Mercedes-Benz AG,4-Wheelers,35,253,9.0,Top 10,99.21,-0.95,0.0049701789264413,0.4385308629417959,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,Volvo Auto India,4-Wheelers,57,405,8.0,Top 10,98.71,-0.92,0.0080942913944902,0.4385308629417959,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-11-01,2023,November,KIA Motors,4-Wheelers,29,462,10.0,Top 10,99.35,-0.96,0.0041181482533371,0.4385308629417959,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,Tata Motors,4-Wheelers,1952,6874,1.0,Market Leader,0.0,6.46,0.7464627151051625,0.6032136994614831,Highly Concentrated,1.7,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,MG Motor,4-Wheelers,99,1494,3.0,Top 3,94.93,-0.62,0.0378585086042065,0.6032136994614831,Highly Concentrated,1.7,<5%,Strong Loss,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,Mahindra and Mahindra,4-Wheelers,552,2389,2.0,Top 3,71.72,1.11,0.2110898661567877,0.6032136994614831,Highly Concentrated,1.7,20-30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,BYD India,4-Wheelers,1,1,5.0,Top 5,99.95,-1.0,0.0003824091778202,0.6032136994614831,Highly Concentrated,1.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,Hyundai Motor,4-Wheelers,10,84,4.0,Top 5,99.49,-0.96,0.0038240917782026,0.6032136994614831,Highly Concentrated,1.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2021-12-01,2021,December,Mercedes-Benz AG,4-Wheelers,1,16,5.0,Top 5,99.95,-1.0,0.0003824091778202,0.6032136994614831,Highly Concentrated,1.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,Tata Motors,4-Wheelers,1992,31226,1.0,Market Leader,0.0,4.2,0.5195618153364632,0.3876764713165486,Highly Concentrated,2.6,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,MG Motor,4-Wheelers,363,3978,3.0,Top 3,81.78,-0.05,0.094679186228482,0.3876764713165486,Highly Concentrated,2.6,5-10%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,Mahindra and Mahindra,4-Wheelers,1260,12604,2.0,Top 3,36.75,2.29,0.3286384976525822,0.3876764713165486,Highly Concentrated,2.6,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,BYD India,4-Wheelers,37,330,6.0,Top 10,98.14,-0.9,0.0096504955659885,0.3876764713165486,Highly Concentrated,2.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,Hyundai Motor,4-Wheelers,68,531,4.0,Top 5,96.59,-0.82,0.0177360459050599,0.3876764713165486,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,BMW India,4-Wheelers,27,118,7.0,Top 10,98.64,-0.93,0.0070422535211267,0.3876764713165486,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,Mercedes-Benz AG,4-Wheelers,6,61,9.0,Top 10,99.7,-0.98,0.001564945226917,0.3876764713165486,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,Volvo Auto India,4-Wheelers,16,25,8.0,Top 10,99.2,-0.96,0.0041731872717788,0.3876764713165486,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-12-01,2022,December,KIA Motors,4-Wheelers,65,155,5.0,Top 5,96.74,-0.83,0.0169535732916014,0.3876764713165486,Highly Concentrated,2.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,Tata Motors,4-Wheelers,4893,71574,1.0,Market Leader,0.0,5.8,0.6804338756779308,0.4949098230202114,Highly Concentrated,2.0,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,MG Motor,4-Wheelers,753,11131,3.0,Top 3,84.61,0.05,0.1047142261159783,0.4949098230202114,Highly Concentrated,2.0,10-20%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,Mahindra and Mahindra,4-Wheelers,1015,38877,2.0,Top 3,79.26,0.41,0.1411486580447782,0.4949098230202114,Highly Concentrated,2.0,10-20%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,BYD India,4-Wheelers,135,2019,5.0,Top 5,97.24,-0.81,0.0187734668335419,0.4949098230202114,Highly Concentrated,2.0,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,Hyundai Motor,4-Wheelers,97,1738,6.0,Top 10,98.02,-0.87,0.013489083576693,0.4949098230202114,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,PCA Automobiles,4-Wheelers,40,1467,9.0,Top 10,99.18,-0.94,0.0055625086914198,0.4949098230202114,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,BMW India,4-Wheelers,137,1102,4.0,Top 5,97.2,-0.81,0.0190515922681129,0.4949098230202114,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,Mercedes-Benz AG,4-Wheelers,51,304,7.0,Top 10,98.96,-0.93,0.0070921985815602,0.4949098230202114,Highly Concentrated,2.0,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,Volvo Auto India,4-Wheelers,47,452,8.0,Top 10,99.04,-0.93,0.0065359477124183,0.4949098230202114,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-12-01,2023,December,KIA Motors,4-Wheelers,23,485,10.0,Top 10,99.53,-0.97,0.0031984424975664,0.4949098230202114,Highly Concentrated,2.0,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,Tata Motors,4-Wheelers,1012,7886,1.0,Market Leader,0.0,5.53,0.6529032258064517,0.5208024973985432,Highly Concentrated,1.9,>30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,MG Motor,4-Wheelers,48,1542,3.0,Top 3,95.26,-0.69,0.0309677419354838,0.5208024973985432,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,Mahindra and Mahindra,4-Wheelers,474,2863,2.0,Top 3,53.16,2.06,0.3058064516129032,0.5208024973985432,Highly Concentrated,1.9,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,BYD India,4-Wheelers,8,9,4.0,Top 5,99.21,-0.95,0.0051612903225806,0.5208024973985432,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,Hyundai Motor,4-Wheelers,6,90,5.0,Top 5,99.41,-0.96,0.0038709677419354,0.5208024973985432,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-01-01,2022,January,Mercedes-Benz AG,4-Wheelers,2,18,6.0,Top 10,99.8,-0.99,0.0012903225806451,0.5208024973985432,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,Tata Motors,4-Wheelers,1812,33038,1.0,Market Leader,0.0,4.27,0.5270506108202443,0.3675007893505192,Highly Concentrated,2.7,>30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,MG Motor,4-Wheelers,313,4291,3.0,Top 3,82.73,-0.09,0.0910413030831879,0.3675007893505192,Highly Concentrated,2.7,5-10%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,Mahindra and Mahindra,4-Wheelers,967,13571,2.0,Top 3,46.63,1.81,0.2812681791739383,0.3675007893505192,Highly Concentrated,2.7,20-30%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,BYD India,4-Wheelers,101,431,4.0,Top 5,94.43,-0.71,0.0293775450843513,0.3675007893505192,Highly Concentrated,2.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,Hyundai Motor,4-Wheelers,84,615,6.0,Top 10,95.36,-0.76,0.0244328097731239,0.3675007893505192,Highly Concentrated,2.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,BMW India,4-Wheelers,91,209,5.0,Top 5,94.98,-0.74,0.0264688772542175,0.3675007893505192,Highly Concentrated,2.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,Mercedes-Benz AG,4-Wheelers,14,75,9.0,Top 10,99.23,-0.96,0.0040721349621873,0.3675007893505192,Highly Concentrated,2.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,Volvo Auto India,4-Wheelers,21,46,8.0,Top 10,98.84,-0.94,0.0061082024432809,0.3675007893505192,Highly Concentrated,2.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-01-01,2023,January,KIA Motors,4-Wheelers,35,190,7.0,Top 10,98.07,-0.9,0.0101803374054682,0.3675007893505192,Highly Concentrated,2.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,Tata Motors,4-Wheelers,5674,77248,1.0,Market Leader,0.0,6.12,0.7120983935742972,0.5334859140376768,Highly Concentrated,1.9,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,MG Motor,4-Wheelers,908,12039,2.0,Top 3,84.0,0.14,0.1139558232931726,0.5334859140376768,Highly Concentrated,1.9,10-20%,Slight Gain,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,Mahindra and Mahindra,4-Wheelers,896,39773,3.0,Top 3,84.21,0.12,0.1124497991967871,0.5334859140376768,Highly Concentrated,1.9,10-20%,Strong Loss,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,BYD India,4-Wheelers,123,2142,5.0,Top 5,97.83,-0.85,0.0154367469879518,0.5334859140376768,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,Hyundai Motor,4-Wheelers,128,1866,4.0,Top 5,97.74,-0.84,0.0160642570281124,0.5334859140376768,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,PCA Automobiles,4-Wheelers,23,1490,9.0,Top 10,99.59,-0.97,0.0028865461847389,0.5334859140376768,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,BMW India,4-Wheelers,116,1218,6.0,Top 10,97.96,-0.85,0.0145582329317269,0.5334859140376768,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,Mercedes-Benz AG,4-Wheelers,29,333,8.0,Top 10,99.49,-0.96,0.0036395582329317,0.5334859140376768,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,Volvo Auto India,4-Wheelers,42,494,7.0,Top 10,99.26,-0.95,0.0052710843373493,0.5334859140376768,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-01-01,2024,January,KIA Motors,4-Wheelers,29,514,8.0,Top 10,99.49,-0.96,0.0036395582329317,0.5334859140376768,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,Tata Motors,4-Wheelers,1922,9808,1.0,Market Leader,0.0,6.85,0.7848101265822784,0.654197069795073,Highly Concentrated,1.5,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,MG Motor,4-Wheelers,30,1572,3.0,Top 3,98.44,-0.88,0.0122498979175173,0.654197069795073,Highly Concentrated,1.5,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,Mahindra and Mahindra,4-Wheelers,478,3341,2.0,Top 3,75.13,0.95,0.1951817068191098,0.654197069795073,Highly Concentrated,1.5,10-20%,Strong Loss,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,BYD India,4-Wheelers,10,19,4.0,Top 5,99.48,-0.96,0.0040832993058391,0.654197069795073,Highly Concentrated,1.5,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,Hyundai Motor,4-Wheelers,6,96,5.0,Top 5,99.69,-0.98,0.0024499795835034,0.654197069795073,Highly Concentrated,1.5,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-02-01,2022,February,Mercedes-Benz AG,4-Wheelers,3,21,6.0,Top 10,99.84,-0.99,0.0012249897917517,0.654197069795073,Highly Concentrated,1.5,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,Tata Motors,4-Wheelers,2651,35689,1.0,Market Leader,0.0,4.57,0.5574011774600505,0.4188683622864766,Highly Concentrated,2.4,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,MG Motor,4-Wheelers,261,4552,3.0,Top 3,90.15,-0.45,0.0548780487804878,0.4188683622864766,Highly Concentrated,2.4,5-10%,Strong Loss,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,Mahindra and Mahindra,4-Wheelers,1531,15102,2.0,Top 3,42.25,2.22,0.3219091673675357,0.4188683622864766,Highly Concentrated,2.4,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,BYD India,4-Wheelers,174,605,4.0,Top 5,93.44,-0.63,0.0365853658536585,0.4188683622864766,Highly Concentrated,2.4,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,Hyundai Motor,4-Wheelers,36,651,6.0,Top 10,98.64,-0.92,0.0075693860386879,0.4188683622864766,Highly Concentrated,2.4,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,BMW India,4-Wheelers,43,252,5.0,Top 5,98.38,-0.91,0.0090412111017661,0.4188683622864766,Highly Concentrated,2.4,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,Mercedes-Benz AG,4-Wheelers,12,87,9.0,Top 10,99.55,-0.97,0.0025231286795626,0.4188683622864766,Highly Concentrated,2.4,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,Volvo Auto India,4-Wheelers,26,72,7.0,Top 10,99.02,-0.95,0.005466778805719,0.4188683622864766,Highly Concentrated,2.4,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-02-01,2023,February,KIA Motors,4-Wheelers,22,212,8.0,Top 10,99.17,-0.95,0.0046257359125315,0.4188683622864766,Highly Concentrated,2.4,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,Tata Motors,4-Wheelers,5081,82329,1.0,Market Leader,0.0,6.17,0.7168453724604966,0.5384860639417272,Highly Concentrated,1.9,>30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,MG Motor,4-Wheelers,829,12868,2.0,Top 3,83.68,0.17,0.1169582392776523,0.5384860639417272,Highly Concentrated,1.9,10-20%,Slight Gain,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,Mahindra and Mahindra,4-Wheelers,712,40485,3.0,Top 3,85.99,0.0,0.100451467268623,0.5384860639417272,Highly Concentrated,1.9,10-20%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,BYD India,4-Wheelers,135,2277,4.0,Top 5,97.34,-0.81,0.0190462753950338,0.5384860639417272,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,Hyundai Motor,4-Wheelers,94,1960,6.0,Top 10,98.15,-0.87,0.0132618510158013,0.5384860639417272,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,PCA Automobiles,4-Wheelers,64,1554,7.0,Top 10,98.74,-0.91,0.0090293453724604,0.5384860639417272,Highly Concentrated,1.9,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,BMW India,4-Wheelers,97,1315,5.0,Top 5,98.09,-0.86,0.0136851015801354,0.5384860639417272,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,Mercedes-Benz AG,4-Wheelers,24,357,9.0,Top 10,99.53,-0.97,0.0033860045146726,0.5384860639417272,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,Volvo Auto India,4-Wheelers,35,529,8.0,Top 10,99.31,-0.95,0.0049379232505643,0.5384860639417272,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-02-01,2024,February,KIA Motors,4-Wheelers,17,531,10.0,Top 10,99.67,-0.98,0.0023984198645598,0.5384860639417272,Highly Concentrated,1.9,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,Tata Motors,4-Wheelers,2900,12708,1.0,Market Leader,0.0,6.8,0.7795698924731183,0.6436804832928661,Highly Concentrated,1.6,>30%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,MG Motor,4-Wheelers,75,1647,3.0,Top 3,97.41,-0.8,0.0201612903225806,0.6436804832928661,Highly Concentrated,1.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,Mahindra and Mahindra,4-Wheelers,701,4042,2.0,Top 3,75.83,0.88,0.1884408602150537,0.6436804832928661,Highly Concentrated,1.6,10-20%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,BYD India,4-Wheelers,14,33,4.0,Top 5,99.52,-0.96,0.003763440860215,0.6436804832928661,Highly Concentrated,1.6,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,Hyundai Motor,4-Wheelers,14,110,4.0,Top 5,99.52,-0.96,0.003763440860215,0.6436804832928661,Highly Concentrated,1.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,BMW India,4-Wheelers,7,7,5.0,Top 5,99.76,-0.98,0.0018817204301075,0.6436804832928661,Highly Concentrated,1.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,Mercedes-Benz AG,4-Wheelers,5,26,6.0,Top 10,99.83,-0.99,0.0013440860215053,0.6436804832928661,Highly Concentrated,1.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2022-03-01,2022,March,Volvo Auto India,4-Wheelers,4,4,7.0,Top 10,99.86,-0.99,0.0010752688172043,0.6436804832928661,Highly Concentrated,1.6,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,Tata Motors,4-Wheelers,5065,40754,1.0,Market Leader,0.0,4.74,0.5742630385487528,0.4303263814974213,Highly Concentrated,2.3,>30%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,MG Motor,4-Wheelers,372,4924,3.0,Top 3,92.66,-0.58,0.0421768707482993,0.4303263814974213,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,Mahindra and Mahindra,4-Wheelers,2745,17847,2.0,Top 3,45.8,2.11,0.3112244897959184,0.4303263814974213,Highly Concentrated,2.3,>30%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,BYD India,4-Wheelers,348,953,4.0,Top 5,93.13,-0.61,0.0394557823129251,0.4303263814974213,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,Hyundai Motor,4-Wheelers,35,686,8.0,Top 10,99.31,-0.96,0.0039682539682539,0.4303263814974213,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,PCA Automobiles,4-Wheelers,151,151,5.0,Top 5,97.02,-0.83,0.0171201814058956,0.4303263814974213,Highly Concentrated,2.3,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,BMW India,4-Wheelers,40,292,6.0,Top 10,99.21,-0.95,0.0045351473922902,0.4303263814974213,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,Mercedes-Benz AG,4-Wheelers,10,97,10.0,Top 10,99.8,-0.99,0.0011337868480725,0.4303263814974213,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,Volvo Auto India,4-Wheelers,37,109,7.0,Top 10,99.27,-0.96,0.0041950113378684,0.4303263814974213,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2023-03-01,2023,March,KIA Motors,4-Wheelers,17,229,9.0,Top 10,99.66,-0.98,0.0019274376417233,0.4303263814974213,Highly Concentrated,2.3,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,Tata Motors,4-Wheelers,6606,88935,1.0,Market Leader,0.0,6.56,0.7560082398718242,0.5891142158744365,Highly Concentrated,1.7,>30%,Strong Gain,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,MG Motor,4-Wheelers,885,13753,2.0,Top 3,86.6,0.01,0.1012817578393225,0.5891142158744365,Highly Concentrated,1.7,10-20%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,Mahindra and Mahindra,4-Wheelers,708,41193,3.0,Top 3,89.28,-0.19,0.081025406271458,0.5891142158744365,Highly Concentrated,1.7,5-10%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,BYD India,4-Wheelers,142,2419,4.0,Top 5,97.85,-0.84,0.0162508583199816,0.5891142158744365,Highly Concentrated,1.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,Hyundai Motor,4-Wheelers,116,2076,6.0,Top 10,98.24,-0.87,0.0132753490501258,0.5891142158744365,Highly Concentrated,1.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,PCA Automobiles,4-Wheelers,130,1684,5.0,Top 5,98.03,-0.85,0.014877546349279,0.5891142158744365,Highly Concentrated,1.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,BMW India,4-Wheelers,55,1370,7.0,Top 10,99.17,-0.94,0.0062943465323872,0.5891142158744365,Highly Concentrated,1.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,Mercedes-Benz AG,4-Wheelers,31,388,9.0,Top 10,99.53,-0.96,0.0035477225909819,0.5891142158744365,Highly Concentrated,1.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,Volvo Auto India,4-Wheelers,39,568,8.0,Top 10,99.41,-0.96,0.0044632639047837,0.5891142158744365,Highly Concentrated,1.7,<5%,Slight Loss,0,4-Wheelers,1.0,1.0
+2024-03-01,2024,March,KIA Motors,4-Wheelers,26,557,10.0,Top 10,99.61,-0.97,0.0029755092698558,0.5891142158744365,Highly Concentrated,1.7,<5%,Slight Gain,0,4-Wheelers,1.0,1.0
+2021-04-01,2021,April,HERO ELECTRIC,2-Wheelers,759,759,3.0,Top 3,39.33,0.6,0.1334153629811917,0.1409603685445024,Unconcentrated,7.1,10-20%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,OKINAWA,2-Wheelers,1251,1251,1.0,Market Leader,0.0,1.64,0.219898048866233,0.1409603685445024,Unconcentrated,7.1,20-30%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,AMPERE,2-Wheelers,751,751,4.0,Top 5,39.97,0.58,0.1320091404464756,0.1409603685445024,Unconcentrated,7.1,10-20%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,ATHER,2-Wheelers,903,903,2.0,Top 3,27.82,0.9,0.1587273686060819,0.1409603685445024,Unconcentrated,7.1,10-20%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,PURE EV,2-Wheelers,581,581,6.0,Top 10,53.56,0.23,0.1021269115837581,0.1409603685445024,Unconcentrated,7.1,10-20%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,TVS,2-Wheelers,302,302,7.0,Top 10,75.86,-0.36,0.0530849006855334,0.1409603685445024,Unconcentrated,7.1,5-10%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,REVOLT,2-Wheelers,138,138,9.0,Top 10,88.97,-0.71,0.024257338723853,0.1409603685445024,Unconcentrated,7.1,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,BAJAJ,2-Wheelers,48,48,10.0,Top 10,96.16,-0.9,0.0084373352082967,0.1409603685445024,Unconcentrated,7.1,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,BEING,2-Wheelers,171,171,8.0,Top 10,86.33,-0.64,0.030058006679557,0.1409603685445024,Unconcentrated,7.1,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,JITENDRA,2-Wheelers,36,36,11.0,Other,97.12,-0.92,0.0063280014062225,0.1409603685445024,Unconcentrated,7.1,<5%,Stable,0,2-Wheelers,1.0,1.0
+2021-04-01,2021,April,OTHERS,2-Wheelers,749,749,5.0,Top 5,40.13,0.58,0.1316575848127966,0.1409603685445024,Unconcentrated,7.1,10-20%,Stable,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,OLA ELECTRIC,2-Wheelers,13601,28002,1.0,Market Leader,0.0,2.32,0.2552979821679962,0.15677030715273027,Moderately Concentrated,6.4,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,OKINAWA,2-Wheelers,11341,59006,2.0,Top 3,16.62,1.77,0.2128765837634913,0.15677030715273027,Moderately Concentrated,6.4,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,HERO ELECTRIC,2-Wheelers,6803,76255,4.0,Top 5,49.98,0.66,0.1276959174096668,0.15677030715273027,Moderately Concentrated,6.4,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,AMPERE,2-Wheelers,6864,32374,3.0,Top 3,49.53,0.67,0.1288409197559831,0.15677030715273027,Moderately Concentrated,6.4,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,TVS,2-Wheelers,1498,11237,8.0,Top 10,88.99,-0.63,0.0281182543406851,0.15677030715273027,Moderately Concentrated,6.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,ATHER,2-Wheelers,2451,22427,6.0,Top 10,81.98,-0.4,0.0460065696855936,0.15677030715273027,Moderately Concentrated,6.4,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,BAJAJ,2-Wheelers,1223,8337,10.0,Top 10,91.01,-0.7,0.0229563585171281,0.15677030715273027,Moderately Concentrated,6.4,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,REVOLT,2-Wheelers,1241,8882,9.0,Top 10,90.88,-0.7,0.0232942280619427,0.15677030715273027,Moderately Concentrated,6.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,PURE EV,2-Wheelers,1756,16724,7.0,Top 10,87.09,-0.57,0.0329610511496949,0.15677030715273027,Moderately Concentrated,6.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,BEING,2-Wheelers,874,8248,12.0,Other,93.57,-0.79,0.0164054434537775,0.15677030715273027,Moderately Concentrated,6.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,JITENDRA,2-Wheelers,940,4815,11.0,Other,93.09,-0.77,0.0176442984514312,0.15677030715273027,Moderately Concentrated,6.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-04-01,2022,April,OTHERS,2-Wheelers,4683,29541,5.0,Top 5,65.57,0.14,0.0879023932426091,0.15677030715273027,Moderately Concentrated,6.4,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,OLA ELECTRIC,2-Wheelers,22548,189532,1.0,Market Leader,0.0,3.39,0.3374741820576525,0.17468856678836628,Moderately Concentrated,5.7,>30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,TVS,2-Wheelers,8654,100486,3.0,Top 3,61.62,0.68,0.1295237525069596,0.17468856678836628,Moderately Concentrated,5.7,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,ATHER,2-Wheelers,7707,104604,4.0,Top 5,65.82,0.5,0.1153500763313078,0.17468856678836628,Moderately Concentrated,5.7,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,BAJAJ,2-Wheelers,4043,43954,6.0,Top 10,82.07,-0.21,0.0605112700930942,0.17468856678836628,Moderately Concentrated,5.7,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,AMPERE,2-Wheelers,8767,121653,2.0,Top 3,61.12,0.71,0.1312150148172538,0.17468856678836628,Moderately Concentrated,5.7,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,OKINAWA,2-Wheelers,3179,147789,8.0,Top 10,85.9,-0.38,0.0475798485347382,0.17468856678836628,Moderately Concentrated,5.7,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,HERO ELECTRIC,2-Wheelers,3293,161738,7.0,Top 10,85.4,-0.36,0.0492860777681324,0.17468856678836628,Moderately Concentrated,5.7,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,OKAYA EV,2-Wheelers,1544,14716,9.0,Top 10,93.15,-0.7,0.0231089292663214,0.17468856678836628,Moderately Concentrated,5.7,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,BGAUSS,2-Wheelers,762,762,11.0,Other,96.62,-0.85,0.0114047954021612,0.17468856678836628,Moderately Concentrated,5.7,<5%,Stable,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,BATTRE ELECTRIC,2-Wheelers,644,644,12.0,Other,97.14,-0.87,0.0096386984763672,0.17468856678836628,Moderately Concentrated,5.7,<5%,Stable,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,KINETIC GREEN,2-Wheelers,838,838,10.0,Top 10,96.28,-0.84,0.0125422815577573,0.17468856678836628,Moderately Concentrated,5.7,<5%,Stable,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,REVOLT,2-Wheelers,520,21094,13.0,Other,97.69,-0.9,0.0077828000119735,0.17468856678836628,Moderately Concentrated,5.7,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-04-01,2023,April,OTHERS,2-Wheelers,4315,82126,5.0,Top 5,80.86,-0.16,0.0645822731762804,0.17468856678836628,Moderately Concentrated,5.7,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,HERO ELECTRIC,2-Wheelers,170,929,3.0,Top 3,34.62,0.64,0.1368760064412238,0.14517906550392715,Unconcentrated,6.9,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,OKINAWA,2-Wheelers,245,1496,2.0,Top 3,5.77,1.37,0.1972624798711755,0.14517906550392715,Unconcentrated,6.9,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,AMPERE,2-Wheelers,147,898,5.0,Top 5,43.46,0.42,0.1183574879227053,0.14517906550392715,Unconcentrated,6.9,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,ATHER,2-Wheelers,160,1063,4.0,Top 5,38.46,0.55,0.1288244766505636,0.14517906550392715,Unconcentrated,6.9,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,PURE EV,2-Wheelers,122,703,6.0,Top 10,53.08,0.18,0.0982286634460547,0.14517906550392715,Unconcentrated,6.9,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,TVS,2-Wheelers,9,311,11.0,Other,96.54,-0.91,0.0072463768115942,0.14517906550392715,Unconcentrated,6.9,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,REVOLT,2-Wheelers,42,180,8.0,Top 10,83.85,-0.59,0.0338164251207729,0.14517906550392715,Unconcentrated,6.9,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,BAJAJ,2-Wheelers,20,68,9.0,Top 10,92.31,-0.81,0.0161030595813204,0.14517906550392715,Unconcentrated,6.9,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,BEING,2-Wheelers,54,225,7.0,Top 10,79.23,-0.48,0.0434782608695652,0.14517906550392715,Unconcentrated,6.9,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,JITENDRA,2-Wheelers,13,49,10.0,Top 10,95.0,-0.87,0.0104669887278582,0.14517906550392715,Unconcentrated,6.9,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-05-01,2021,May,OTHERS,2-Wheelers,260,1009,1.0,Market Leader,0.0,1.51,0.2093397745571658,0.14517906550392715,Unconcentrated,6.9,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,OLA ELECTRIC,2-Wheelers,9266,37268,2.0,Top 3,10.39,1.84,0.2184656009808082,0.15128379662748065,Moderately Concentrated,6.6,20-30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,OKINAWA,2-Wheelers,10340,69346,1.0,Market Leader,0.0,2.17,0.2437874286792097,0.15128379662748065,Moderately Concentrated,6.6,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,HERO ELECTRIC,2-Wheelers,2970,79225,6.0,Top 10,71.28,-0.09,0.0700240486631772,0.15128379662748065,Moderately Concentrated,6.6,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,AMPERE,2-Wheelers,6176,38550,3.0,Top 3,40.27,0.89,0.1456122978261894,0.15128379662748065,Moderately Concentrated,6.6,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,TVS,2-Wheelers,478,11715,12.0,Other,95.38,-0.85,0.0112698637242419,0.15128379662748065,Moderately Concentrated,6.6,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,ATHER,2-Wheelers,3337,25764,5.0,Top 5,67.73,0.02,0.0786768519828358,0.15128379662748065,Moderately Concentrated,6.6,5-10%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,BAJAJ,2-Wheelers,1812,10149,7.0,Top 10,82.48,-0.44,0.0427217428207667,0.15128379662748065,Moderately Concentrated,6.6,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,OKAYA EV,2-Wheelers,19,19,13.0,Other,99.82,-0.99,0.0004479652944782,0.15128379662748065,Moderately Concentrated,6.6,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,REVOLT,2-Wheelers,1589,10471,8.0,Top 10,84.63,-0.51,0.0374640448908379,0.15128379662748065,Moderately Concentrated,6.6,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,PURE EV,2-Wheelers,1464,18188,9.0,Top 10,85.84,-0.55,0.0345169047955863,0.15128379662748065,Moderately Concentrated,6.6,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,BEING,2-Wheelers,862,9110,10.0,Top 10,91.66,-0.74,0.0203234780968548,0.15128379662748065,Moderately Concentrated,6.6,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,JITENDRA,2-Wheelers,646,5461,11.0,Other,93.75,-0.8,0.0152308200122601,0.15128379662748065,Moderately Concentrated,6.6,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-05-01,2022,May,OTHERS,2-Wheelers,3455,32996,4.0,Top 5,66.59,0.06,0.0814589522327533,0.15128379662748065,Moderately Concentrated,6.6,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,OLA ELECTRIC,2-Wheelers,29447,218979,1.0,Market Leader,0.0,2.63,0.2794973281319703,0.16189766092205765,Moderately Concentrated,6.2,20-30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,TVS,2-Wheelers,20188,120674,2.0,Top 3,31.44,1.49,0.1916151750714238,0.16189766092205765,Moderately Concentrated,6.2,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,ATHER,2-Wheelers,15243,119847,3.0,Top 3,48.24,0.88,0.1446795182095162,0.16189766092205765,Moderately Concentrated,6.2,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,BAJAJ,2-Wheelers,9976,53930,5.0,Top 5,66.12,0.23,0.0946875860170657,0.16189766092205765,Moderately Concentrated,6.2,5-10%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,AMPERE,2-Wheelers,10659,132312,4.0,Top 5,63.8,0.32,0.1011703066716022,0.16189766092205765,Moderately Concentrated,6.2,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,OKINAWA,2-Wheelers,2873,150662,8.0,Top 10,90.24,-0.65,0.0272691895175451,0.16189766092205765,Moderately Concentrated,6.2,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,HERO ELECTRIC,2-Wheelers,2085,163823,9.0,Top 10,92.92,-0.74,0.0197898573421794,0.16189766092205765,Moderately Concentrated,6.2,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,OKAYA EV,2-Wheelers,3831,18547,7.0,Top 10,86.99,-0.53,0.0363620832028246,0.16189766092205765,Moderately Concentrated,6.2,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,BGAUSS,2-Wheelers,1792,2554,10.0,Top 10,93.91,-0.78,0.0170088366221513,0.16189766092205765,Moderately Concentrated,6.2,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,BATTRE ELECTRIC,2-Wheelers,1185,1829,11.0,Other,95.98,-0.85,0.0112474728779293,0.16189766092205765,Moderately Concentrated,6.2,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,KINETIC GREEN,2-Wheelers,886,1724,12.0,Other,96.99,-0.89,0.0084095029281395,0.16189766092205765,Moderately Concentrated,6.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,REVOLT,2-Wheelers,565,21659,13.0,Other,98.08,-0.93,0.0053627191358903,0.16189766092205765,Moderately Concentrated,6.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-05-01,2023,May,OTHERS,2-Wheelers,6627,88753,6.0,Top 10,77.5,-0.18,0.0629004242717617,0.16189766092205765,Moderately Concentrated,6.2,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,HERO ELECTRIC,2-Wheelers,1355,2284,1.0,Market Leader,0.0,2.48,0.2902120368387235,0.16734029643991447,Moderately Concentrated,6.0,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,OKINAWA,2-Wheelers,984,2480,2.0,Top 3,27.38,1.53,0.210751766973656,0.16734029643991447,Moderately Concentrated,6.0,20-30%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,AMPERE,2-Wheelers,299,1197,6.0,Top 10,77.93,-0.23,0.064039408866995,0.16734029643991447,Moderately Concentrated,6.0,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,ATHER,2-Wheelers,320,1383,5.0,Top 5,76.38,-0.18,0.0685371599914328,0.16734029643991447,Moderately Concentrated,6.0,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,PURE EV,2-Wheelers,460,1163,4.0,Top 5,66.05,0.18,0.0985221674876847,0.16734029643991447,Moderately Concentrated,6.0,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,TVS,2-Wheelers,208,519,7.0,Top 10,84.65,-0.47,0.0445491539944313,0.16734029643991447,Moderately Concentrated,6.0,<5%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,REVOLT,2-Wheelers,59,239,10.0,Top 10,95.65,-0.85,0.0126365388734204,0.16734029643991447,Moderately Concentrated,6.0,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,BAJAJ,2-Wheelers,176,244,9.0,Top 10,87.01,-0.55,0.037695437995288,0.16734029643991447,Moderately Concentrated,6.0,<5%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,BEING,2-Wheelers,198,423,8.0,Top 10,85.39,-0.49,0.042407367744699,0.16734029643991447,Moderately Concentrated,6.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,JITENDRA,2-Wheelers,43,92,11.0,Other,96.83,-0.89,0.0092096808738487,0.16734029643991447,Moderately Concentrated,6.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-06-01,2021,June,OTHERS,2-Wheelers,567,1576,3.0,Top 3,58.15,0.46,0.12143928035982,0.16734029643991447,Moderately Concentrated,6.0,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,OLA ELECTRIC,2-Wheelers,5897,43165,4.0,Top 5,21.94,0.73,0.1328721750298551,0.11717134576927907,Unconcentrated,8.5,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,OKINAWA,2-Wheelers,7554,76900,1.0,Market Leader,0.0,1.21,0.1702079718798585,0.11717134576927907,Unconcentrated,8.5,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,HERO ELECTRIC,2-Wheelers,6836,86061,3.0,Top 3,9.5,1.0,0.1540298776503458,0.11717134576927907,Unconcentrated,8.5,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,AMPERE,2-Wheelers,6919,45469,2.0,Top 3,8.41,1.03,0.1559000473175458,0.11717134576927907,Unconcentrated,8.5,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,TVS,2-Wheelers,1983,13698,8.0,Top 10,73.75,-0.42,0.0446812825308127,0.11717134576927907,Unconcentrated,8.5,<5%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,ATHER,2-Wheelers,3829,29593,5.0,Top 5,49.31,0.12,0.0862756585025123,0.11717134576927907,Unconcentrated,8.5,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,BAJAJ,2-Wheelers,1824,11973,9.0,Top 10,75.85,-0.47,0.0410986683490682,0.11717134576927907,Unconcentrated,8.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,OKAYA EV,2-Wheelers,760,779,12.0,Other,89.94,-0.78,0.0171244451454451,0.11717134576927907,Unconcentrated,8.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,REVOLT,2-Wheelers,2423,12894,7.0,Top 10,67.92,-0.29,0.0545954349834388,0.11717134576927907,Unconcentrated,8.5,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,PURE EV,2-Wheelers,1125,19313,10.0,Top 10,85.11,-0.67,0.0253486852481917,0.11717134576927907,Unconcentrated,8.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,BEING,2-Wheelers,1005,10115,11.0,Other,86.7,-0.71,0.0226448254883846,0.11717134576927907,Unconcentrated,8.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,JITENDRA,2-Wheelers,568,6029,13.0,Other,92.48,-0.83,0.0127982695297537,0.11717134576927907,Unconcentrated,8.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-06-01,2022,June,OTHERS,2-Wheelers,3658,36654,6.0,Top 10,51.58,0.07,0.0824226583447871,0.11717134576927907,Unconcentrated,8.5,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,OLA ELECTRIC,2-Wheelers,17768,236747,1.0,Market Leader,0.0,4.04,0.3876006195327327,0.21096778938870242,Moderately Concentrated,4.7,>30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,TVS,2-Wheelers,7772,128446,2.0,Top 3,56.26,1.2,0.1695425492463078,0.21096778938870242,Moderately Concentrated,4.7,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,ATHER,2-Wheelers,4547,124394,3.0,Top 3,74.41,0.29,0.09919068083157,0.21096778938870242,Moderately Concentrated,4.7,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,BAJAJ,2-Wheelers,2975,56905,6.0,Top 10,83.26,-0.16,0.0648982352042931,0.21096778938870242,Moderately Concentrated,4.7,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,AMPERE,2-Wheelers,3006,135318,5.0,Top 5,83.08,-0.15,0.0655744857223882,0.21096778938870242,Moderately Concentrated,4.7,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,OKINAWA,2-Wheelers,2588,153250,7.0,Top 10,85.43,-0.27,0.0564560109945245,0.21096778938870242,Moderately Concentrated,4.7,5-10%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,HERO ELECTRIC,2-Wheelers,1123,164946,8.0,Top 10,93.68,-0.68,0.024497720381318,0.21096778938870242,Moderately Concentrated,4.7,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,OKAYA EV,2-Wheelers,419,18966,10.0,Top 10,97.64,-0.88,0.0091402892607054,0.21096778938870242,Moderately Concentrated,4.7,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,BGAUSS,2-Wheelers,189,2743,12.0,Other,98.94,-0.95,0.0041229467070962,0.21096778938870242,Moderately Concentrated,4.7,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,BATTRE ELECTRIC,2-Wheelers,82,1911,13.0,Other,99.54,-0.98,0.0017887916930258,0.21096778938870242,Moderately Concentrated,4.7,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,KINETIC GREEN,2-Wheelers,201,1925,11.0,Other,98.87,-0.94,0.0043847211011976,0.21096778938870242,Moderately Concentrated,4.7,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,REVOLT,2-Wheelers,705,22364,9.0,Top 10,96.03,-0.8,0.0153792456534543,0.21096778938870242,Moderately Concentrated,4.7,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-06-01,2023,June,OTHERS,2-Wheelers,4466,93219,4.0,Top 5,74.86,0.27,0.0974237036713858,0.21096778938870242,Moderately Concentrated,4.7,5-10%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,HERO ELECTRIC,2-Wheelers,4557,6841,1.0,Market Leader,0.0,2.73,0.3105069501226492,0.16794312524379593,Moderately Concentrated,6.0,>30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,OKINAWA,2-Wheelers,2633,5113,2.0,Top 3,42.22,1.15,0.1794085581902425,0.16794312524379593,Moderately Concentrated,6.0,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,AMPERE,2-Wheelers,663,1860,7.0,Top 10,85.45,-0.46,0.0451757972199509,0.16794312524379593,Moderately Concentrated,6.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,ATHER,2-Wheelers,1799,3182,3.0,Top 3,60.52,0.47,0.1225810847642409,0.16794312524379593,Moderately Concentrated,6.0,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,PURE EV,2-Wheelers,1417,2580,4.0,Top 5,68.9,0.16,0.0965521940583265,0.16794312524379593,Moderately Concentrated,6.0,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,TVS,2-Wheelers,648,1167,8.0,Top 10,85.78,-0.47,0.044153720359771,0.16794312524379593,Moderately Concentrated,6.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,REVOLT,2-Wheelers,321,560,10.0,Top 10,92.96,-0.74,0.0218724448078495,0.16794312524379593,Moderately Concentrated,6.0,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,BAJAJ,2-Wheelers,730,974,6.0,Top 10,83.98,-0.4,0.0497410738620877,0.16794312524379593,Moderately Concentrated,6.0,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,BEING,2-Wheelers,494,917,9.0,Top 10,89.16,-0.6,0.0336603979285908,0.16794312524379593,Moderately Concentrated,6.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,JITENDRA,2-Wheelers,212,304,11.0,Other,95.35,-0.83,0.014445352957209,0.16794312524379593,Moderately Concentrated,6.0,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-07-01,2021,July,OTHERS,2-Wheelers,1202,2778,5.0,Top 5,73.62,-0.02,0.0819024257290814,0.16794312524379593,Moderately Concentrated,6.0,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,OLA ELECTRIC,2-Wheelers,3864,47029,5.0,Top 5,58.6,0.08,0.082911338082568,0.12347838203113173,Unconcentrated,8.1,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,OKINAWA,2-Wheelers,8394,85294,2.0,Top 3,10.07,1.34,0.1801132949961376,0.12347838203113173,Unconcentrated,8.1,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,HERO ELECTRIC,2-Wheelers,9334,95395,1.0,Market Leader,0.0,1.6,0.2002832374903441,0.12347838203113173,Unconcentrated,8.1,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,AMPERE,2-Wheelers,6812,52281,3.0,Top 3,27.02,0.9,0.1461677109261007,0.12347838203113173,Unconcentrated,8.1,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,TVS,2-Wheelers,4348,18046,4.0,Top 5,53.42,0.21,0.0932967127285211,0.12347838203113173,Unconcentrated,8.1,5-10%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,ATHER,2-Wheelers,1289,30882,9.0,Top 10,86.19,-0.64,0.0276585700798214,0.12347838203113173,Unconcentrated,8.1,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,BAJAJ,2-Wheelers,2482,14455,7.0,Top 10,73.41,-0.31,0.053257231138958,0.12347838203113173,Unconcentrated,8.1,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,OKAYA EV,2-Wheelers,1076,1855,11.0,Other,88.47,-0.7,0.0230881469401768,0.12347838203113173,Unconcentrated,8.1,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,REVOLT,2-Wheelers,2318,15212,8.0,Top 10,75.17,-0.35,0.0497382198952879,0.12347838203113173,Unconcentrated,8.1,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,PURE EV,2-Wheelers,1000,20313,12.0,Other,89.29,-0.72,0.0214573856321345,0.12347838203113173,Unconcentrated,8.1,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,BEING,2-Wheelers,1245,11360,10.0,Top 10,86.66,-0.65,0.0267144451120075,0.12347838203113173,Unconcentrated,8.1,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,JITENDRA,2-Wheelers,880,6909,13.0,Other,90.57,-0.75,0.0188824993562784,0.12347838203113173,Unconcentrated,8.1,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-07-01,2022,July,OTHERS,2-Wheelers,3562,40216,6.0,Top 10,61.84,-0.01,0.0764312076216633,0.12347838203113173,Unconcentrated,8.1,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,OLA ELECTRIC,2-Wheelers,19409,256156,1.0,Market Leader,0.0,3.66,0.3581524948331857,0.19990621038372536,Moderately Concentrated,5.0,>30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,TVS,2-Wheelers,10272,138718,2.0,Top 3,47.08,1.46,0.1895482728077945,0.19990621038372536,Moderately Concentrated,5.0,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,ATHER,2-Wheelers,6604,130998,3.0,Top 3,65.97,0.58,0.121863005609684,0.19990621038372536,Moderately Concentrated,5.0,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,BAJAJ,2-Wheelers,4081,60986,5.0,Top 5,78.97,-0.02,0.0753063182757602,0.19990621038372536,Moderately Concentrated,5.0,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,AMPERE,2-Wheelers,3530,138848,6.0,Top 10,81.81,-0.15,0.065138765869501,0.19990621038372536,Moderately Concentrated,5.0,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,OKINAWA,2-Wheelers,2238,155488,7.0,Top 10,88.47,-0.46,0.0412976085031,0.19990621038372536,Moderately Concentrated,5.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,HERO ELECTRIC,2-Wheelers,770,165716,9.0,Top 10,96.03,-0.82,0.0142087392973132,0.19990621038372536,Moderately Concentrated,5.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,OKAYA EV,2-Wheelers,775,19741,8.0,Top 10,96.01,-0.81,0.0143010038382049,0.19990621038372536,Moderately Concentrated,5.0,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,BGAUSS,2-Wheelers,653,3396,10.0,Top 10,96.64,-0.84,0.0120497490404487,0.19990621038372536,Moderately Concentrated,5.0,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,BATTRE ELECTRIC,2-Wheelers,133,2044,13.0,Other,99.31,-0.97,0.0024542367877177,0.19990621038372536,Moderately Concentrated,5.0,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,KINETIC GREEN,2-Wheelers,229,2154,12.0,Other,98.82,-0.95,0.0042257159728373,0.19990621038372536,Moderately Concentrated,5.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,REVOLT,2-Wheelers,478,22842,11.0,Other,97.54,-0.89,0.0088204901092412,0.19990621038372536,Moderately Concentrated,5.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-07-01,2023,July,OTHERS,2-Wheelers,5020,98239,4.0,Top 5,74.14,0.2,0.0926335990552111,0.19990621038372536,Moderately Concentrated,5.0,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,HERO ELECTRIC,2-Wheelers,5527,12368,1.0,Market Leader,0.0,3.13,0.3443613707165109,0.182247555827292,Moderately Concentrated,5.5,>30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,OKINAWA,2-Wheelers,2894,8007,2.0,Top 3,47.64,1.16,0.1803115264797507,0.182247555827292,Moderately Concentrated,5.5,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,AMPERE,2-Wheelers,810,2670,7.0,Top 10,85.34,-0.39,0.0504672897196261,0.182247555827292,Moderately Concentrated,5.5,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,ATHER,2-Wheelers,1613,4795,3.0,Top 3,70.82,0.21,0.1004984423676012,0.182247555827292,Moderately Concentrated,5.5,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,PURE EV,2-Wheelers,1094,3674,5.0,Top 5,80.21,-0.18,0.0681619937694704,0.182247555827292,Moderately Concentrated,5.5,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,TVS,2-Wheelers,651,1818,9.0,Top 10,88.22,-0.51,0.0405607476635514,0.182247555827292,Moderately Concentrated,5.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,REVOLT,2-Wheelers,853,1413,6.0,Top 10,84.57,-0.36,0.0531464174454828,0.182247555827292,Moderately Concentrated,5.5,5-10%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,BAJAJ,2-Wheelers,796,1770,8.0,Top 10,85.6,-0.4,0.0495950155763239,0.182247555827292,Moderately Concentrated,5.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,BEING,2-Wheelers,325,1242,10.0,Top 10,94.12,-0.76,0.0202492211838006,0.182247555827292,Moderately Concentrated,5.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,JITENDRA,2-Wheelers,208,512,11.0,Other,96.24,-0.84,0.0129595015576323,0.182247555827292,Moderately Concentrated,5.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-08-01,2021,August,OTHERS,2-Wheelers,1279,4057,4.0,Top 5,76.86,-0.04,0.0796884735202492,0.182247555827292,Moderately Concentrated,5.5,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,OLA ELECTRIC,2-Wheelers,3475,50504,7.0,Top 10,64.99,-0.14,0.0665377398230766,0.12086723560628101,Unconcentrated,8.3,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,OKINAWA,2-Wheelers,8756,94050,2.0,Top 3,11.78,1.18,0.1676559568031248,0.12086723560628101,Unconcentrated,8.3,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,HERO ELECTRIC,2-Wheelers,9925,105320,1.0,Market Leader,0.0,1.47,0.1900394439551181,0.12086723560628101,Unconcentrated,8.3,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,AMPERE,2-Wheelers,6771,59052,3.0,Top 3,31.78,0.69,0.1296480680121012,0.12086723560628101,Unconcentrated,8.3,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,TVS,2-Wheelers,6426,24472,4.0,Top 5,35.25,0.6,0.1230421629073641,0.12086723560628101,Unconcentrated,8.3,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,ATHER,2-Wheelers,5376,36258,5.0,Top 5,45.83,0.34,0.1029372343277294,0.12086723560628101,Unconcentrated,8.3,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,BAJAJ,2-Wheelers,2620,17075,8.0,Top 10,73.6,-0.35,0.0501665836939455,0.12086723560628101,Unconcentrated,8.3,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,OKAYA EV,2-Wheelers,905,2760,11.0,Other,90.88,-0.77,0.0173285336805422,0.12086723560628101,Unconcentrated,8.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,REVOLT,2-Wheelers,1662,16874,9.0,Top 10,83.25,-0.59,0.0318232298089074,0.12086723560628101,Unconcentrated,8.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,PURE EV,2-Wheelers,880,21193,12.0,Other,91.13,-0.78,0.0168498449048366,0.12086723560628101,Unconcentrated,8.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,BEING,2-Wheelers,1099,12459,10.0,Top 10,88.93,-0.73,0.0210431585800176,0.12086723560628101,Unconcentrated,8.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,JITENDRA,2-Wheelers,653,7562,13.0,Other,93.42,-0.84,0.0125033508214299,0.12086723560628101,Unconcentrated,8.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-08-01,2022,August,OTHERS,2-Wheelers,3678,43894,6.0,Top 10,62.94,-0.08,0.070424692681806,0.12086723560628101,Unconcentrated,8.3,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,OLA ELECTRIC,2-Wheelers,18983,275139,1.0,Market Leader,0.0,2.95,0.3038689952137792,0.18755550514482427,Moderately Concentrated,5.3,>30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,TVS,2-Wheelers,15296,154014,2.0,Top 3,19.42,2.18,0.2448496102191416,0.18755550514482427,Moderately Concentrated,5.3,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,ATHER,2-Wheelers,7065,138063,3.0,Top 3,62.78,0.47,0.1130924749083574,0.18755550514482427,Moderately Concentrated,5.3,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,BAJAJ,2-Wheelers,6508,67494,4.0,Top 5,65.72,0.35,0.1041763378207488,0.18755550514482427,Moderately Concentrated,5.3,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,AMPERE,2-Wheelers,3654,142502,6.0,Top 10,80.75,-0.24,0.0584911398889084,0.18755550514482427,Moderately Concentrated,5.3,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,OKINAWA,2-Wheelers,1977,157465,7.0,Top 10,89.59,-0.59,0.0316466840614044,0.18755550514482427,Moderately Concentrated,5.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,HERO ELECTRIC,2-Wheelers,774,166490,10.0,Top 10,95.92,-0.84,0.0123897488434633,0.18755550514482427,Moderately Concentrated,5.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,OKAYA EV,2-Wheelers,1137,20878,8.0,Top 10,94.01,-0.76,0.018200445006483,0.18755550514482427,Moderately Concentrated,5.3,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,BGAUSS,2-Wheelers,912,4308,9.0,Top 10,95.2,-0.81,0.0145987738310576,0.18755550514482427,Moderately Concentrated,5.3,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,BATTRE ELECTRIC,2-Wheelers,287,2331,13.0,Other,98.49,-0.94,0.0045941316770981,0.18755550514482427,Moderately Concentrated,5.3,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,KINETIC GREEN,2-Wheelers,380,2534,12.0,Other,98.0,-0.92,0.0060828224296073,0.18755550514482427,Moderately Concentrated,5.3,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,REVOLT,2-Wheelers,508,23350,11.0,Other,97.32,-0.89,0.0081317731427382,0.18755550514482427,Moderately Concentrated,5.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-08-01,2023,August,OTHERS,2-Wheelers,4990,103229,5.0,Top 5,73.71,0.04,0.0798770629572121,0.18755550514482427,Moderately Concentrated,5.3,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,HERO ELECTRIC,2-Wheelers,6727,19095,1.0,Market Leader,0.0,3.48,0.3730590062111801,0.2063423036164043,Moderately Concentrated,4.8,>30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,OKINAWA,2-Wheelers,3321,11328,2.0,Top 3,50.63,1.21,0.1841725820763088,0.2063423036164043,Moderately Concentrated,4.8,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,AMPERE,2-Wheelers,807,3477,6.0,Top 10,88.0,-0.46,0.0447537710736468,0.2063423036164043,Moderately Concentrated,4.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,ATHER,2-Wheelers,2174,6969,3.0,Top 3,67.68,0.45,0.1205634427684117,0.2063423036164043,Moderately Concentrated,4.8,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,PURE EV,2-Wheelers,1337,5011,5.0,Top 5,80.12,-0.11,0.0741459627329192,0.2063423036164043,Moderately Concentrated,4.8,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,TVS,2-Wheelers,688,2506,7.0,Top 10,89.77,-0.54,0.0381543921916592,0.2063423036164043,Moderately Concentrated,4.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,REVOLT,2-Wheelers,499,1912,8.0,Top 10,92.58,-0.67,0.0276730257320319,0.2063423036164043,Moderately Concentrated,4.8,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,BAJAJ,2-Wheelers,381,2151,9.0,Top 10,94.34,-0.75,0.0211291038154392,0.2063423036164043,Moderately Concentrated,4.8,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,BEING,2-Wheelers,337,1579,10.0,Top 10,94.99,-0.78,0.0186889973380656,0.2063423036164043,Moderately Concentrated,4.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,JITENDRA,2-Wheelers,134,646,11.0,Other,98.01,-0.91,0.0074312333629103,0.2063423036164043,Moderately Concentrated,4.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-09-01,2021,September,OTHERS,2-Wheelers,1627,5684,4.0,Top 5,75.81,0.08,0.0902284826974268,0.2063423036164043,Moderately Concentrated,4.8,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,OLA ELECTRIC,2-Wheelers,8065,58569,3.0,Top 3,5.08,0.97,0.1513644382718366,0.11763239933082176,Unconcentrated,8.5,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,OKINAWA,2-Wheelers,8497,102547,1.0,Market Leader,0.0,1.07,0.1594722420329567,0.11763239933082176,Unconcentrated,8.5,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,HERO ELECTRIC,2-Wheelers,8208,113528,2.0,Top 3,3.4,1.0,0.1540482714612814,0.11763239933082176,Unconcentrated,8.5,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,AMPERE,2-Wheelers,6488,65540,4.0,Top 5,23.64,0.58,0.1217672009308959,0.11763239933082176,Unconcentrated,8.5,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,TVS,2-Wheelers,4001,28473,6.0,Top 10,52.91,-0.02,0.0750910251116699,0.11763239933082176,Unconcentrated,8.5,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,ATHER,2-Wheelers,6280,42538,5.0,Top 5,26.09,0.53,0.1178634435644307,0.11763239933082176,Unconcentrated,8.5,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,BAJAJ,2-Wheelers,3649,20724,8.0,Top 10,57.06,-0.11,0.068484666491498,0.11763239933082176,Unconcentrated,8.5,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,OKAYA EV,2-Wheelers,954,3714,10.0,Top 10,88.77,-0.77,0.0179047333058068,0.11763239933082176,Unconcentrated,8.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,REVOLT,2-Wheelers,865,17739,11.0,Other,89.82,-0.79,0.016234375586502,0.11763239933082176,Unconcentrated,8.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,PURE EV,2-Wheelers,790,21983,12.0,Other,90.7,-0.81,0.0148267707668631,0.11763239933082176,Unconcentrated,8.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,BEING,2-Wheelers,975,13434,9.0,Top 10,88.53,-0.76,0.0182988626553057,0.11763239933082176,Unconcentrated,8.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,JITENDRA,2-Wheelers,661,8223,13.0,Other,92.22,-0.84,0.0124056904770841,0.11763239933082176,Unconcentrated,8.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-09-01,2022,September,OTHERS,2-Wheelers,3849,47743,7.0,Top 10,54.7,-0.06,0.0722382793438684,0.11763239933082176,Unconcentrated,8.5,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,OLA ELECTRIC,2-Wheelers,18926,294065,1.0,Market Leader,0.0,2.86,0.2968970602076993,0.18410377497382877,Moderately Concentrated,5.4,20-30%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,TVS,2-Wheelers,15425,169439,2.0,Top 3,18.5,2.15,0.2419759671195055,0.18410377497382877,Moderately Concentrated,5.4,20-30%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,ATHER,2-Wheelers,7107,145170,3.0,Top 3,62.45,0.45,0.1114893483512691,0.18410377497382877,Moderately Concentrated,5.4,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,BAJAJ,2-Wheelers,7019,74513,4.0,Top 5,62.91,0.43,0.1101088695761302,0.18410377497382877,Moderately Concentrated,5.4,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,AMPERE,2-Wheelers,4148,146650,6.0,Top 10,78.08,-0.15,0.0650707495372258,0.18410377497382877,Moderately Concentrated,5.4,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,OKINAWA,2-Wheelers,1769,159234,7.0,Top 10,90.65,-0.64,0.0277507608320522,0.18410377497382877,Moderately Concentrated,5.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,HERO ELECTRIC,2-Wheelers,835,167325,11.0,Other,95.59,-0.83,0.0130988611050105,0.18410377497382877,Moderately Concentrated,5.4,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,OKAYA EV,2-Wheelers,873,21751,10.0,Top 10,95.39,-0.82,0.0136949769397295,0.18410377497382877,Moderately Concentrated,5.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,BGAUSS,2-Wheelers,924,5232,8.0,Top 10,95.12,-0.81,0.0144950271389577,0.18410377497382877,Moderately Concentrated,5.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,BATTRE ELECTRIC,2-Wheelers,255,2586,12.0,Other,98.65,-0.95,0.0040002509961409,0.18410377497382877,Moderately Concentrated,5.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,KINETIC GREEN,2-Wheelers,231,2765,13.0,Other,98.78,-0.95,0.0036237567847394,0.18410377497382877,Moderately Concentrated,5.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,REVOLT,2-Wheelers,879,24229,9.0,Top 10,95.36,-0.82,0.0137891004925799,0.18410377497382877,Moderately Concentrated,5.4,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-09-01,2023,September,OTHERS,2-Wheelers,5355,108584,5.0,Top 5,71.71,0.09,0.0840052709189596,0.18410377497382877,Moderately Concentrated,5.4,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,HERO ELECTRIC,2-Wheelers,6799,25894,1.0,Market Leader,0.0,2.92,0.3266708307307932,0.18230369903438662,Moderately Concentrated,5.5,>30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,OKINAWA,2-Wheelers,4166,15494,2.0,Top 3,38.73,1.4,0.2001633594388122,0.18230369903438662,Moderately Concentrated,5.5,20-30%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,AMPERE,2-Wheelers,1083,4560,6.0,Top 10,84.07,-0.38,0.0520347859510882,0.18230369903438662,Moderately Concentrated,5.5,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,ATHER,2-Wheelers,2647,9616,3.0,Top 3,61.07,0.53,0.1271801278047374,0.18230369903438662,Moderately Concentrated,5.5,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,PURE EV,2-Wheelers,1400,6411,5.0,Top 5,79.41,-0.19,0.067265651275645,0.18230369903438662,Moderately Concentrated,5.5,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,TVS,2-Wheelers,486,2992,9.0,Top 10,92.85,-0.72,0.0233507903714024,0.18230369903438662,Moderately Concentrated,5.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,REVOLT,2-Wheelers,900,2812,7.0,Top 10,86.76,-0.48,0.043242204391486,0.18230369903438662,Moderately Concentrated,5.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,BAJAJ,2-Wheelers,754,2905,8.0,Top 10,88.91,-0.57,0.0362273579013116,0.18230369903438662,Moderately Concentrated,5.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,BEING,2-Wheelers,469,2048,10.0,Top 10,93.1,-0.73,0.022533993177341,0.18230369903438662,Moderately Concentrated,5.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,JITENDRA,2-Wheelers,283,929,11.0,Other,95.84,-0.84,0.0135972709364339,0.18230369903438662,Moderately Concentrated,5.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-10-01,2021,October,OTHERS,2-Wheelers,1826,7510,4.0,Top 5,73.14,0.05,0.0877336280209484,0.18230369903438662,Moderately Concentrated,5.5,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,OLA ELECTRIC,2-Wheelers,15391,73960,1.0,Market Leader,0.0,1.59,0.1992362459546925,0.12944588783108674,Unconcentrated,7.7,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,OKINAWA,2-Wheelers,14950,117497,2.0,Top 3,2.87,1.52,0.1935275080906149,0.12944588783108674,Unconcentrated,7.7,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,HERO ELECTRIC,2-Wheelers,8868,122396,4.0,Top 5,42.38,0.49,0.1147961165048543,0.12944588783108674,Unconcentrated,7.7,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,AMPERE,2-Wheelers,10113,75653,3.0,Top 3,34.29,0.7,0.1309126213592233,0.12944588783108674,Unconcentrated,7.7,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,TVS,2-Wheelers,5820,34293,6.0,Top 10,62.19,-0.02,0.0753398058252427,0.12944588783108674,Unconcentrated,7.7,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,ATHER,2-Wheelers,7356,49894,5.0,Top 5,52.21,0.24,0.0952233009708737,0.12944588783108674,Unconcentrated,7.7,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,BAJAJ,2-Wheelers,3549,24273,8.0,Top 10,76.94,-0.4,0.0459417475728155,0.12944588783108674,Unconcentrated,7.7,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,OKAYA EV,2-Wheelers,1968,5682,9.0,Top 10,87.21,-0.67,0.0254757281553398,0.12944588783108674,Unconcentrated,7.7,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,REVOLT,2-Wheelers,1041,18780,13.0,Other,93.24,-0.82,0.0134757281553398,0.12944588783108674,Unconcentrated,7.7,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,PURE EV,2-Wheelers,1047,23030,12.0,Other,93.2,-0.82,0.0135533980582524,0.12944588783108674,Unconcentrated,7.7,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,BEING,2-Wheelers,1422,14856,10.0,Top 10,90.76,-0.76,0.0184077669902912,0.12944588783108674,Unconcentrated,7.7,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,JITENDRA,2-Wheelers,1111,9334,11.0,Other,92.78,-0.81,0.0143818770226537,0.12944588783108674,Unconcentrated,7.7,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-10-01,2022,October,OTHERS,2-Wheelers,4614,52357,7.0,Top 10,70.02,-0.22,0.0597281553398058,0.12944588783108674,Unconcentrated,7.7,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,OLA ELECTRIC,2-Wheelers,23968,318033,1.0,Market Leader,0.0,3.18,0.321187837529984,0.19153965316392083,Moderately Concentrated,5.2,>30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,TVS,2-Wheelers,16309,185748,2.0,Top 3,31.96,1.84,0.2185519209895072,0.19153965316392083,Moderately Concentrated,5.2,20-30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,ATHER,2-Wheelers,8375,153545,4.0,Top 5,65.06,0.46,0.1122308135561422,0.19153965316392083,Moderately Concentrated,5.2,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,BAJAJ,2-Wheelers,8960,83473,3.0,Top 3,62.62,0.56,0.1200702196373772,0.19153965316392083,Moderately Concentrated,5.2,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,AMPERE,2-Wheelers,4487,151137,6.0,Top 10,81.28,-0.22,0.0601289146777803,0.19153965316392083,Moderately Concentrated,5.2,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,OKINAWA,2-Wheelers,1457,160691,7.0,Top 10,93.92,-0.75,0.0195248113852297,0.19153965316392083,Moderately Concentrated,5.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,HERO ELECTRIC,2-Wheelers,658,167983,11.0,Other,97.25,-0.89,0.0088176567546198,0.19153965316392083,Moderately Concentrated,5.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,OKAYA EV,2-Wheelers,863,22614,9.0,Top 10,96.4,-0.85,0.0115647990565911,0.19153965316392083,Moderately Concentrated,5.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,BGAUSS,2-Wheelers,1157,6389,8.0,Top 10,95.17,-0.8,0.0155046031384425,0.19153965316392083,Moderately Concentrated,5.2,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,BATTRE ELECTRIC,2-Wheelers,227,2813,13.0,Other,99.05,-0.96,0.0030419575734023,0.19153965316392083,Moderately Concentrated,5.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,KINETIC GREEN,2-Wheelers,389,3154,12.0,Other,98.38,-0.93,0.0052128700266673,0.19153965316392083,Moderately Concentrated,5.2,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,REVOLT,2-Wheelers,681,24910,10.0,Top 10,97.16,-0.88,0.0091258727202069,0.19153965316392083,Moderately Concentrated,5.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-10-01,2023,October,OTHERS,2-Wheelers,7092,115676,5.0,Top 5,70.41,0.24,0.095037722954049,0.19153965316392083,Moderately Concentrated,5.2,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,HERO ELECTRIC,2-Wheelers,7493,33387,1.0,Market Leader,0.0,2.66,0.3054128963886851,0.1770285477624764,Moderately Concentrated,5.6,>30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,OKINAWA,2-Wheelers,5542,21036,2.0,Top 3,26.04,1.71,0.2258906007988913,0.1770285477624764,Moderately Concentrated,5.6,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,AMPERE,2-Wheelers,2077,6637,5.0,Top 5,72.28,0.02,0.0846580255971305,0.1770285477624764,Moderately Concentrated,5.6,5-10%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,ATHER,2-Wheelers,2202,11818,4.0,Top 5,70.61,0.08,0.0897529958425042,0.1770285477624764,Moderately Concentrated,5.6,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,PURE EV,2-Wheelers,1688,8099,6.0,Top 10,77.47,-0.17,0.0688024781935273,0.1770285477624764,Moderately Concentrated,5.6,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,TVS,2-Wheelers,522,3514,10.0,Top 10,93.03,-0.74,0.0212765957446808,0.1770285477624764,Moderately Concentrated,5.6,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,REVOLT,2-Wheelers,780,3592,8.0,Top 10,89.59,-0.62,0.0317926143311323,0.1770285477624764,Moderately Concentrated,5.6,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,BAJAJ,2-Wheelers,728,3633,9.0,Top 10,90.28,-0.64,0.0296731067090568,0.1770285477624764,Moderately Concentrated,5.6,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,BEING,2-Wheelers,912,2960,7.0,Top 10,87.83,-0.55,0.037172902910247,0.1770285477624764,Moderately Concentrated,5.6,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,JITENDRA,2-Wheelers,273,1202,11.0,Other,96.36,-0.87,0.0111274150158963,0.1770285477624764,Moderately Concentrated,5.6,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-11-01,2021,November,OTHERS,2-Wheelers,2317,9827,3.0,Top 3,69.08,0.13,0.0944403684682481,0.1770285477624764,Moderately Concentrated,5.6,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,OLA ELECTRIC,2-Wheelers,15797,89757,1.0,Market Leader,0.0,1.67,0.2057570823835884,0.126401076275673,Unconcentrated,7.9,20-30%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,OKINAWA,2-Wheelers,9068,126565,3.0,Top 3,42.6,0.54,0.1181113643764246,0.126401076275673,Unconcentrated,7.9,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,HERO ELECTRIC,2-Wheelers,9026,131422,4.0,Top 5,42.86,0.53,0.117564311299251,0.126401076275673,Unconcentrated,7.9,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,AMPERE,2-Wheelers,12446,88099,2.0,Top 3,21.21,1.11,0.162110061869098,0.126401076275673,Unconcentrated,7.9,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,TVS,2-Wheelers,8147,42440,5.0,Top 5,48.43,0.38,0.1061152718984044,0.126401076275673,Unconcentrated,7.9,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,ATHER,2-Wheelers,7837,57731,6.0,Top 10,50.39,0.33,0.1020774991859329,0.126401076275673,Unconcentrated,7.9,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,BAJAJ,2-Wheelers,3057,27330,8.0,Top 10,80.65,-0.48,0.0398176489742754,0.126401076275673,Unconcentrated,7.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,OKAYA EV,2-Wheelers,1783,7465,9.0,Top 10,88.71,-0.7,0.0232237056333441,0.126401076275673,Unconcentrated,7.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,REVOLT,2-Wheelers,524,19304,13.0,Other,96.68,-0.91,0.0068251383914034,0.126401076275673,Unconcentrated,7.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,PURE EV,2-Wheelers,925,23955,12.0,Other,94.14,-0.84,0.0120481927710843,0.126401076275673,Unconcentrated,7.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,BEING,2-Wheelers,1216,16072,11.0,Other,92.3,-0.79,0.0158384890915011,0.126401076275673,Unconcentrated,7.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,JITENDRA,2-Wheelers,1256,10590,10.0,Top 10,92.05,-0.79,0.0163594920221426,0.126401076275673,Unconcentrated,7.9,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-11-01,2022,November,OTHERS,2-Wheelers,5693,58050,7.0,Top 10,63.96,-0.04,0.0741517421035493,0.126401076275673,Unconcentrated,7.9,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,OLA ELECTRIC,2-Wheelers,29980,348013,1.0,Market Leader,0.0,3.27,0.3285731508170489,0.1926893099225099,Moderately Concentrated,5.2,>30%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,TVS,2-Wheelers,18914,204662,2.0,Top 3,36.91,1.69,0.2072926142279407,0.1926893099225099,Moderately Concentrated,5.2,20-30%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,ATHER,2-Wheelers,9220,162765,5.0,Top 5,69.25,0.31,0.1010488475828282,0.1926893099225099,Moderately Concentrated,5.2,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,BAJAJ,2-Wheelers,11769,95242,3.0,Top 3,60.74,0.68,0.1289852372236774,0.1926893099225099,Moderately Concentrated,5.2,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,AMPERE,2-Wheelers,4638,155775,6.0,Top 10,84.53,-0.34,0.050831296647414,0.1926893099225099,Moderately Concentrated,5.2,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,OKINAWA,2-Wheelers,1587,162278,8.0,Top 10,94.71,-0.77,0.0173931150882807,0.1926893099225099,Moderately Concentrated,5.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,HERO ELECTRIC,2-Wheelers,814,168797,10.0,Top 10,97.28,-0.88,0.0089212323137117,0.1926893099225099,Moderately Concentrated,5.2,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,OKAYA EV,2-Wheelers,1281,23895,9.0,Top 10,95.73,-0.82,0.0140394331619959,0.1926893099225099,Moderately Concentrated,5.2,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,BGAUSS,2-Wheelers,1589,7978,7.0,Top 10,94.7,-0.77,0.017415034577995,0.1926893099225099,Moderately Concentrated,5.2,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,BATTRE ELECTRIC,2-Wheelers,659,3472,12.0,Other,97.8,-0.91,0.007222471860855,0.1926893099225099,Moderately Concentrated,5.2,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,KINETIC GREEN,2-Wheelers,422,3576,13.0,Other,98.59,-0.94,0.0046250123297129,0.1926893099225099,Moderately Concentrated,5.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,REVOLT,2-Wheelers,663,25573,11.0,Other,97.79,-0.91,0.0072663108402836,0.1926893099225099,Moderately Concentrated,5.2,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-11-01,2023,November,OTHERS,2-Wheelers,9707,125383,4.0,Top 5,67.62,0.38,0.1063862433282553,0.1926893099225099,Moderately Concentrated,5.2,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,HERO ELECTRIC,2-Wheelers,6402,39789,1.0,Market Leader,0.0,1.89,0.240441673552167,0.152121522804437,Moderately Concentrated,6.6,20-30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,OKINAWA,2-Wheelers,6184,27220,2.0,Top 3,3.41,1.79,0.2322541876361451,0.152121522804437,Moderately Concentrated,6.6,20-30%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,AMPERE,2-Wheelers,3410,10047,3.0,Top 3,46.74,0.54,0.1280703072185082,0.152121522804437,Moderately Concentrated,6.6,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,ATHER,2-Wheelers,1813,13631,5.0,Top 5,71.68,-0.18,0.0680913392924209,0.152121522804437,Moderately Concentrated,6.6,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,PURE EV,2-Wheelers,1685,9784,6.0,Top 10,73.68,-0.24,0.0632840081123713,0.152121522804437,Moderately Concentrated,6.6,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,OLA ELECTRIC,2-Wheelers,240,240,12.0,Other,96.25,-0.89,0.0090137459625929,0.152121522804437,Moderately Concentrated,6.6,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,TVS,2-Wheelers,1119,4633,8.0,Top 10,82.52,-0.5,0.0420265905505896,0.152121522804437,Moderately Concentrated,6.6,<5%,Strong Gain,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,REVOLT,2-Wheelers,835,4427,9.0,Top 10,86.96,-0.62,0.0313603244948546,0.152121522804437,Moderately Concentrated,6.6,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,BAJAJ,2-Wheelers,642,4275,10.0,Top 10,89.97,-0.71,0.0241117704499361,0.152121522804437,Moderately Concentrated,6.6,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,BEING,2-Wheelers,1190,4150,7.0,Top 10,81.41,-0.46,0.0446931570645234,0.152121522804437,Moderately Concentrated,6.6,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,JITENDRA,2-Wheelers,503,1705,11.0,Other,92.14,-0.77,0.018891309246601,0.152121522804437,Moderately Concentrated,6.6,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2021-12-01,2021,December,OTHERS,2-Wheelers,2603,12430,4.0,Top 5,59.34,0.17,0.0977615864192894,0.152121522804437,Moderately Concentrated,6.6,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,OLA ELECTRIC,2-Wheelers,16919,106676,1.0,Market Leader,0.0,2.4,0.2617379062823904,0.14195210336928038,Unconcentrated,7.0,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,OKINAWA,2-Wheelers,5281,131846,6.0,Top 10,68.79,0.06,0.0816973747312077,0.14195210336928038,Unconcentrated,7.0,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,HERO ELECTRIC,2-Wheelers,8100,139522,3.0,Top 3,52.12,0.63,0.1253074673968534,0.14195210336928038,Unconcentrated,7.0,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,AMPERE,2-Wheelers,4592,92691,7.0,Top 10,72.86,-0.08,0.0710385049736235,0.14195210336928038,Unconcentrated,7.0,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,TVS,2-Wheelers,9363,51803,2.0,Top 3,44.66,0.88,0.1448461502761405,0.14195210336928038,Unconcentrated,7.0,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,ATHER,2-Wheelers,7693,65424,4.0,Top 5,54.53,0.55,0.119011153911604,0.14195210336928038,Unconcentrated,7.0,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,BAJAJ,2-Wheelers,3240,30570,8.0,Top 10,80.85,-0.35,0.0501229869587413,0.14195210336928038,Unconcentrated,7.0,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,OKAYA EV,2-Wheelers,1445,8910,9.0,Top 10,91.46,-0.71,0.0223542333812905,0.14195210336928038,Unconcentrated,7.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,REVOLT,2-Wheelers,37,19341,13.0,Other,99.78,-0.99,0.0005723921350226,0.14195210336928038,Unconcentrated,7.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,PURE EV,2-Wheelers,780,24735,11.0,Other,95.39,-0.84,0.0120666450085858,0.14195210336928038,Unconcentrated,7.0,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,BEING,2-Wheelers,966,17038,10.0,Top 10,94.29,-0.81,0.0149440757414025,0.14195210336928038,Unconcentrated,7.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,JITENDRA,2-Wheelers,668,11258,12.0,Other,96.05,-0.87,0.0103339985458145,0.14195210336928038,Unconcentrated,7.0,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-12-01,2022,December,OTHERS,2-Wheelers,5557,63607,5.0,Top 5,67.16,0.12,0.0859671106573227,0.14195210336928038,Unconcentrated,7.0,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,OLA ELECTRIC,2-Wheelers,30588,378601,1.0,Market Leader,0.0,4.27,0.4051712718891567,0.22910371575259636,Moderately Concentrated,4.4,>30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,TVS,2-Wheelers,12171,216833,2.0,Top 3,60.21,1.1,0.1612181100484806,0.22910371575259636,Moderately Concentrated,4.4,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,ATHER,2-Wheelers,6471,169236,5.0,Top 5,78.84,0.11,0.085715421093067,0.22910371575259636,Moderately Concentrated,4.4,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,BAJAJ,2-Wheelers,10292,105534,3.0,Top 3,66.35,0.77,0.1363287148647574,0.22910371575259636,Moderately Concentrated,4.4,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,AMPERE,2-Wheelers,3309,159084,6.0,Top 10,89.18,-0.43,0.0438312978514848,0.22910371575259636,Moderately Concentrated,4.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,OKINAWA,2-Wheelers,953,163231,8.0,Top 10,96.88,-0.84,0.0126235197499139,0.22910371575259636,Moderately Concentrated,4.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,HERO ELECTRIC,2-Wheelers,545,169342,12.0,Other,98.22,-0.91,0.007219116751,0.22910371575259636,Moderately Concentrated,4.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,OKAYA EV,2-Wheelers,700,24595,9.0,Top 10,97.71,-0.88,0.009272260047156,0.22910371575259636,Moderately Concentrated,4.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,BGAUSS,2-Wheelers,1200,9178,7.0,Top 10,96.08,-0.79,0.0158953029379818,0.22910371575259636,Moderately Concentrated,4.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,BATTRE ELECTRIC,2-Wheelers,241,3713,13.0,Other,99.21,-0.96,0.003192306673378,0.22910371575259636,Moderately Concentrated,4.4,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,KINETIC GREEN,2-Wheelers,660,4236,11.0,Other,97.84,-0.89,0.00874241661589,0.22910371575259636,Moderately Concentrated,4.4,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,REVOLT,2-Wheelers,673,26246,10.0,Top 10,97.8,-0.88,0.0089146157310514,0.22910371575259636,Moderately Concentrated,4.4,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-12-01,2023,December,OTHERS,2-Wheelers,7691,133074,4.0,Top 5,74.86,0.32,0.1018756457466818,0.22910371575259636,Moderately Concentrated,4.4,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,HERO ELECTRIC,2-Wheelers,8238,48027,1.0,Market Leader,0.0,2.28,0.2734878162140628,0.15477488463895536,Moderately Concentrated,6.5,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,OKINAWA,2-Wheelers,5737,32957,2.0,Top 3,30.36,1.29,0.1904588008764358,0.15477488463895536,Moderately Concentrated,6.5,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,AMPERE,2-Wheelers,4366,14413,3.0,Top 3,47.0,0.74,0.1449438948277006,0.15477488463895536,Moderately Concentrated,6.5,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,ATHER,2-Wheelers,1881,15512,5.0,Top 5,77.17,-0.25,0.0624460527189429,0.15477488463895536,Moderately Concentrated,6.5,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,PURE EV,2-Wheelers,1691,11475,6.0,Top 10,79.47,-0.33,0.0561383706261204,0.15477488463895536,Moderately Concentrated,6.5,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,OLA ELECTRIC,2-Wheelers,1107,1347,8.0,Top 10,86.56,-0.56,0.0367505477723922,0.15477488463895536,Moderately Concentrated,6.5,<5%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,TVS,2-Wheelers,1155,5788,7.0,Top 10,85.98,-0.54,0.038344067459,0.15477488463895536,Moderately Concentrated,6.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,REVOLT,2-Wheelers,673,5100,10.0,Top 10,91.83,-0.73,0.0223424739393134,0.15477488463895536,Moderately Concentrated,6.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,BAJAJ,2-Wheelers,612,4887,11.0,Other,92.57,-0.76,0.0203173760042493,0.15477488463895536,Moderately Concentrated,6.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,BEING,2-Wheelers,1062,5212,9.0,Top 10,87.11,-0.58,0.0352566230661974,0.15477488463895536,Moderately Concentrated,6.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,JITENDRA,2-Wheelers,535,2240,12.0,Other,93.51,-0.79,0.017761104840316,0.15477488463895536,Moderately Concentrated,6.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-01-01,2022,January,OTHERS,2-Wheelers,3065,15495,4.0,Top 5,62.79,0.22,0.1017528716552685,0.15477488463895536,Moderately Concentrated,6.5,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,OLA ELECTRIC,2-Wheelers,20148,126824,1.0,Market Leader,0.0,3.05,0.3115124153498871,0.16888161038815533,Moderately Concentrated,5.9,>30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,OKINAWA,2-Wheelers,4407,136253,6.0,Top 10,78.13,-0.11,0.0681375429048517,0.16888161038815533,Moderately Concentrated,5.9,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,HERO ELECTRIC,2-Wheelers,6399,145921,4.0,Top 5,68.24,0.29,0.0989362689013265,0.16888161038815533,Moderately Concentrated,5.9,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,AMPERE,2-Wheelers,4456,97147,5.0,Top 5,77.88,-0.1,0.0688951420884999,0.16888161038815533,Moderately Concentrated,5.9,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,TVS,2-Wheelers,10462,62265,2.0,Top 3,48.07,1.1,0.1617551563128111,0.16888161038815533,Moderately Concentrated,5.9,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,ATHER,2-Wheelers,9224,74648,3.0,Top 3,54.22,0.85,0.1426141810198212,0.16888161038815533,Moderately Concentrated,5.9,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,BAJAJ,2-Wheelers,2252,32822,8.0,Top 10,88.82,-0.55,0.0348186400321593,0.16888161038815533,Moderately Concentrated,5.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,OKAYA EV,2-Wheelers,1265,10175,9.0,Top 10,93.72,-0.75,0.0195584279043878,0.16888161038815533,Moderately Concentrated,5.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,REVOLT,2-Wheelers,14,19355,13.0,Other,99.93,-1.0,0.0002164569096137,0.16888161038815533,Moderately Concentrated,5.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,PURE EV,2-Wheelers,717,25452,10.0,Top 10,96.44,-0.86,0.0110856860137913,0.16888161038815533,Moderately Concentrated,5.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,BEING,2-Wheelers,571,17609,11.0,Other,97.17,-0.89,0.0088283496706762,0.16888161038815533,Moderately Concentrated,5.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,JITENDRA,2-Wheelers,522,11780,12.0,Other,97.41,-0.9,0.008070750487028,0.16888161038815533,Moderately Concentrated,5.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-01-01,2023,January,OTHERS,2-Wheelers,4241,67848,7.0,Top 10,78.95,-0.15,0.0655709824051454,0.16888161038815533,Moderately Concentrated,5.9,5-10%,Strong Loss,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,OLA ELECTRIC,2-Wheelers,32275,410876,1.0,Market Leader,0.0,4.16,0.3967766126157137,0.23080693350524717,Moderately Concentrated,4.3,>30%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,TVS,2-Wheelers,15153,231986,2.0,Top 3,53.05,1.42,0.186285236590733,0.23080693350524717,Moderately Concentrated,4.3,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,ATHER,2-Wheelers,9244,178480,4.0,Top 5,71.36,0.48,0.11364223104631,0.23080693350524717,Moderately Concentrated,4.3,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,BAJAJ,2-Wheelers,10753,116287,3.0,Top 3,66.68,0.72,0.1321933048940904,0.23080693350524717,Moderately Concentrated,4.3,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,AMPERE,2-Wheelers,2505,161589,6.0,Top 10,92.24,-0.6,0.0307955202045658,0.23080693350524717,Moderately Concentrated,4.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,OKINAWA,2-Wheelers,675,163906,9.0,Top 10,97.91,-0.89,0.0082981940670985,0.23080693350524717,Moderately Concentrated,4.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,HERO ELECTRIC,2-Wheelers,413,169755,12.0,Other,98.72,-0.93,0.0050772654069803,0.23080693350524717,Moderately Concentrated,4.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,OKAYA EV,2-Wheelers,574,25169,10.0,Top 10,98.22,-0.91,0.0070565383622438,0.23080693350524717,Moderately Concentrated,4.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,BGAUSS,2-Wheelers,1469,10647,7.0,Top 10,95.45,-0.77,0.0180593290141745,0.23080693350524717,Moderately Concentrated,4.3,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,BATTRE ELECTRIC,2-Wheelers,284,3997,13.0,Other,99.12,-0.95,0.0034913883186014,0.23080693350524717,Moderately Concentrated,4.3,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,KINETIC GREEN,2-Wheelers,810,5046,8.0,Top 10,97.49,-0.87,0.0099578328805182,0.23080693350524717,Moderately Concentrated,4.3,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,REVOLT,2-Wheelers,524,26770,11.0,Other,98.38,-0.92,0.0064418573202365,0.23080693350524717,Moderately Concentrated,4.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-01-01,2024,January,OTHERS,2-Wheelers,6664,139738,5.0,Top 5,79.35,0.07,0.0819246892787332,0.23080693350524717,Moderately Concentrated,4.3,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,HERO ELECTRIC,2-Wheelers,7773,55800,1.0,Market Leader,0.0,1.61,0.2175969990482056,0.12802100655222126,Unconcentrated,7.8,20-30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,OKINAWA,2-Wheelers,6122,39079,2.0,Top 3,21.24,1.06,0.1713789821398577,0.12802100655222126,Unconcentrated,7.8,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,AMPERE,2-Wheelers,4431,18844,3.0,Top 3,42.99,0.49,0.1240412070992665,0.12802100655222126,Unconcentrated,7.8,10-20%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,ATHER,2-Wheelers,2232,17744,6.0,Top 10,71.29,-0.25,0.0624825037791837,0.12802100655222126,Unconcentrated,7.8,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,PURE EV,2-Wheelers,1428,12903,8.0,Top 10,81.63,-0.52,0.0399753653210906,0.12802100655222126,Unconcentrated,7.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,OLA ELECTRIC,2-Wheelers,3911,5258,5.0,Top 5,49.68,0.31,0.1094843513801019,0.12802100655222126,Unconcentrated,7.8,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,TVS,2-Wheelers,1560,7348,7.0,Top 10,79.93,-0.48,0.0436705671574939,0.12802100655222126,Unconcentrated,7.8,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,REVOLT,2-Wheelers,1128,6228,11.0,Other,85.49,-0.62,0.0315771793292648,0.12802100655222126,Unconcentrated,7.8,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,BAJAJ,2-Wheelers,1372,6259,9.0,Top 10,82.35,-0.54,0.0384077039359498,0.12802100655222126,Unconcentrated,7.8,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,BEING,2-Wheelers,1149,6361,10.0,Top 10,85.22,-0.61,0.0321650523486926,0.12802100655222126,Unconcentrated,7.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,JITENDRA,2-Wheelers,583,2823,12.0,Other,92.5,-0.8,0.016320474777448,0.12802100655222126,Unconcentrated,7.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-02-01,2022,February,OTHERS,2-Wheelers,4033,19528,4.0,Top 5,48.12,0.35,0.1128996136834443,0.12802100655222126,Unconcentrated,7.8,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,OLA ELECTRIC,2-Wheelers,17762,144586,1.0,Market Leader,0.0,2.49,0.2688320140454965,0.15916343731006483,Moderately Concentrated,6.3,20-30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,OKINAWA,2-Wheelers,3848,140101,7.0,Top 10,78.34,-0.24,0.0582403777754234,0.15916343731006483,Moderately Concentrated,6.3,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,HERO ELECTRIC,2-Wheelers,5863,151784,5.0,Top 5,66.99,0.15,0.0887378728943106,0.15916343731006483,Moderately Concentrated,6.3,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,AMPERE,2-Wheelers,6003,103150,4.0,Top 5,66.2,0.18,0.0908568055576576,0.15916343731006483,Moderately Concentrated,6.3,5-10%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,TVS,2-Wheelers,12671,74936,2.0,Top 3,28.66,1.49,0.1917785412662136,0.15916343731006483,Moderately Concentrated,6.3,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,ATHER,2-Wheelers,10069,84717,3.0,Top 3,43.31,0.98,0.1523966641945785,0.15916343731006483,Moderately Concentrated,6.3,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,BAJAJ,2-Wheelers,2537,35359,8.0,Top 10,85.72,-0.5,0.0383980869065096,0.15916343731006483,Moderately Concentrated,6.3,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,OKAYA EV,2-Wheelers,1232,11407,9.0,Top 10,93.06,-0.76,0.0186466074374536,0.15916343731006483,Moderately Concentrated,6.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,REVOLT,2-Wheelers,79,19434,13.0,Other,99.56,-0.98,0.00119568343146,0.15916343731006483,Moderately Concentrated,6.3,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,PURE EV,2-Wheelers,488,25940,10.0,Top 10,97.25,-0.9,0.0073859938550952,0.15916343731006483,Moderately Concentrated,6.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,BEING,2-Wheelers,337,17946,11.0,Other,98.1,-0.93,0.0051005736253424,0.15916343731006483,Moderately Concentrated,6.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,JITENDRA,2-Wheelers,308,12088,12.0,Other,98.27,-0.94,0.0046616518593634,0.15916343731006483,Moderately Concentrated,6.3,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-02-01,2023,February,OTHERS,2-Wheelers,4874,72722,6.0,Top 10,72.56,-0.04,0.073769127151095,0.15916343731006483,Moderately Concentrated,6.3,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,OLA ELECTRIC,2-Wheelers,33967,444843,1.0,Market Leader,0.0,4.39,0.4144187011212376,0.2418559577410419,Moderately Concentrated,4.1,>30%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,TVS,2-Wheelers,14431,246417,2.0,Top 3,57.51,1.29,0.1760672498566426,0.2418559577410419,Moderately Concentrated,4.1,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,ATHER,2-Wheelers,8957,187437,4.0,Top 5,73.63,0.42,0.109281017044276,0.2418559577410419,Moderately Concentrated,4.1,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,BAJAJ,2-Wheelers,11603,127890,3.0,Top 3,65.84,0.84,0.1415638763832461,0.2418559577410419,Moderately Concentrated,4.1,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,AMPERE,2-Wheelers,2577,164166,6.0,Top 10,92.41,-0.59,0.0314410160682259,0.2418559577410419,Moderately Concentrated,4.1,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,OKINAWA,2-Wheelers,652,164558,8.0,Top 10,98.08,-0.9,0.0079548088771762,0.2418559577410419,Moderately Concentrated,4.1,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,HERO ELECTRIC,2-Wheelers,323,170078,12.0,Other,99.05,-0.95,0.0039408025572514,0.2418559577410419,Moderately Concentrated,4.1,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,OKAYA EV,2-Wheelers,649,25818,9.0,Top 10,98.09,-0.9,0.0079182069958395,0.2418559577410419,Moderately Concentrated,4.1,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,BGAUSS,2-Wheelers,1334,11981,7.0,Top 10,96.07,-0.79,0.0162756365677195,0.2418559577410419,Moderately Concentrated,4.1,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,BATTRE ELECTRIC,2-Wheelers,219,4216,13.0,Other,99.36,-0.97,0.0026719373375791,0.2418559577410419,Moderately Concentrated,4.1,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,KINETIC GREEN,2-Wheelers,624,5670,10.0,Top 10,98.16,-0.9,0.0076131913180337,0.2418559577410419,Moderately Concentrated,4.1,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,REVOLT,2-Wheelers,473,27243,11.0,Other,98.61,-0.92,0.0057708966240864,0.2418559577410419,Moderately Concentrated,4.1,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-02-01,2024,February,OTHERS,2-Wheelers,6154,145892,5.0,Top 5,81.88,-0.02,0.0750826592486853,0.2418559577410419,Moderately Concentrated,4.1,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,HERO ELECTRIC,2-Wheelers,13652,69452,1.0,Market Leader,0.0,2.01,0.2509651090113607,0.14746123789451795,Unconcentrated,6.8,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,OKINAWA,2-Wheelers,8586,47665,3.0,Top 3,37.11,0.89,0.1578366851722489,0.14746123789451795,Unconcentrated,6.8,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,AMPERE,2-Wheelers,6666,25510,4.0,Top 5,51.17,0.47,0.1225412698996286,0.14746123789451795,Unconcentrated,6.8,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,ATHER,2-Wheelers,2232,19976,7.0,Top 10,83.65,-0.51,0.0410309202544211,0.14746123789451795,Unconcentrated,6.8,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,PURE EV,2-Wheelers,2065,14968,8.0,Top 10,84.87,-0.54,0.0379609544468546,0.14746123789451795,Unconcentrated,6.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,OLA ELECTRIC,2-Wheelers,9143,14401,2.0,Top 3,33.03,1.02,0.1680760322070664,0.14746123789451795,Unconcentrated,6.8,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,TVS,2-Wheelers,2391,9739,6.0,Top 10,82.49,-0.47,0.0439538218316849,0.14746123789451795,Unconcentrated,6.8,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,REVOLT,2-Wheelers,1413,7641,9.0,Top 10,89.65,-0.69,0.025975219677194,0.14746123789451795,Unconcentrated,6.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,BAJAJ,2-Wheelers,855,7114,12.0,Other,93.74,-0.81,0.0157174896135887,0.14746123789451795,Unconcentrated,6.8,<5%,Strong Loss,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,BEING,2-Wheelers,1013,7374,11.0,Other,92.58,-0.78,0.0186220081620647,0.14746123789451795,Unconcentrated,6.8,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,JITENDRA,2-Wheelers,1052,3875,10.0,Top 10,92.29,-0.77,0.0193389462847898,0.14746123789451795,Unconcentrated,6.8,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2022-03-01,2022,March,OTHERS,2-Wheelers,5330,24858,5.0,Top 5,60.96,0.18,0.097981543439097,0.14746123789451795,Unconcentrated,6.8,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,OLA ELECTRIC,2-Wheelers,22398,166984,1.0,Market Leader,0.0,2.37,0.2595184575811647,0.1539435463239553,Moderately Concentrated,6.5,20-30%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,OKINAWA,2-Wheelers,4509,144610,8.0,Top 10,79.87,-0.32,0.052244339906843,0.1539435463239553,Moderately Concentrated,6.5,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,HERO ELECTRIC,2-Wheelers,6661,158445,5.0,Top 5,70.26,0.0,0.0771788751651101,0.1539435463239553,Moderately Concentrated,6.5,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,AMPERE,2-Wheelers,9736,112886,4.0,Top 5,56.53,0.47,0.1128079160197437,0.1539435463239553,Moderately Concentrated,6.5,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,TVS,2-Wheelers,16896,91832,2.0,Top 3,24.56,1.54,0.1957685444812643,0.1539435463239553,Moderately Concentrated,6.5,10-20%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,ATHER,2-Wheelers,12180,96897,3.0,Top 3,45.62,0.83,0.1411257618242068,0.1539435463239553,Moderately Concentrated,6.5,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,BAJAJ,2-Wheelers,4552,39911,7.0,Top 10,79.68,-0.31,0.0527425671448103,0.1539435463239553,Moderately Concentrated,6.5,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,OKAYA EV,2-Wheelers,1765,13172,9.0,Top 10,92.12,-0.73,0.020450490116562,0.1539435463239553,Moderately Concentrated,6.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,REVOLT,2-Wheelers,1140,20574,10.0,Top 10,94.91,-0.83,0.013208815146108,0.1539435463239553,Moderately Concentrated,6.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,PURE EV,2-Wheelers,584,26524,11.0,Other,97.39,-0.91,0.0067666210923921,0.1539435463239553,Moderately Concentrated,6.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,BEING,2-Wheelers,446,18392,12.0,Other,98.01,-0.93,0.0051676592589159,0.1539435463239553,Moderately Concentrated,6.5,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,JITENDRA,2-Wheelers,350,12438,13.0,Other,98.44,-0.95,0.0040553379834542,0.1539435463239553,Moderately Concentrated,6.5,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2023-03-01,2023,March,OTHERS,2-Wheelers,5089,77811,6.0,Top 10,77.28,-0.23,0.0589646142794243,0.1539435463239553,Moderately Concentrated,6.5,5-10%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,OLA ELECTRIC,2-Wheelers,44630,489473,1.0,Market Leader,0.0,3.48,0.3443539986883222,0.20410464822157492,Moderately Concentrated,4.9,>30%,Strong Loss,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,TVS,2-Wheelers,26158,272575,2.0,Top 3,41.39,1.62,0.201828633154585,0.20410464822157492,Moderately Concentrated,4.9,20-30%,Strong Gain,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,ATHER,2-Wheelers,17012,204449,4.0,Top 5,61.88,0.71,0.1312603680413564,0.20410464822157492,Moderately Concentrated,4.9,10-20%,Strong Gain,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,BAJAJ,2-Wheelers,17716,145606,3.0,Top 3,60.3,0.78,0.1366922572431619,0.20410464822157492,Moderately Concentrated,4.9,10-20%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,AMPERE,2-Wheelers,3108,167274,7.0,Top 10,93.04,-0.69,0.023980556305698,0.20410464822157492,Moderately Concentrated,4.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,OKINAWA,2-Wheelers,673,165231,10.0,Top 10,98.49,-0.93,0.005192700898885,0.20410464822157492,Moderately Concentrated,4.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,HERO ELECTRIC,2-Wheelers,316,170394,13.0,Other,99.29,-0.97,0.0024381775394467,0.20410464822157492,Moderately Concentrated,4.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,OKAYA EV,2-Wheelers,1218,27036,9.0,Top 10,97.27,-0.88,0.00939778557926,0.20410464822157492,Moderately Concentrated,4.9,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,BGAUSS,2-Wheelers,3070,15051,8.0,Top 10,93.12,-0.69,0.0236873577408279,0.20410464822157492,Moderately Concentrated,4.9,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,BATTRE ELECTRIC,2-Wheelers,625,4841,11.0,Other,98.6,-0.94,0.0048223448169437,0.20410464822157492,Moderately Concentrated,4.9,<5%,Slight Gain,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,KINETIC GREEN,2-Wheelers,3915,9585,6.0,Top 10,91.23,-0.61,0.0302071679333359,0.20410464822157492,Moderately Concentrated,4.9,<5%,Strong Gain,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,REVOLT,2-Wheelers,585,27828,12.0,Other,98.69,-0.94,0.0045137147486593,0.20410464822157492,Moderately Concentrated,4.9,<5%,Slight Loss,0,2-Wheelers,1.0,1.0
+2024-03-01,2024,March,OTHERS,2-Wheelers,10579,156471,5.0,Top 5,76.3,0.06,0.0816249373095173,0.20410464822157492,Moderately Concentrated,4.9,5-10%,Slight Gain,0,2-Wheelers,1.0,1.0
