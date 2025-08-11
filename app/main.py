@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Define the project base directory
-BASE_DIR = Path('/mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis')
+BASE_DIR = Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Add custom CSS
 st.markdown("""

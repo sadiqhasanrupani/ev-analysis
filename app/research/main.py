@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import numpy as np
+import os
 
 # Set page configuration
 st.set_page_config(
@@ -17,8 +18,13 @@ st.set_page_config(
 def load_data():
     try:
         # Load datasets
-        ev_sales_state = pd.read_csv('/mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv')
-        ev_sales_makers = pd.read_csv('/mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_makers.csv')
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        data_dir = os.path.join(base_dir, "data", "raw")
+        state_path = os.path.join(data_dir, "electric_vehicle_sales_by_state.csv")
+        makers_path = os.path.join(data_dir, "electric_vehicle_sales_by_makers.csv")
+
+        ev_sales_state = pd.read_csv(state_path)
+        ev_sales_makers = pd.read_csv(makers_path)
     except FileNotFoundError as e:
         st.error(f"Error: Could not find one or more data files. Please ensure the data files exist in the correct location.")
         st.error(f"Missing file: {str(e)}")

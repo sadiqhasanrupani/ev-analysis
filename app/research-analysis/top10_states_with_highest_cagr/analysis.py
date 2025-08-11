@@ -49,59 +49,143 @@ st.markdown("""
 # Helper function to load data
 @st.cache_data
 def load_data():
-    # Define data paths - use absolute path to avoid relative path issues
-    base_dir = "/mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis"
-    data_folder = os.path.join(base_dir, "data")
+    # Configure logging
+    import logging
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data_loading.log")),
+            logging.StreamHandler()
+        ]
+    )
+    logger = logging.getLogger("ev_analysis_data_loader")
+    
+    # Get the current file's directory
+    current_file_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Navigate up to the project root directory (3 levels up from current file)
+    # Current file is in /app/research-analysis/top10_states_with_highest_cagr/
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(current_file_dir))))
+    
+    logger.info(f"Project root identified as: {project_root}")
+    
+    # Define data paths - using absolute path to avoid relative path issues
+    data_folder = os.path.join(project_root, "data")
     state_sales_path = os.path.join(data_folder, "processed/ev_sales_by_state_enhanced_20250806.csv")
     
-    # Print the path for debugging
-    st.sidebar.text(f"Looking for data at: {state_sales_path}")
+    logger.info(f"Primary data path: {state_sales_path}")
     
-    # Check if file exists
-    if not os.path.exists(state_sales_path):
-        st.error(f"Data file not found at {state_sales_path}")
-        # Try to find the file in the workspace
-        possible_paths = []
-        for root, dirs, files in os.walk(base_dir):
-            if "ev_sales_by_state_enhanced_20250806.csv" in files:
-                possible_paths.append(os.path.join(root, "ev_sales_by_state_enhanced_20250806.csv"))
-        
-        if possible_paths:
-            st.sidebar.success(f"Found alternative data file at: {possible_paths[0]}")
-            state_sales_path = possible_paths[0]
-        else:
-            # If still can't find, try the notebook's path for loading
-            notebook_data_path = os.path.join(base_dir, "notebooks/research/top10_states_with_highest_cagr.ipynb")
-            st.sidebar.info(f"Searching relative to notebook: {notebook_data_path}")
+    # Define fallback paths
+    fallback_paths = [
+        # Fallback 1: Check in data/processed directory
+        os.path.join(data_folder, "processed/ev_sales_by_state_enhanced_20250806.csv"),
+        # Fallback 2: Check in data/processed directory with different date format
+        os.path.join(data_folder, "processed/ev_sales_by_state_enhanced.csv"),
+        # Fallback 3: Try processed_ev_sales_by_state.csv
+        os.path.join(data_folder, "processed/processed_ev_sales_by_state.csv"),
+        # Fallback 4: Try ev_sales_enhanced.csv
+        os.path.join(data_folder, "processed/ev_sales_enhanced.csv")
+    ]
     
-    # Load data
-    try:
-        state_sales = pd.read_csv(state_sales_path)
-        st.sidebar.success("Data loaded successfully!")
-    except Exception as e:
-        st.error(f"Error loading data: {str(e)}")
-        # Fallback to a simulated dataset if the real one can't be loaded
-        st.warning("Using simulated data for demonstration purposes.")
-        
-        # Create a simple simulated dataset
-        states = ["State_" + str(i) for i in range(1, 31)]
-        years = [2022, 2023, 2024]
-        
-        # Generate simulated data
-        data = []
-        for state in states:
-            for year in years:
-                total_sales = np.random.randint(50000, 500000)
-                ev_sales = np.random.randint(2000, 50000)
-                data.append({
-                    "state": state,
-                    "year": year, 
-                    "total_vehicles_sold": total_sales,
-                    "electric_vehicles_sold": ev_sales
-                })
-        
-        state_sales = pd.DataFrame(data)
+    # Try all possible paths in order
+    all_paths = [state_sales_path] + fallback_paths
     
+    # In production, add data path notification but don't show warnings
+    is_production = os.environ.get('EV_ANALYSIS_ENV', '').lower() == 'production'
+    
+    # First try the primary and fallback paths
+    for i, path in enumerate(all_paths):
+        if os.path.exists(path):
+            logger.info(f"Attempting to load data from: {path}")
+            try:
+                state_sales = pd.read_csv(path)
+                file_size = os.path.getsize(path) / (1024 * 1024)  # Size in MB
+                rows, cols = state_sales.shape
+                
+                logger.info(f"Data loaded successfully from: {path}")
+                logger.info(f"File size: {file_size:.2f} MB, Rows: {rows}, Columns: {cols}")
+                
+                # Show success message (less verbose in production)
+                if is_production:
+                    st.sidebar.success("Data loaded successfully")
+                else:
+                    st.sidebar.success(f"Data loaded from: {os.path.basename(path)}")
+                    st.sidebar.info(f"Rows: {rows}, Columns: {cols}")
+                
+                # Create and return a copy of the data to avoid modification issues
+                return state_sales.copy()
+            except Exception as e:
+                logger.error(f"Error loading data file {path}: {str(e)}")
+                if not is_production:
+                    st.warning(f"Error loading data file: {os.path.basename(path)}")
+                # Continue to next path
+    
+    # If primary paths fail, do a more exhaustive search
+    logger.warning("All direct paths failed, searching recursively through project directory")
+    if not is_production:
+        st.warning("Searching for EV sales data files in project directory...")
+    
+    found_files = []
+    searched_dirs = 0
+    for root, _, files in os.walk(project_root):
+        searched_dirs += 1
+        for file in files:
+            if (("ev_sales" in file.lower() or "sales_by_state" in file.lower()) and 
+                file.endswith(".csv")):
+                found_files.append(os.path.join(root, file))
+    
+    logger.info(f"Searched {searched_dirs} directories, found {len(found_files)} potential data files")
+    
+    # If found, try to load each one until success
+    for found_path in found_files:
+        try:
+            logger.info(f"Attempting to load from found file: {found_path}")
+            state_sales = pd.read_csv(found_path)
+            
+            # Verify this is the right kind of data by checking for required columns
+            required_columns = ['state', 'year', 'total_vehicles_sold', 'electric_vehicles_sold']
+            if all(col in state_sales.columns for col in required_columns):
+                logger.info(f"Successfully loaded valid data from: {found_path}")
+                
+                if not is_production:
+                    st.sidebar.success(f"Found and loaded data from: {os.path.basename(found_path)}")
+                else:
+                    st.sidebar.success("Data loaded successfully")
+                
+                return state_sales.copy()
+            else:
+                logger.warning(f"File has wrong format (missing columns): {found_path}")
+                continue
+        except Exception as e:
+            logger.error(f"Error loading found file {found_path}: {str(e)}")
+            continue
+    
+    # If all attempts fail, create simulated data
+    logger.error("All data loading attempts failed. Using simulated data.")
+    if is_production:
+        st.error("Error loading production data. Please contact support.")
+    else:
+        st.error("All attempts to load data failed. Using simulated data for demonstration.")
+    
+    # Create a simple simulated dataset
+    states = ["State_" + str(i) for i in range(1, 31)]
+    years = [2022, 2023, 2024]
+    
+    # Generate simulated data
+    data = []
+    for state in states:
+        for year in years:
+            total_sales = np.random.randint(50000, 500000)
+            ev_sales = np.random.randint(2000, 50000)
+            data.append({
+                "state": state,
+                "year": year, 
+                "total_vehicles_sold": total_sales,
+                "electric_vehicles_sold": ev_sales
+            })
+    
+    state_sales = pd.DataFrame(data)
     return state_sales
 
 # Function to calculate CAGRs

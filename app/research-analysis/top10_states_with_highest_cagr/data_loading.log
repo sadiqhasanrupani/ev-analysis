@@ -1,0 +1,18 @@
+2025-08-12 00:41:58,329 - ev_analysis_data_loader - INFO - Project root identified as: /mnt/data/projects/data-analyst/python-based/ev-analysis
+2025-08-12 00:41:58,329 - ev_analysis_data_loader - INFO - Primary data path: /mnt/data/projects/data-analyst/python-based/ev-analysis/data/processed/ev_sales_by_state_enhanced_20250806.csv
+2025-08-12 00:43:05,891 - ev_analysis_data_loader - INFO - Project root identified as: /mnt/data/projects/data-analyst/python-based/ev-analysis
+2025-08-12 00:43:05,891 - ev_analysis_data_loader - INFO - Primary data path: /mnt/data/projects/data-analyst/python-based/ev-analysis/data/processed/ev_sales_by_state_enhanced_20250806.csv
+2025-08-12 00:43:05,892 - ev_analysis_data_loader - WARNING - All direct paths failed, searching recursively through project directory
+2025-08-12 00:43:06,884 - ev_analysis_data_loader - INFO - Searched 3036 directories, found 5 potential data files
+2025-08-12 00:43:06,885 - ev_analysis_data_loader - INFO - Attempting to load from found file: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv
+2025-08-12 00:43:06,889 - ev_analysis_data_loader - WARNING - File has wrong format (missing columns): /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv
+2025-08-12 00:43:06,889 - ev_analysis_data_loader - INFO - Attempting to load from found file: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/processed/processed_ev_sales_by_state.csv
+2025-08-12 00:43:06,895 - ev_analysis_data_loader - INFO - Successfully loaded valid data from: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/processed/processed_ev_sales_by_state.csv
+2025-08-12 00:45:14,717 - ev_analysis_data_loader - INFO - Project root identified as: /mnt/data/projects/data-analyst/python-based/ev-analysis
+2025-08-12 00:45:14,718 - ev_analysis_data_loader - INFO - Primary data path: /mnt/data/projects/data-analyst/python-based/ev-analysis/data/processed/ev_sales_by_state_enhanced_20250806.csv
+2025-08-12 00:45:14,718 - ev_analysis_data_loader - WARNING - All direct paths failed, searching recursively through project directory
+2025-08-12 00:45:14,801 - ev_analysis_data_loader - INFO - Searched 3036 directories, found 5 potential data files
+2025-08-12 00:45:14,801 - ev_analysis_data_loader - INFO - Attempting to load from found file: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv
+2025-08-12 00:45:14,805 - ev_analysis_data_loader - WARNING - File has wrong format (missing columns): /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv
+2025-08-12 00:45:14,805 - ev_analysis_data_loader - INFO - Attempting to load from found file: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/processed/processed_ev_sales_by_state.csv
+2025-08-12 00:45:14,810 - ev_analysis_data_loader - INFO - Successfully loaded valid data from: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/processed/processed_ev_sales_by_state.csv

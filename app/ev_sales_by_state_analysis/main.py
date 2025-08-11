@@ -3,13 +3,14 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import os
 
 
 # Load the data
 @st.cache_data
 def load_data():
     # Use absolute paths or relative paths from project root
-    base_dir = "/mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis"
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
     try:
         ev_sales_state = pd.read_csv(

@@ -27,7 +27,7 @@ This is a centralized navigation hub for all electric vehicle market analyses in
 
 1. Navigate to the project root directory:
    ```bash
-   cd /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis
+   cd ev-analysis
    ```
 
 2. Run the Streamlit app:
