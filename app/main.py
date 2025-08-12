@@ -178,8 +178,13 @@ def main():
         - **Regional Variations**: Understanding geographic differences in EV adoption
         - **Market Penetration**: Examining the share of EVs in overall vehicle sales
         - **Manufacturer Performance**: Assessing key players in the EV manufacturing landscape
+        - **Segment Analysis**: 
+          - Detailed CAGR analysis of top 4-wheeler EV manufacturers
+          - Comparative analysis of top and bottom 2-wheeler makers
+          - Quarterly trends of leading EV manufacturers
+        - **Geographic Comparisons**: Comparing EV sales and penetration across states like Delhi and Karnataka
         
-        The dashboard provides interactive visualizations and data-driven insights to help understand the evolving EV landscape in India.
+        The dashboard provides interactive visualizations and data-driven insights to help understand the evolving EV landscape in India, with detailed market share analysis, growth consistency evaluations, and year-by-year performance metrics for leading manufacturers.
         """)
     
     # Sidebar for navigation
