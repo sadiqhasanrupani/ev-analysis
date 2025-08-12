@@ -48,3 +48,11 @@
 2025-08-12 13:54:51,170 - ev_analysis_data_loader - WARNING - File has wrong format (missing columns): /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv
 2025-08-12 13:54:51,170 - ev_analysis_data_loader - INFO - Attempting to load from found file: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/processed/processed_ev_sales_by_state.csv
 2025-08-12 13:54:51,175 - ev_analysis_data_loader - INFO - Successfully loaded valid data from: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/processed/processed_ev_sales_by_state.csv
+2025-08-12 16:20:11,170 - ev_analysis_data_loader - INFO - Project root identified as: /mnt/data/projects/data-analyst/python-based/ev-analysis
+2025-08-12 16:20:11,170 - ev_analysis_data_loader - INFO - Primary data path: /mnt/data/projects/data-analyst/python-based/ev-analysis/data/processed/ev_sales_by_state_enhanced_20250806.csv
+2025-08-12 16:20:11,170 - ev_analysis_data_loader - WARNING - All direct paths failed, searching recursively through project directory
+2025-08-12 16:20:11,249 - ev_analysis_data_loader - INFO - Searched 3148 directories, found 5 potential data files
+2025-08-12 16:20:11,250 - ev_analysis_data_loader - INFO - Attempting to load from found file: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv
+2025-08-12 16:20:11,253 - ev_analysis_data_loader - WARNING - File has wrong format (missing columns): /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv
+2025-08-12 16:20:11,253 - ev_analysis_data_loader - INFO - Attempting to load from found file: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/processed/processed_ev_sales_by_state.csv
+2025-08-12 16:20:11,259 - ev_analysis_data_loader - INFO - Successfully loaded valid data from: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/processed/processed_ev_sales_by_state.csv

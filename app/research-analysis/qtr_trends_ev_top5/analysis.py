@@ -17,39 +17,8 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
-    .metric-container {
-        background-color: #f8f9fa;
-        border-radius: 5px;
-        padding: 15px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        margin-bottom: 15px;
-    }
-    .header-container {
-        padding: 10px;
-        background-color: #f0f2f6;
-        border-radius: 5px;
-        margin-bottom: 20px;
-    }
-    .chart-container {
-        background-color: white;
-        padding: 15px;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        margin-bottom: 20px;
-    }
     h1, h2, h3 {
         color: #1e3a8a;
-    }
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 5px;
-    }
-    .stTabs [data-baseweb="tab"] {
-        background-color: #f0f2f6;
-        border-radius: 4px 4px 0px 0px;
-    }
-    .stTabs [aria-selected="true"] {
-        background-color: #1e3a8a;
-        color: white;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -157,14 +126,14 @@ def main():
             method='min', ascending=False
         )
         
-        # Line chart of sales over time with rank information
+        # Line chart of sales over time (full width)
         fig_line = px.line(
             quarterly_sales,
             x='year_quarter',
             y='electric_vehicles_sold',
             color='maker',
             markers=True,
-            title="Quarterly Sales Volume with Rankings (2022-2024)",
+            title="Quarterly Sales Volume with Rankings",
             labels={'electric_vehicles_sold': 'Sales Volume', 'year_quarter': 'Quarter', 'maker': 'Manufacturer'},
             custom_data=['rank']
         )
@@ -175,94 +144,116 @@ def main():
         
         fig_line.update_layout(
             xaxis=dict(categoryorder='array', categoryarray=all_quarters),
-            height=500,
+            height=400,
             legend_title_text='Manufacturer'
         )
         
         st.plotly_chart(fig_line, use_container_width=True)
         
-        # Create a heatmap to visualize rankings over quarters
-        # First pivot the data to create a matrix of ranks with makers as rows and quarters as columns
-        rank_pivot = quarterly_sales.pivot_table(
-            index='maker', 
-            columns='year_quarter', 
-            values=['rank', 'electric_vehicles_sold'],
-            aggfunc='first'
-        )
+        # Create 3-column grid layout for the remaining charts
+        grid_col1, grid_col2 = st.columns(2)
         
-        # Extract the rank and sales data
-        rank_data = rank_pivot['rank']
-        sales_data = rank_pivot['electric_vehicles_sold']
-        
-        # Create a text matrix that combines rank and sales information
-        text_matrix = []
-        for maker in rank_data.index:
-            row = []
-            for quarter in rank_data.columns:
-                rank = rank_data.loc[maker, quarter]
-                sales = sales_data.loc[maker, quarter]
-                row.append(f"Rank: #{int(rank)}<br>Sales: {int(sales):,}")
-            text_matrix.append(row)
-        
-        # Create the heatmap for rankings
-        fig_heatmap = go.Figure(data=go.Heatmap(
-            z=rank_data.values,
-            x=rank_data.columns,
-            y=rank_data.index,
-            colorscale='Blues_r',  # Reversed scale so lower ranks (better performance) are darker
-            showscale=False,
-            text=text_matrix,
-            hoverinfo='text'
-        ))
-        
-        # Add rank numbers as text
-        for i, maker in enumerate(rank_data.index):
-            for j, quarter in enumerate(rank_data.columns):
-                rank_value = rank_data.loc[maker, quarter]
-                fig_heatmap.add_annotation(
-                    x=quarter,
-                    y=maker,
-                    text=f"#{int(rank_value)}",
-                    showarrow=False,
-                    font=dict(
-                        color='white' if rank_value <= 2 else 'black',
-                        size=14
+        # First grid column: Heatmap of rankings
+        with grid_col1:
+            # Create a heatmap to visualize rankings over quarters
+            # First pivot the data to create a matrix of ranks with makers as rows and quarters as columns
+            rank_pivot = quarterly_sales.pivot_table(
+                index='maker', 
+                columns='year_quarter', 
+                values=['rank', 'electric_vehicles_sold'],
+                aggfunc='first'
+            )
+            
+            # Extract the rank and sales data
+            rank_data = rank_pivot['rank']
+            sales_data = rank_pivot['electric_vehicles_sold']
+            
+            # Create a text matrix that combines rank and sales information
+            text_matrix = []
+            for maker in rank_data.index:
+                row = []
+                for quarter in rank_data.columns:
+                    rank = rank_data.loc[maker, quarter]
+                    sales = sales_data.loc[maker, quarter]
+                    row.append(f"Rank: #{int(rank)}<br>Sales: {int(sales):,}")
+                text_matrix.append(row)
+            
+            # Create the heatmap for rankings
+            fig_heatmap = go.Figure(data=go.Heatmap(
+                z=rank_data.values,
+                x=rank_data.columns,
+                y=rank_data.index,
+                colorscale='Blues_r',  # Reversed scale so lower ranks (better performance) are darker
+                showscale=False,
+                text=text_matrix,
+                hoverinfo='text'
+            ))
+            
+            # Add rank numbers as text
+            for i, maker in enumerate(rank_data.index):
+                for j, quarter in enumerate(rank_data.columns):
+                    rank_value = rank_data.loc[maker, quarter]
+                    fig_heatmap.add_annotation(
+                        x=quarter,
+                        y=maker,
+                        text=f"#{int(rank_value)}",
+                        showarrow=False,
+                        font=dict(
+                            color='white' if rank_value <= 2 else 'black',
+                            size=14
+                        )
                     )
-                )
+            
+            fig_heatmap.update_layout(
+                title="Rankings by Quarter (lower is better)",
+                height=400,
+                margin=dict(l=100, r=30, t=50, b=50),  # Add right padding
+                xaxis=dict(categoryorder='array', categoryarray=all_quarters)
+            )
+            
+            # Bar chart for each quarter
+            fig_bar = px.bar(
+                quarterly_sales,
+                x='maker',
+                y='electric_vehicles_sold',
+                color='maker',
+                animation_frame='year_quarter',
+                title="Quarterly Sales by Manufacturer",
+                labels={'electric_vehicles_sold': 'Sales Volume', 'maker': 'Manufacturer'},
+                text='rank'  # Show rank on bars
+            )
+            
+            st.plotly_chart(fig_heatmap, use_container_width=True)
+            
+            fig_bar.update_traces(
+                texttemplate='#%{text:.0f}',
+                textposition='outside'
+            )
+            
+            fig_bar.update_layout(
+                height=400,
+                showlegend=False,
+                yaxis=dict(title='Sales Volume'),
+                margin=dict(r=10),  # Add right padding
+                autosize=True,
+            )
+            
+            st.plotly_chart(fig_bar, use_container_width=True)
         
-        fig_heatmap.update_layout(
-            title="Manufacturer Rankings by Quarter (lower is better)",
-            height=400,
-            margin=dict(l=100, r=20, t=50, b=50),
-            xaxis=dict(categoryorder='array', categoryarray=all_quarters)
-        )
-        
-        st.plotly_chart(fig_heatmap, use_container_width=True)
-        
-        # Bar chart for each quarter
-        fig_bar = px.bar(
-            quarterly_sales,
-            x='maker',
-            y='electric_vehicles_sold',
-            color='maker',
-            animation_frame='year_quarter',
-            title="Quarterly Sales by Manufacturer",
-            labels={'electric_vehicles_sold': 'Sales Volume', 'maker': 'Manufacturer'},
-            text='rank'  # Show rank on bars
-        )
-        
-        fig_bar.update_traces(
-            texttemplate='#%{text:.0f}',
-            textposition='outside'
-        )
-        
-        fig_bar.update_layout(
-            height=500,
-            showlegend=False,
-            yaxis=dict(title='Sales Volume')
-        )
-        
-        st.plotly_chart(fig_bar, use_container_width=True)
+        # Second grid column: Animated bar chart
+        # with grid_col2:
+            # Bar chart for each quarter
+            # fig_bar = px.bar(
+            #     quarterly_sales,
+            #     x='maker',
+            #     y='electric_vehicles_sold',
+            #     color='maker',
+            #     animation_frame='year_quarter',
+            #     title="Quarterly Sales by Manufacturer",
+            #     labels={'electric_vehicles_sold': 'Sales Volume', 'maker': 'Manufacturer'},
+            #     text='rank'  # Show rank on bars
+            # )
+            
         
         # Calculate quarter-over-quarter changes
         qoq_changes = []
@@ -302,32 +293,33 @@ def main():
         
         qoq_df = pd.DataFrame(qoq_changes)
         
-        # Summary statistics
-        st.markdown("### Summary Statistics")
-        
-        total_sales = quarterly_sales.groupby('maker')['electric_vehicles_sold'].sum().reset_index()
-        total_sales = total_sales.sort_values('electric_vehicles_sold', ascending=False)
-        
-        # Add average rank
-        avg_rank = quarterly_sales.groupby('maker')['rank'].mean().reset_index()
-        avg_rank.columns = ['maker', 'avg_rank']
-        
-        # Merge total sales and average rank
-        summary_stats = total_sales.merge(avg_rank, on='maker')
-        summary_stats.columns = ['Manufacturer', 'Total Sales (2022-2024)', 'Average Rank']
-        summary_stats['Average Rank'] = summary_stats['Average Rank'].round(2)
-        
-        st.dataframe(summary_stats, use_container_width=True)
-        
-        # Top performer by quarter
-        top_by_quarter = quarterly_sales.loc[
-            quarterly_sales.groupby('year_quarter')['electric_vehicles_sold'].idxmax()
-        ][['year_quarter', 'maker', 'electric_vehicles_sold']]
-        
-        top_by_quarter.columns = ['Quarter', 'Top Manufacturer', 'Sales Volume']
-        
-        st.markdown("### Top Performing Manufacturer by Quarter")
-        st.dataframe(top_by_quarter, use_container_width=True)
+        # Third grid column: Summary statistics
+        with grid_col2:
+            st.markdown("#### Summary Statistics")
+            
+            total_sales = quarterly_sales.groupby('maker')['electric_vehicles_sold'].sum().reset_index()
+            total_sales = total_sales.sort_values('electric_vehicles_sold', ascending=False)
+            
+            # Add average rank
+            avg_rank = quarterly_sales.groupby('maker')['rank'].mean().reset_index()
+            avg_rank.columns = ['maker', 'avg_rank']
+            
+            # Merge total sales and average rank
+            summary_stats = total_sales.merge(avg_rank, on='maker')
+            summary_stats.columns = ['Manufacturer', 'Total Sales', 'Average Rank']
+            summary_stats['Average Rank'] = summary_stats['Average Rank'].round(2)
+            
+            st.dataframe(summary_stats, use_container_width=True)
+            
+            # Top performer by quarter
+            top_by_quarter = quarterly_sales.loc[
+                quarterly_sales.groupby('year_quarter')['electric_vehicles_sold'].idxmax()
+            ][['year_quarter', 'maker', 'electric_vehicles_sold']]
+            
+            top_by_quarter.columns = ['Quarter', 'Top Manufacturer', 'Sales Volume']
+            
+            st.markdown("#### Top Performing by Quarter")
+            st.dataframe(top_by_quarter, use_container_width=True)
         
         # Display quarter-over-quarter changes
         if not qoq_df.empty:
@@ -390,32 +382,7 @@ def main():
             method='min', ascending=False
         )
         
-        # Area chart for market share evolution
-        fig_area = px.area(
-            market_share_df,
-            x='year_quarter',
-            y='market_share',
-            color='maker',
-            title="Market Share Evolution by Quarter (2022-2024)",
-            labels={'market_share': 'Market Share (%)', 'year_quarter': 'Quarter', 'maker': 'Manufacturer'},
-            custom_data=['rank', 'electric_vehicles_sold']  # Include rank and sales for hover data
-        )
-        
-        fig_area.update_traces(
-            hovertemplate='<b>%{fullData.name}</b><br>Market Share: %{y:.2f}%<br>Rank: #%{customdata[0]:.0f}<br>Sales: %{customdata[1]:,}<extra></extra>'
-        )
-        
-        fig_area.update_layout(
-            xaxis=dict(categoryorder='array', categoryarray=all_quarters),
-            yaxis=dict(ticksuffix="%"),
-            hovermode="x unified",
-            height=500,
-            legend_title_text='Manufacturer'
-        )
-        
-        st.plotly_chart(fig_area, use_container_width=True)
-        
-        # Market share comparison by quarter (start vs. end)
+        # Define first and last quarters for comparison
         if len(all_quarters) >= 2:
             first_quarter = all_quarters[0]
             last_quarter = all_quarters[-1]
@@ -423,7 +390,7 @@ def main():
             first_quarter_data = market_share_df[market_share_df['year_quarter'] == first_quarter]
             last_quarter_data = market_share_df[market_share_df['year_quarter'] == last_quarter]
             
-            # Create a dataframe for comparison
+            # Create comparison dataframe
             comparison_df = pd.merge(
                 first_quarter_data[['maker', 'market_share', 'rank']],
                 last_quarter_data[['maker', 'market_share', 'rank']],
@@ -434,131 +401,186 @@ def main():
             
             comparison_df['change'] = comparison_df['market_share_end'] - comparison_df['market_share_start']
             comparison_df['rank_change'] = comparison_df['rank_start'] - comparison_df['rank_end']
-            
-            # Create visualization for market share changes
-            fig_change = go.Figure()
-            
-            # Sort by end market share
-            comparison_df_sorted = comparison_df.sort_values('market_share_end', ascending=False)
-            
-            # Add bars for start and end market share
-            fig_change.add_trace(
-                go.Bar(
-                    x=comparison_df_sorted['maker'],
-                    y=comparison_df_sorted['market_share_start'],
-                    name=f'Market Share ({first_quarter})',
-                    marker_color='lightblue',
-                    opacity=0.7,
-                    text=comparison_df_sorted['market_share_start'].round(1).astype(str) + '%',
-                    textposition='inside'
-                )
+        
+        # Create 2-column layout for the first row
+        ms_col1, ms_col2 = st.columns(2)
+        
+        # First column: Area chart for market share evolution
+        with ms_col1:
+            fig_area = px.area(
+                market_share_df,
+                x='year_quarter',
+                y='market_share',
+                color='maker',
+                title="Market Share Evolution by Quarter",
+                labels={'market_share': 'Market Share (%)', 'year_quarter': 'Quarter', 'maker': 'Manufacturer'},
+                custom_data=['rank', 'electric_vehicles_sold']  # Include rank and sales for hover data
             )
             
-            fig_change.add_trace(
-                go.Bar(
-                    x=comparison_df_sorted['maker'],
-                    y=comparison_df_sorted['market_share_end'],
-                    name=f'Market Share ({last_quarter})',
-                    marker_color='darkblue',
-                    text=comparison_df_sorted['market_share_end'].round(1).astype(str) + '%',
-                    textposition='inside'
-                )
+            fig_area.update_traces(
+                hovertemplate='<b>%{fullData.name}</b><br>Market Share: %{y:.2f}%<br>Rank: #%{customdata[0]:.0f}<br>Sales: %{customdata[1]:,}<extra></extra>'
             )
             
-            # Add rank change indicators
-            for i, row in comparison_df_sorted.iterrows():
-                if row['rank_change'] > 0:  # Improved rank (moved up)
-                    symbol = '▲'  # Up arrow
-                    color = 'green'
-                    text = f"+{int(row['rank_change'])}"
-                elif row['rank_change'] < 0:  # Declined rank (moved down)
-                    symbol = '▼'  # Down arrow
-                    color = 'red'
-                    text = f"{int(row['rank_change'])}"
-                else:  # No change in rank
-                    symbol = '●'  # Circle
-                    color = 'grey'
-                    text = "0"
-                
-                # Add annotation for rank change
-                fig_change.add_annotation(
-                    x=row['maker'],
-                    y=max(row['market_share_start'], row['market_share_end']) + 2,  # Position above the higher bar
-                    text=f"{symbol} {text}",
-                    showarrow=False,
-                    font=dict(size=14, color=color)
-                )
-            
-            fig_change.update_layout(
-                title=f"Market Share Comparison: {first_quarter} vs {last_quarter}",
-                xaxis_title='Manufacturer',
-                yaxis_title='Market Share (%)',
-                yaxis=dict(ticksuffix='%'),
-                barmode='group',
-                height=500,
-                legend=dict(
-                    orientation='h',
-                    y=1.1,
-                    x=0.5,
-                    xanchor='center'
-                ),
-                annotations=[
-                    dict(
-                        x=0.5,
-                        y=1.05,
-                        xref='paper',
-                        yref='paper',
-                        text="Numbers above bars show rank changes (▲ improved, ▼ declined, ● unchanged)",
-                        showarrow=False,
-                        font=dict(size=12)
-                    )
-                ]
-            )
-            
-            st.plotly_chart(fig_change, use_container_width=True)
-            
-            # Create two bar charts side by side
-            fig = make_subplots(
-                rows=1, cols=2,
-                subplot_titles=(
-                    f"Market Share in {first_quarter}",
-                    f"Market Share in {last_quarter}"
-                ),
-                specs=[[{"type": "domain"}, {"type": "domain"}]]
-            )
-            
-            # First quarter pie chart
-            fig.add_trace(
-                go.Pie(
-                    labels=first_quarter_data['maker'],
-                    values=first_quarter_data['market_share'],
-                    name=first_quarter,
-                    marker_colors=px.colors.qualitative.Set1,
-                    textinfo='percent+label',
-                    hole=.3
-                ),
-                row=1, col=1
-            )
-            
-            # Last quarter pie chart
-            fig.add_trace(
-                go.Pie(
-                    labels=last_quarter_data['maker'],
-                    values=last_quarter_data['market_share'],
-                    name=last_quarter,
-                    marker_colors=px.colors.qualitative.Set1,
-                    textinfo='percent+label',
-                    hole=.3
-                ),
-                row=1, col=2
-            )
-            
-            fig.update_layout(
-                height=500,
+            fig_area.update_layout(
+                xaxis=dict(categoryorder='array', categoryarray=all_quarters),
+                yaxis=dict(ticksuffix="%"),
+                hovermode="x unified",
+                height=400,
                 legend_title_text='Manufacturer'
             )
             
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig_area, use_container_width=True)
+        
+        # Second column: Pie charts comparison
+        with ms_col2:
+            # Always define first_quarter_data and last_quarter_data to avoid unbound errors
+            first_quarter_data = pd.DataFrame()
+            last_quarter_data = pd.DataFrame()
+            if len(all_quarters) >= 2:
+                first_quarter = all_quarters[0]
+                last_quarter = all_quarters[-1]
+                first_quarter_data = market_share_df[market_share_df['year_quarter'] == first_quarter]
+                last_quarter_data = market_share_df[market_share_df['year_quarter'] == last_quarter]
+                # Create pie charts side by side within the column
+                fig = make_subplots(
+                    rows=1, cols=2,
+                    subplot_titles=(
+                        f"Share in {first_quarter}",
+                        f"Share in {last_quarter}"
+                    ),
+                    specs=[[{"type": "domain"}, {"type": "domain"}]]
+                )
+                
+                # First quarter pie chart
+                fig.add_trace(
+                    go.Pie(
+                        labels=first_quarter_data['maker'],
+                        values=first_quarter_data['market_share'],
+                        name=first_quarter,
+                        marker_colors=px.colors.qualitative.Set1,
+                        textinfo='percent+label',
+                        hole=.3
+                    ),
+                    row=1, col=1
+                )
+                
+                # Last quarter pie chart
+                fig.add_trace(
+                    go.Pie(
+                        labels=last_quarter_data['maker'],
+                        values=last_quarter_data['market_share'],
+                        name=last_quarter,
+                        marker_colors=px.colors.qualitative.Set1,
+                        textinfo='percent+label',
+                        hole=.3
+                    ),
+                    row=1, col=2
+                )
+                
+                fig.update_layout(
+                    title="Market Share Comparison by Quarter",
+                    height=400,
+                    legend_title_text='Manufacturer'
+                )
+                
+                st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.info("Need at least two quarters of data to show comparison.")
+                
+        # Create a second row with 2-column layout for market share comparison
+        if len(all_quarters) >= 2:
+            ms_col3, ms_col4 = st.columns(2)
+            
+            # Third column: Market share comparison bar chart
+            with ms_col3:
+                # Market share comparison by quarter (start vs. end)
+                first_quarter = all_quarters[0]
+                last_quarter = all_quarters[-1]
+                
+                first_quarter_data = market_share_df[market_share_df['year_quarter'] == first_quarter]
+                last_quarter_data = market_share_df[market_share_df['year_quarter'] == last_quarter]
+                # Create a dataframe for comparison
+                comparison_df = pd.merge(
+                    first_quarter_data[['maker', 'market_share', 'rank']],
+                    last_quarter_data[['maker', 'market_share', 'rank']],
+                    on='maker',
+                    how='outer',
+                    suffixes=('_start', '_end')
+                ).fillna(0)
+                
+                comparison_df['change'] = comparison_df['market_share_end'] - comparison_df['market_share_start']
+                comparison_df['rank_change'] = comparison_df['rank_start'] - comparison_df['rank_end']
+                
+                # Create visualization for market share changes
+                fig_change = go.Figure()
+                
+                # Sort by end market share
+                comparison_df_sorted = comparison_df.sort_values('market_share_end', ascending=False)
+                
+                # Add bars for start and end market share
+                fig_change.add_trace(
+                    go.Bar(
+                        x=comparison_df_sorted['maker'],
+                        y=comparison_df_sorted['market_share_start'],
+                        name=f'Market Share ({first_quarter})',
+                        marker_color='lightblue',
+                        opacity=0.7,
+                        text=comparison_df_sorted['market_share_start'].round(1).astype(str) + '%',
+                        textposition='inside'
+                    )
+                )
+                
+                fig_change.add_trace(
+                    go.Bar(
+                        x=comparison_df_sorted['maker'],
+                        y=comparison_df_sorted['market_share_end'],
+                        name=f'Market Share ({last_quarter})',
+                        marker_color='darkblue',
+                        text=comparison_df_sorted['market_share_end'].round(1).astype(str) + '%',
+                        textposition='inside'
+                    )
+                )
+                
+                # Add rank change indicators
+                for i, row in comparison_df_sorted.iterrows():
+                    if row['rank_change'] > 0:  # Improved rank (moved up)
+                        symbol = '▲'  # Up arrow
+                        color = 'green'
+                        text = f"+{int(row['rank_change'])}"
+                    elif row['rank_change'] < 0:  # Declined rank (moved down)
+                        symbol = '▼'  # Down arrow
+                        color = 'red'
+                        text = f"{int(row['rank_change'])}"
+                    else:  # No change in rank
+                        symbol = '●'  # Circle
+                        color = 'grey'
+                        text = "0"
+                    
+                    # Add annotation for rank change
+                    fig_change.add_annotation(
+                        x=row['maker'],
+                        y=max(row['market_share_start'], row['market_share_end']) + 2,  # Position above the higher bar
+                        text=f"{symbol} {text}",
+                        showarrow=False,
+                        font=dict(size=14, color=color)
+                    )
+                
+                fig_change.update_layout(
+                    title=f"Market Share: {first_quarter} vs {last_quarter}",
+                    xaxis_title='Manufacturer',
+                    yaxis_title='Market Share (%)',
+                    yaxis=dict(ticksuffix='%'),
+                    barmode='group',
+                    height=400,
+                    legend=dict(
+                        orientation='h',
+                        y=1.1,
+                        x=0.5,
+                        xanchor='center'
+                    )
+                )
+                
+                st.plotly_chart(fig_change, use_container_width=True)
             
             # Market share change table
             st.markdown("### Market Share Change")
@@ -631,120 +653,98 @@ def main():
         # Filter for selected makers
         growth_df = growth_df[growth_df['maker'].isin(selected_makers)]
         
-        # Line chart for quarter-over-quarter growth
-        fig_growth = px.line(
-            growth_df,
-            x='year_quarter',
-            y='qoq_growth',
-            color='maker',
-            markers=True,
-            title="Quarter-over-Quarter Growth Rate (%)",
-            labels={'qoq_growth': 'Growth Rate (%)', 'year_quarter': 'Quarter', 'maker': 'Manufacturer'}
-        )
+
         
-        # Add reference line at y=0
-        fig_growth.add_hline(
-            y=0,
-            line_dash="dash",
-            line_color="black",
-            annotation_text="No Growth",
-            annotation_position="bottom right"
-        )
+        # Create a 2-column layout for charts
+        gr_col1, gr_col2 = st.columns(2)
         
-        fig_growth.update_layout(
-            xaxis=dict(categoryorder='array', categoryarray=all_quarters[1:]),  # Skip first quarter as it has no growth data
-            hovermode="x unified",
-            height=500,
-            legend_title_text='Manufacturer',
-            yaxis_title="Growth Rate (%)",
-            yaxis=dict(ticksuffix="%")
-        )
-        
-        st.plotly_chart(fig_growth, use_container_width=True)
-        
-        # Bar chart for average growth rate by manufacturer
-        avg_growth = growth_df.groupby('maker')['qoq_growth'].mean().reset_index()
-        avg_growth = avg_growth.sort_values('qoq_growth', ascending=False)
-        
-        fig_avg_growth = px.bar(
-            avg_growth,
-            x='maker',
-            y='qoq_growth',
-            color='maker',
-            title="Average Quarter-over-Quarter Growth Rate by Manufacturer (%)",
-            labels={'qoq_growth': 'Average Growth Rate (%)', 'maker': 'Manufacturer'},
-            text=avg_growth['qoq_growth'].round(2).astype(str) + '%'
-        )
-        
-        fig_avg_growth.update_layout(
-            xaxis_title="Manufacturer",
-            yaxis_title="Average Growth Rate (%)",
-            yaxis=dict(ticksuffix="%"),
-            showlegend=False,
-            height=400
-        )
-        
-        st.plotly_chart(fig_avg_growth, use_container_width=True)
-        
-        # Calculate quarterly rank of manufacturers (based on sales volume)
-        # Create a ranking dataframe for the bump chart
-        rank_df = quarterly_sales.copy()
-        rank_df['rank'] = rank_df.groupby('year_quarter')['electric_vehicles_sold'].rank(
-            method='min', ascending=False
-        )
-        
-        # Filter for selected makers
-        rank_df = rank_df[rank_df['maker'].isin(selected_makers)]
-        
-        # Create the bump chart
-        fig_bump = go.Figure()
-        
-        # Sort to ensure correct line connections
-        rank_df = rank_df.sort_values(by=['maker', 'year_quarter'])
-        
-        # Add a line for each manufacturer
-        for maker in selected_makers:
-            maker_data = rank_df[rank_df['maker'] == maker]
+        # First column: Average growth rate
+        with gr_col1:
+            # Bar chart for average growth rate by manufacturer
+            avg_growth = growth_df.groupby('maker')['qoq_growth'].mean().reset_index()
+            avg_growth = avg_growth.sort_values('qoq_growth', ascending=False)
             
-            fig_bump.add_trace(
-                go.Scatter(
-                    x=maker_data['year_quarter'],
-                    y=maker_data['rank'],
-                    mode='lines+markers+text',
-                    name=maker,
-                    line=dict(width=6),
-                    marker=dict(size=12),
-                    text=maker_data['rank'].astype(int),
-                    textposition='top center',
-                    hovertemplate=
-                    '<b>%{text}</b><br>' +
-                    'Rank: %{y}<br>' +
-                    'Quarter: %{x}<br>' +
-                    'Sales: %{customdata:,}<extra></extra>',
-                    customdata=maker_data['electric_vehicles_sold']
-                )
+            fig_avg_growth = px.bar(
+                avg_growth,
+                x='maker',
+                y='qoq_growth',
+                color='maker',
+                title="Average QoQ Growth Rate",
+                labels={'qoq_growth': 'Average Growth Rate (%)', 'maker': 'Manufacturer'},
+                text=avg_growth['qoq_growth'].round(2).astype(str) + '%'
             )
+            
+            fig_avg_growth.update_layout(
+                xaxis_title="Manufacturer",
+                yaxis_title="Average Growth Rate (%)",
+                yaxis=dict(ticksuffix="%"),
+                showlegend=False,
+                height=400
+            )
+            
+            st.plotly_chart(fig_avg_growth, use_container_width=True)
         
-        # Invert y-axis so rank 1 is at the top
-        fig_bump.update_layout(
-            yaxis=dict(
-                autorange='reversed',
-                title='Rank',
-                tickmode='array',
-                tickvals=list(range(1, len(selected_makers) + 1)),
-                ticktext=[f"#{i}" for i in range(1, len(selected_makers) + 1)],
-                gridcolor='lightgrey'
-            ),
-            title="🏆 Manufacturer Ranking by Quarter (2022-2024)",
-            xaxis_title="Quarter",
-            height=500,
-            hovermode="closest",
-            plot_bgcolor='white',
-            legend_title_text='Manufacturer',
-            margin=dict(t=50, b=50, l=50, r=50)
-        )
-        
-        st.plotly_chart(fig_bump, use_container_width=True)
+        # Second column: Manufacturer rankings
+        with gr_col2:
+            # Calculate quarterly rank of manufacturers (based on sales volume)
+            # Create a ranking dataframe for the bump chart
+            rank_df = quarterly_sales.copy()
+            rank_df['rank'] = rank_df.groupby('year_quarter')['electric_vehicles_sold'].rank(
+                method='min', ascending=False
+            )
+            
+            # Filter for selected makers
+            rank_df = rank_df[rank_df['maker'].isin(selected_makers)]
+            
+            # Create the bump chart
+            fig_bump = go.Figure()
+            
+            # Sort to ensure correct line connections
+            rank_df = rank_df.sort_values(by=['maker', 'year_quarter'])
+            
+            # Add a line for each manufacturer
+            for maker in selected_makers:
+                maker_data = rank_df[rank_df['maker'] == maker]
+                
+                fig_bump.add_trace(
+                    go.Scatter(
+                        x=maker_data['year_quarter'],
+                        y=maker_data['rank'],
+                        mode='lines+markers+text',
+                        name=maker,
+                        line=dict(width=6),
+                        marker=dict(size=12),
+                        text=maker_data['rank'].astype(int),
+                        textposition='top center',
+                        hovertemplate=
+                        '<b>%{text}</b><br>' +
+                        'Rank: %{y}<br>' +
+                        'Quarter: %{x}<br>' +
+                        'Sales: %{customdata:,}<extra></extra>',
+                        customdata=maker_data['electric_vehicles_sold']
+                    )
+                )
+            
+            # Invert y-axis so rank 1 is at the top
+            fig_bump.update_layout(
+                yaxis=dict(
+                    autorange='reversed',
+                    title='Rank',
+                    tickmode='array',
+                    tickvals=list(range(1, len(selected_makers) + 1)),
+                    ticktext=[f"#{i}" for i in range(1, len(selected_makers) + 1)],
+                    gridcolor='lightgrey'
+                ),
+                title="Manufacturer Ranking by Quarter",
+                xaxis_title="Quarter",
+                height=400,
+                hovermode="closest",
+                plot_bgcolor='white',
+                legend_title_text='Manufacturer',
+                margin=dict(t=50, b=50, l=50, r=50)
+            )
+            
+            st.plotly_chart(fig_bump, use_container_width=True)
         
         # Show explanation text
         st.markdown("""
