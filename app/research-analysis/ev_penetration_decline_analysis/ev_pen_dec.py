@@ -123,7 +123,7 @@ if all(year in available_years for year in [2022, 2023, 2024]):
                 (monthly_data["date"] <= "2023-12-31")
             ]
             
-            monthly_avg = monthly_data.groupby(["state", pd.Grouper(key="date", freq="M")])["ev_penetration_rate"].mean().reset_index()
+            monthly_avg = monthly_data.groupby(["state", pd.Grouper(key="date", freq="ME")])["ev_penetration_rate"].mean().reset_index()
             monthly_avg["year_month"] = monthly_avg["date"].dt.strftime("%Y-%m")
             
             # Pivot the data
@@ -192,7 +192,7 @@ if all(year in available_years for year in [2022, 2023, 2024]):
                 (monthly_data["date"] <= "2023-12-31")
             ]
             
-            monthly_avg = monthly_data.groupby(["state", pd.Grouper(key="date", freq="M")])["ev_penetration_rate"].mean().reset_index()
+            monthly_avg = monthly_data.groupby(["state", pd.Grouper(key="date", freq="ME")])["ev_penetration_rate"].mean().reset_index()
             monthly_avg["year_month"] = monthly_avg["date"].dt.strftime("%Y-%m")
             
             fig_monthly = px.line(

@@ -103,8 +103,26 @@ analyses = [
     {
         "name": "Top vs Bottom 2-Wheeler Makers",
         "description": "Comparative analysis of top and bottom performing two-wheeler manufacturers in FY 2023-2024.",
-        "path": "research-analysis/top_bottom_2w_makers_fy2023_2024/analysis.py",
+        "path": "top_bottom_2w_makers_fy2023_2024/analysis.py",
         "icon": "🏍️"
+    },
+    {
+        "name": "Quarterly Trends - Top 5 4-Wheeler Makers",
+        "description": "Analysis of quarterly sales volume trends for the top 5 four-wheeler EV manufacturers from 2022 to 2024.",
+        "path": "research-analysis/qtr_trends_ev_top5/analysis.py",
+        "icon": "📊"
+    },
+    {
+        "name": "Delhi vs Karnataka EV Comparison",
+        "description": "Comparative analysis of EV sales and penetration rates between Delhi and Karnataka for 2024.",
+        "path": "research-analysis/ev_sales_penetration_delhi_vs_karnataka_2024/analysis.py",
+        "icon": "🔋"
+    },
+    {
+        "name": "CAGR Analysis - Top 5 4-Wheeler EV Makers",
+        "description": "Detailed analysis of the compounded annual growth rate (CAGR) for the top 5 four-wheeler EV manufacturers from 2022 to 2024.",
+        "path": "research-analysis/cagr_top5_4w_ev_2022_2024/analysis.py",
+        "icon": "🚗"
     }
 ]
 
