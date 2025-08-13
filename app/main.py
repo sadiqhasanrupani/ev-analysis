@@ -126,6 +126,18 @@ analyses = [
         "path": "research-analysis/top10_states_with_highest_cagr/analysis.py",
         "icon": "📈",
     },
+    {
+        "name": "EV Sales Seasonality Analysis",
+        "description": "Analysis of peak and low season months for electric vehicle sales based on data from 2022 to 2024.",
+        "path": "research-analysis/ev_peak_low_months/analysis.py",
+        "icon": "📅",
+    },
+    {
+        "name": "EV Sales Projections 2030",
+        "description": "Interactive dashboard projecting electric vehicle sales for top states in India by 2030, based on historical growth trends and CAGR analysis.",
+        "path": "research-analysis/ev_sales_projection_2030/analysis.py",
+        "icon": "🔮",
+    },
 ]
 
 
