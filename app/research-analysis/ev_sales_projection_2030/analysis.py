@@ -119,25 +119,80 @@ st.markdown(
 
 def load_data():
     """Load and preprocess the EV sales data"""
-    # Define path to data
-    data_path = (
-        BASE_DIR / "data" / "processed" / "ev_sales_by_state_enhanced_20250806.csv"
-    )
-
-    # Load the data
-    monthly_ev_sales = pd.read_csv(data_path)
-
-    # Convert date to datetime
-    monthly_ev_sales["date"] = pd.to_datetime(monthly_ev_sales["date"])
-
-    # Create fiscal year column (fiscal year starts in April)
-    monthly_ev_sales["fiscal_year"] = np.where(
-        monthly_ev_sales["month"] >= 4,
-        monthly_ev_sales["year"],
-        monthly_ev_sales["year"] - 1,
-    )
-
-    return monthly_ev_sales
+    # Define paths to data
+    state_sales_path = BASE_DIR / "data" / "raw" / "electric_vehicle_sales_by_state.csv"
+    dim_date_path = BASE_DIR / "data" / "raw" / "dim_date.csv"
+    
+    # Load raw sales data
+    raw_data = pd.read_csv(state_sales_path)
+    
+    # Load the date dimension table to get fiscal years
+    try:
+        dim_date = pd.read_csv(dim_date_path)
+        
+        # Merge the sales data with the date dimension to get fiscal years
+        monthly_ev_sales = pd.merge(raw_data, dim_date, on="date", how="inner")
+        
+        # Convert date to datetime for additional processing if needed
+        monthly_ev_sales["date"] = pd.to_datetime(monthly_ev_sales["date"], format="%d-%b-%y")
+        
+        # Calculate EV penetration rate
+        monthly_ev_sales["ev_penetration_rate"] = (
+            monthly_ev_sales["electric_vehicles_sold"] / monthly_ev_sales["total_vehicles_sold"]
+        ) * 100
+        
+        # Add region information (if not present)
+        if "region" not in monthly_ev_sales.columns:
+            # This is a simplified version - in production you might want to use a mapping file
+            def classify_region(state):
+                south = ["Karnataka", "Tamil Nadu", "Kerala", "Andhra Pradesh", "Telangana"]
+                north = ["Delhi", "Punjab", "Haryana", "Uttar Pradesh", "Uttarakhand", "Himachal Pradesh"]
+                east = ["West Bengal", "Odisha", "Bihar", "Jharkhand"]
+                west = ["Maharashtra", "Gujarat", "Rajasthan", "Goa"]
+                northeast = ["Assam", "Manipur", "Meghalaya", "Nagaland", "Tripura", "Sikkim", "Arunachal Pradesh"]
+                central = ["Madhya Pradesh", "Chhattisgarh"]
+                
+                if state in south:
+                    return "South"
+                elif state in north:
+                    return "North"
+                elif state in east:
+                    return "East"
+                elif state in west:
+                    return "West"
+                elif state in northeast:
+                    return "Northeast"
+                elif state in central:
+                    return "Central"
+                else:
+                    return "Other"
+            
+            monthly_ev_sales["region"] = monthly_ev_sales["state"].apply(classify_region)
+        
+        return monthly_ev_sales
+        
+    except Exception as e:
+        st.error(f"Error loading or processing data: {str(e)}")
+        # Fallback to enhanced file if available
+        try:
+            enhanced_path = BASE_DIR / "data" / "processed" / "ev_sales_by_state_enhanced_20250806.csv"
+            monthly_ev_sales = pd.read_csv(enhanced_path)
+            
+            # Convert date to datetime
+            monthly_ev_sales["date"] = pd.to_datetime(monthly_ev_sales["date"])
+            
+            if "fiscal_year" not in monthly_ev_sales.columns:
+                # Create fiscal year column (fiscal year starts in April)
+                monthly_ev_sales["fiscal_year"] = np.where(
+                    monthly_ev_sales["month"] >= 4,
+                    monthly_ev_sales["year"],
+                    monthly_ev_sales["year"] - 1,
+                )
+            
+            return monthly_ev_sales
+        except:
+            st.error("Could not load data. Please check data files.")
+            return None
 
 
 def calculate_projections(
@@ -148,7 +203,7 @@ def calculate_projections(
     top_n=10,
     projection_year=2030,
 ):
-    """Calculate CAGR and project sales for 2030"""
+    """Calculate CAGR and project sales for 2030 based on fiscal year data"""
 
     # Apply filters if specified
     filtered_data = monthly_ev_sales.copy()
@@ -160,15 +215,18 @@ def calculate_projections(
         latest_fy = filter_year
     else:
         latest_fy = filtered_data["fiscal_year"].max()
+    
+    # Display info about the data being used for calculation
+    st.sidebar.info(f"Using data from fiscal year {filtered_data['fiscal_year'].min()} to {latest_fy}")
 
-    # Group by state and fiscal year
+    # Group by state and fiscal year, summing EV sales (combining 2W & 4W)
     fy_sales = (
         filtered_data.groupby(["state", "fiscal_year"])["electric_vehicles_sold"]
         .sum()
         .reset_index()
     )
 
-    # Get the top states by penetration rate
+    # Get the top states based on selected criterion
     if use_ev_penetration:
         # Use EV penetration rate to find top states
         top_states = (
@@ -179,6 +237,7 @@ def calculate_projections(
             .head(top_n)
             .index.tolist()
         )
+        st.sidebar.success(f"Showing top {top_n} states by penetration rate")
     else:
         # Use total EV sales to find top states
         top_states = (
@@ -187,6 +246,7 @@ def calculate_projections(
             .head(top_n)["state"]
             .tolist()
         )
+        st.sidebar.success(f"Showing top {top_n} states by total EV sales volume")
 
     # Calculate CAGR for each state
     cagr_dict = {}
@@ -195,17 +255,14 @@ def calculate_projections(
         if len(state_data) < 2:  # Skip states with insufficient data
             continue
 
-        start_sales = state_data.iloc[0][
-            "electric_vehicles_sold"
-        ]  # first fiscal year sales
-        end_sales = state_data.iloc[-1][
-            "electric_vehicles_sold"
-        ]  # last fiscal year sales
+        # Get first and last fiscal year's sales
+        start_sales = state_data.iloc[0]["electric_vehicles_sold"]
+        end_sales = state_data.iloc[-1]["electric_vehicles_sold"]
         n_years = state_data["fiscal_year"].iloc[-1] - state_data["fiscal_year"].iloc[0]
 
-        # Avoid division by zero
+        # Calculate CAGR - avoid division by zero
         if start_sales > 0 and n_years > 0:
-            cagr = ((end_sales / start_sales) ** (1 / n_years) - 1).round(2)
+            cagr = ((end_sales / start_sales) ** (1 / n_years) - 1).round(4)  # 4 decimal places for precision
             cagr_dict[state] = cagr
 
     # Project sales for specified year
@@ -213,10 +270,13 @@ def calculate_projections(
     years_to_project = projection_year - latest_fy
 
     for state, cagr in cagr_dict.items():
+        # Get current sales (from latest fiscal year)
         current_sales = fy_sales[
             (fy_sales["state"] == state) & (fy_sales["fiscal_year"] == latest_fy)
         ]["electric_vehicles_sold"].values[0]
-        projected_sales[state] = current_sales * (1 + cagr) ** years_to_project
+        
+        # Calculate projected sales using CAGR formula
+        projected_sales[state] = int(current_sales * (1 + cagr) ** years_to_project)
 
     # Convert to DataFrame
     proj_df = pd.DataFrame(
@@ -489,7 +549,7 @@ def create_visualizations(proj_df, cagr_dict, selected_viz):
 
 
 def display_adhd_friendly_insights(proj_df):
-    """Display ADHD-friendly insights section"""
+    """Display ADHD-friendly insights section with updated fiscal year analysis"""
 
     # Use correct class names for section titles and containers
     st.markdown(
@@ -506,10 +566,16 @@ def display_adhd_friendly_insights(proj_df):
     top_sales = proj_df.iloc[0]["Projected_Sales_2030_readable"]
     next_two_sales = proj_df.iloc[1:3]["Projected_Sales_2030"].sum()
 
+    # Check if top state sales exceed next two combined
+    exceeds_text = ""
+    if proj_df.iloc[0]["Projected_Sales_2030"] > next_two_sales:
+        exceeds_text = " - that's more than the next two states combined!"
+    
     st.markdown(
       f"""
-    **{top_state} will lead India's EV revolution** with a projected **{top_sales} electric vehicles** by 2030 
-    - that's more than the next two states combined!
+    **{top_state} will lead India's EV revolution** with a projected **{top_sales} electric vehicles** by 2030{exceeds_text}
+    
+    This forecast is based on consistent fiscal year analysis, aligning with India's economic planning cycles, providing a more accurate view of growth patterns.
     """
     )
     st.markdown("</div>", unsafe_allow_html=True)
@@ -527,22 +593,31 @@ def display_adhd_friendly_insights(proj_df):
       * 100
     ).round(1)
 
-    south_states = proj_df[proj_df["Region"] == "South"]["State"].tolist()
-    if south_states:
-      south_states_text = ", ".join(south_states)
+    # Identify dominant regions
+    region_counts = proj_df.head(5)["Region"].value_counts()
+    dominant_region = region_counts.idxmax() if not region_counts.empty else "various regions"
+    
+    # Get states from dominant region for more specific insight
+    regional_states = proj_df[proj_df["Region"] == dominant_region]["State"].tolist()
+    if regional_states:
+      regional_states_text = ", ".join(regional_states[:3])
+      if len(regional_states) > 3:
+          regional_states_text += f" and {len(regional_states) - 3} more"
     else:
-      south_states_text = "Southern states"
+      regional_states_text = f"{dominant_region}ern states"
+
+    # Find highest growth state
+    highest_growth_state = proj_df.loc[proj_df["CAGR"].idxmax()]["State"]
+    highest_growth = (proj_df.loc[proj_df["CAGR"].idxmax()]["CAGR"] * 100).round(1)
 
     st.markdown(
-      """
-    1. <span class="emoji-bullet">🥇</span> **Three states will dominate**: {0} will account for over {1}% of all EV sales in India by 2030
+      f"""
+    1. <span class="emoji-bullet">🥇</span> **Three states will dominate**: {top3_states} will account for over {top3_pct}% of all EV sales in India by 2030
 
-    2. <span class="emoji-bullet">🌍</span> **Regional clusters matter**: {2} show the strongest adoption patterns, visible in both our map and treemap visualizations
+    2. <span class="emoji-bullet">🌍</span> **Regional clusters matter**: {regional_states_text} in the {dominant_region} region show the strongest adoption patterns, visible in both our map and treemap visualizations
 
-    3. <span class="emoji-bullet">📊</span> **Size ≠ Growth**: Some smaller states show impressive growth rates despite lower total volumes
-    """.format(
-        top3_states, top3_pct, south_states_text
-      ),
+    3. <span class="emoji-bullet">�</span> **Growth champion**: {highest_growth_state} shows an impressive {highest_growth}% CAGR, demonstrating how focused policy initiatives can drive exceptional EV adoption
+    """,
       unsafe_allow_html=True,
     )
     st.markdown("</div>", unsafe_allow_html=True)
@@ -615,19 +690,53 @@ def display_adhd_friendly_insights(proj_df):
 
     top_region = proj_df["Region"].value_counts().idxmax()
     charging_state = proj_df.iloc[0]["State"]
+    
+    # Find an underperforming region for policy recommendation
+    region_performance = proj_df.groupby("Region")["Projected_Sales_2030"].sum()
+    if len(region_performance) > 1:
+        underperforming_region = region_performance.idxmin()
+    else:
+        underperforming_region = "Northern" # default if we don't have enough regions
+    
+    # Get the lagging state for focused initiatives
+    if len(proj_df) > 5:
+        lagging_state = proj_df.iloc[-1]["State"]
+    else:
+        lagging_state = "lagging states"
 
     st.markdown(
       f"""
-    * <span class="emoji-bullet">🏭</span> **Manufacturers**: Focus production capacity and distribution networks in {top_region}ern India
+    * <span class="emoji-bullet">🏭</span> **Manufacturers**: Focus production capacity and distribution networks in {top_region} India, where the highest projected sales volumes are concentrated
     
-    * <span class="emoji-bullet">🔌</span> **Charging Infrastructure**: {charging_state} needs 5× more charging stations than most other states
+    * <span class="emoji-bullet">🔌</span> **Charging Infrastructure**: {charging_state} needs 5× more charging stations than most other states to support its projected growth
     
-    * <span class="emoji-bullet">📜</span> **Government Policy**: Northern states need stronger incentives to catch up
+    * <span class="emoji-bullet">📜</span> **Government Policy**: {underperforming_region} states like {lagging_state} need stronger fiscal incentives to accelerate EV adoption
+    
+    * <span class="emoji-bullet">🔍</span> **Investment Strategy**: Study {highest_growth_state}'s success factors to replicate its growth model in other states
     """,
       unsafe_allow_html=True,
     )
     st.markdown("</div>", unsafe_allow_html=True)
-
+    
+    # Market Evolution
+    st.markdown('<div class="insight-container">', unsafe_allow_html=True)
+    st.markdown(
+      '<h3 class="insight-header">📈 MARKET EVOLUTION</h3>',
+      unsafe_allow_html=True,
+    )
+    
+    st.markdown(
+      f"""
+    * <span class="emoji-bullet">🔄</span> **Market Consolidation**: By 2030, the top 3 states will control {top3_pct}% of the EV market, up from historical averages
+    
+    * <span class="emoji-bullet">🌱</span> **Emerging Opportunities**: States with high CAGR but currently low volumes represent untapped potential for early movers
+    
+    * <span class="emoji-bullet">📊</span> **Fiscal Year Analysis**: This forecast using fiscal year data aligns with India's economic planning and policy implementation cycles
+    """,
+      unsafe_allow_html=True,
+    )
+    st.markdown("</div>", unsafe_allow_html=True)
+    
     # Data Table
     with st.expander("View Detailed Projections Table"):
       display_df = proj_df.copy()
@@ -655,10 +764,11 @@ def main():
     )
     
     # Load data
-    try:
-        monthly_ev_sales = load_data()
-    except Exception as e:
-        st.error(f"Error loading data: {str(e)}")
+    monthly_ev_sales = load_data()
+    
+    # Check if data was loaded successfully
+    if monthly_ev_sales is None:
+        st.error("Failed to load data. Please check data files and try again.")
         return
     
     # Get available years
@@ -712,7 +822,7 @@ def main():
     display_kpi_metrics(proj_df)
     
     # Create visualizations
-    st.markdown('<h2 class="section-title">VISUALIZATION</h2>', unsafe_allow_html=True)
+    st.markdown(f'<h2 class="section-title">EV SALES PROJECTIONS FOR FY {projection_year}</h2>', unsafe_allow_html=True)
     create_visualizations(proj_df, cagr_dict, selected_viz)
     
     # Display ADHD-friendly insights
@@ -731,5 +841,6 @@ def main():
     )
 
 
+# This function allows the dashboard to be run as a standalone app or from the main hub
 if __name__ == "__main__":
     main()
