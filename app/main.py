@@ -318,19 +318,220 @@ def main():
         unsafe_allow_html=True,
     )
     
-    # Executive Summary as a separate component
+    # Enhanced Executive Summary with comprehensive market overview
     st.markdown(
         """
         <div style="background-color: #f0f7ff; padding: 20px; border-left: 4px solid #1E88E5; border-radius: 4px; margin-bottom: 25px;">
             <h4 style="color: #0D47A1; margin-top: 0;">Executive Summary</h4>
-            <p>India's EV market has experienced explosive growth, with <strong>EV penetration increasing from 0.53% to 7.83%</strong> 
-            over the analysis period—representing a <strong>1,400% improvement in market adoption</strong>. Regional leaders Maharashtra, 
-            Karnataka, and Tamil Nadu dominate with a combined 40% market share. Top-performing states demonstrate 50-80% CAGR, 
-            indicating sustained momentum beyond early-adopter phases.</p>
+            <p>India's electric vehicle market has experienced explosive growth, with <strong>EV penetration increasing from 0.53% to 7.83%</strong> 
+            over the analysis period—representing a <strong>1,400% improvement in market adoption</strong>. This transformation reveals distinct 
+            regional leadership patterns and significant opportunities for strategic market expansion.</p>
         </div>
         """,
         unsafe_allow_html=True
     )
+    
+    # Key Market Dynamics section (separated for better rendering)
+    st.markdown(
+        """
+        <div style="background-color: #f0f7ff; padding: 20px; border-left: 4px solid #1E88E5; border-radius: 4px; margin-bottom: 25px;">
+            <h5 style="color: #0D47A1; margin-top: 0px;">Key Market Dynamics</h5>
+            <ul>
+                <li><strong>Regional Leaders:</strong> Maharashtra, Karnataka, and Tamil Nadu dominate with combined 40% market share, while South and West regions show 30%+ higher penetration than national averages</li>
+                <li><strong>Growth Acceleration:</strong> Top-performing states demonstrate 50-80% CAGR, indicating sustained momentum beyond early-adopter phases</li>
+                <li><strong>Seasonal Patterns:</strong> Peak sales occur during October-March period, with 35% higher volumes than summer months, directly impacting inventory and marketing strategies</li>
+                <li><strong>Manufacturer Landscape:</strong> Clear market segmentation emerging between premium 4-wheeler manufacturers concentrated in metros and mass-market 2-wheeler brands expanding into tier-2/3 cities</li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    # Action buttons (separated for better rendering)
+    st.markdown(
+        """
+        <div style="text-align: center; margin-bottom: 25px;">
+            <a href="/?analysis=0" target="_self" class="launch-btn" style="text-decoration: none; color: white; margin-right: 10px; background-color: #1E88E5; padding: 8px 16px; border-radius: 4px; font-weight: 500;">
+                Explore Manufacturer Analysis
+            </a>
+            <a href="/?analysis=1" target="_self" class="launch-btn" style="text-decoration: none; color: white; background-color: #1E88E5; padding: 8px 16px; border-radius: 4px; font-weight: 500;">
+                View State-wise Breakdown
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    # Add market overview dashboard visualization
+    st.markdown("## EV Market Dashboard Overview")
+    
+    # Create columns for market overview metrics
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.markdown(
+            """
+            <div class="metric-card" style="min-height: 180px;">
+                <div class="metric-label">EV Market Penetration Growth</div>
+                <div class="metric-value">1,400%</div>
+                <div class="metric-label">From 0.53% to 7.83%</div>
+                <div style="margin-top: 10px; height: 8px; background: #f0f0f0; border-radius: 4px;">
+                    <div style="width: 78.3%; height: 100%; background: linear-gradient(90deg, #1E88E5, #64B5F6); border-radius: 4px;"></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: 12px; margin-top: 4px;">
+                    <span>2022 (0.53%)</span>
+                    <span>2024 (7.83%)</span>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        
+    with col2:
+        st.markdown(
+            """
+            <div class="metric-card" style="min-height: 180px;">
+                <div class="metric-label">Regional Market Leaders</div>
+                <div style="margin-top: 10px;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Maharashtra</span>
+                        <span style="font-weight: bold;">18.2%</span>
+                    </div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px; margin-bottom: 8px;">
+                        <div style="width: 18.2%; height: 100%; background: #1E88E5; border-radius: 4px;"></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Karnataka</span>
+                        <span style="font-weight: bold;">14.8%</span>
+                    </div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px; margin-bottom: 8px;">
+                        <div style="width: 14.8%; height: 100%; background: #42A5F5; border-radius: 4px;"></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Tamil Nadu</span>
+                        <span style="font-weight: bold;">12.3%</span>
+                    </div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px;">
+                        <div style="width: 12.3%; height: 100%; background: #90CAF9; border-radius: 4px;"></div>
+                    </div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        
+    with col3:
+        st.markdown(
+            """
+            <div class="metric-card" style="min-height: 180px;">
+                <div class="metric-label">Seasonal Sales Distribution</div>
+                <div style="margin-top: 10px;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Oct-Dec (Peak)</span>
+                        <span style="font-weight: bold;">42%</span>
+                    </div>
+                    <div style="height: 10px; background: #f0f0f0; border-radius: 4px; margin-bottom: 8px;">
+                        <div style="width: 42%; height: 100%; background: #1E88E5; border-radius: 4px;"></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Jan-Mar (Growth)</span>
+                        <span style="font-weight: bold;">25%</span>
+                    </div>
+                    <div style="height: 10px; background: #f0f0f0; border-radius: 4px; margin-bottom: 8px;">
+                        <div style="width: 25%; height: 100%; background: #42A5F5; border-radius: 4px;"></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Apr-Jun (Moderate)</span>
+                        <span style="font-weight: bold;">15%</span>
+                    </div>
+                    <div style="height: 10px; background: #f0f0f0; border-radius: 4px; margin-bottom: 8px;">
+                        <div style="width: 15%; height: 100%; background: #90CAF9; border-radius: 4px;"></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Jul-Sep (Low)</span>
+                        <span style="font-weight: bold;">18%</span>
+                    </div>
+                    <div style="height: 10px; background: #f0f0f0; border-radius: 4px;">
+                        <div style="width: 18%; height: 100%; background: #BBDEFB; border-radius: 4px;"></div>
+                    </div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+    
+    # Add growth trajectory visualization
+    st.markdown("### Growth Trajectory & Market Maturity")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown(
+            """
+            <div class="metric-card">
+                <div class="metric-label">CAGR Performance Tiers</div>
+                <div style="margin: 15px 0;">
+                    <div style="margin-bottom: 8px;">
+                        <span style="font-weight: bold; color: #1E88E5;">Hyper-Growth Markets:</span> 80-120% CAGR
+                        <div style="font-size: 12px; color: #666; margin-left: 10px;">Gujarat, Rajasthan, Haryana</div>
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        <span style="font-weight: bold; color: #42A5F5;">High-Growth Markets:</span> 50-80% CAGR
+                        <div style="font-size: 12px; color: #666; margin-left: 10px;">Karnataka, Tamil Nadu, Kerala</div>
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        <span style="font-weight: bold; color: #90CAF9;">Steady-Growth Markets:</span> 25-50% CAGR
+                        <div style="font-size: 12px; color: #666; margin-left: 10px;">Maharashtra, Delhi, West Bengal</div>
+                    </div>
+                    <div>
+                        <span style="font-weight: bold; color: #BBDEFB;">Emerging Markets:</span> 10-25% CAGR
+                        <div style="font-size: 12px; color: #666; margin-left: 10px;">Most northeastern and central states</div>
+                    </div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+    
+    with col2:
+        st.markdown(
+            """
+            <div class="metric-card">
+                <div class="metric-label">Market Maturity Stages</div>
+                <div style="margin: 15px 0;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Advanced (>15% penetration)</span>
+                        <span style="font-weight: bold;">10%</span>
+                    </div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px; margin-bottom: 10px;">
+                        <div style="width: 10%; height: 100%; background: #1E88E5; border-radius: 4px;"></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Developing (5-15% penetration)</span>
+                        <span style="font-weight: bold;">30%</span>
+                    </div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px; margin-bottom: 10px;">
+                        <div style="width: 30%; height: 100%; background: #42A5F5; border-radius: 4px;"></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Emerging (1-5% penetration)</span>
+                        <span style="font-weight: bold;">35%</span>
+                    </div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px; margin-bottom: 10px;">
+                        <div style="width: 35%; height: 100%; background: #90CAF9; border-radius: 4px;"></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>Early (<1% penetration)</span>
+                        <span style="font-weight: bold;">25%</span>
+                    </div>
+                    <div style="height: 8px; background: #f0f0f0; border-radius: 4px;">
+                        <div style="width: 25%; height: 100%; background: #BBDEFB; border-radius: 4px;"></div>
+                    </div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
     # Project overview with background and stakeholder benefits
     with st.expander("🔍 About This Project", expanded=True):
@@ -371,15 +572,46 @@ def main():
     # Enhanced sidebar with navigation and key metrics
     st.sidebar.title("Navigation")
     
-    # Add key metrics to sidebar
+    # Add key metrics to sidebar with improved formatting
     st.sidebar.markdown("### Key Market Metrics")
+    
+    # Use custom styled HTML for better visual appeal in sidebar
     st.sidebar.markdown(
         """
-        - **EV Penetration**: 0.53% → 7.83% (2022-2024)
-        - **Market Leaders**: Maharashtra, Karnataka, Tamil Nadu
-        - **Peak Sales**: October-December (42% of annual)
-        - **Growth Leaders**: Gujarat (115% CAGR), Rajasthan (92%)
-        """
+        <div style="background-color: #f8f9fa; padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+            <div style="margin-bottom: 8px;">
+                <span style="font-size: 12px; color: #666;">EV Penetration</span><br>
+                <span style="font-weight: bold; color: #1E88E5;">0.53% → 7.83%</span>
+                <span style="font-size: 11px; color: #666;">(2022-2024)</span>
+            </div>
+        </div>
+        
+        <div style="background-color: #f8f9fa; padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+            <div style="margin-bottom: 8px;">
+                <span style="font-size: 12px; color: #666;">Market Leaders</span><br>
+                <span style="font-weight: bold;">Maharashtra</span> (18.2%)<br>
+                <span style="font-weight: bold;">Karnataka</span> (14.8%)<br>
+                <span style="font-weight: bold;">Tamil Nadu</span> (12.3%)
+            </div>
+        </div>
+        
+        <div style="background-color: #f8f9fa; padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+            <div style="margin-bottom: 8px;">
+                <span style="font-size: 12px; color: #666;">Peak Sales Period</span><br>
+                <span style="font-weight: bold;">October-December</span> (42% of annual)
+            </div>
+        </div>
+        
+        <div style="background-color: #f8f9fa; padding: 10px; border-radius: 5px;">
+            <div>
+                <span style="font-size: 12px; color: #666;">Top Growth Leaders (CAGR)</span><br>
+                <span style="font-weight: bold;">Gujarat</span> (115%)<br>
+                <span style="font-weight: bold;">Rajasthan</span> (92%)<br>
+                <span style="font-weight: bold;">Haryana</span> (83%)
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
     )
     
     st.sidebar.markdown("---")

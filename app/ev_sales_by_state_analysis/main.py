@@ -70,11 +70,30 @@ def load_data():
     if "date" in ev_sales_state.columns:
         ev_sales_state["date"] = pd.to_datetime(ev_sales_state["date"])
         ev_sales_state["year_month"] = ev_sales_state["date"].dt.strftime("%Y-%m")
+        ev_sales_state["month_name"] = ev_sales_state["date"].dt.strftime("%B")
     elif "month" in ev_sales_state.columns and "year" in ev_sales_state.columns:
         ev_sales_state["year_month"] = (
             ev_sales_state["year"].astype(str)
             + "-"
             + ev_sales_state["month"].astype(str).str.zfill(2)
+        )
+        ev_sales_state["month_name"] = ev_sales_state["month"].apply(
+            lambda x: pd.to_datetime(str(x), format="%m").strftime("%B")
+        )
+
+    # Also add month_name and year_month to ev_sales_enhanced if columns exist
+    if "date" in ev_sales_enhanced.columns:
+        ev_sales_enhanced["date"] = pd.to_datetime(ev_sales_enhanced["date"])
+        ev_sales_enhanced["year_month"] = ev_sales_enhanced["date"].dt.strftime("%Y-%m")
+        ev_sales_enhanced["month_name"] = ev_sales_enhanced["date"].dt.strftime("%B")
+    elif "month" in ev_sales_enhanced.columns and "year" in ev_sales_enhanced.columns:
+        ev_sales_enhanced["year_month"] = (
+            ev_sales_enhanced["year"].astype(str)
+            + "-"
+            + ev_sales_enhanced["month"].astype(str).str.zfill(2)
+        )
+        ev_sales_enhanced["month_name"] = ev_sales_enhanced["month"].apply(
+            lambda x: pd.to_datetime(str(x), format="%m").strftime("%B")
         )
 
     return ev_sales_state, ev_sales_enhanced
@@ -242,7 +261,7 @@ def main():
 
         fig_penetration_states = px.bar(
             state_penetration,
-            x="state",
+            x="month",
             y="ev_penetration",
             title="Top 10 States by EV Penetration Rate",
             labels={"state": "State", "ev_penetration": "EV Penetration Rate (%)"},
@@ -426,11 +445,12 @@ st.set_page_config(
     page_title="EV Sales by State Analysis",
     page_icon="🚗",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
 )
 
 # Add custom CSS for styling
-st.markdown("""
+st.markdown(
+    """
 <style>
     .main {
         padding: 1rem 1rem;
@@ -488,7 +508,9 @@ st.markdown("""
         margin-top: 30px;
     }
 </style>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 
 if __name__ == "__main__":

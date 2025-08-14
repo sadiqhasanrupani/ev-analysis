@@ -94,7 +94,7 @@ India's electric vehicle market has experienced explosive growth, with **EV pene
 - **Seasonal Patterns**: Peak sales occur during October-March period, with 35% higher volumes than summer months, directly impacting inventory and marketing strategies
 - **Manufacturer Landscape**: Clear market segmentation emerging between premium 4-wheeler manufacturers concentrated in metros and mass-market 2-wheeler brands expanding into tier-2/3 cities
 
-![EV Market Dashboard Overview](./data/2025-08-14_10-57.png)
+![EV Market Dashboard Overview](./data/visuals/ev_dashboard_overview.png)
 
 The analysis identifies **$2.8B+ market opportunity** in underperforming regions and provides specific expansion roadmaps for manufacturers and policymakers. The interactive dashboard allows stakeholders to:
 
@@ -111,54 +111,114 @@ The analysis identifies **$2.8B+ market opportunity** in underperforming regions
 
 ### 1. Regional Market Leadership & Opportunity Mapping
 
-**Finding**: Maharashtra leads with **18.2% market share**, followed by Karnataka (14.8%) and Tamil Nadu (12.3%), while northeastern states show <1% penetration despite strong economic indicators.
+**Finding**: Maharashtra leads with **19.2% market share**, followed by Karnataka (15.1%) and Tamil Nadu (9.7%), while northeastern states show <1% penetration despite strong economic indicators.
 
 **Business Context**: The top 5 states account for 65% of total EV sales, creating concentration risk for manufacturers while highlighting untapped potential in emerging markets. Regional analysis reveals that infrastructure development directly correlates with adoption rates—states with 100+ charging stations show 3x higher penetration rates.
 
-![State-wise EV Penetration Heatmap](./data/visuals/state_penetration_analysis.png)
+![Top 10 States By EV Market Share](./data/visuals/top_10_states_by_ev_market_share.png)
+![State Wise EV penetration 2021-2024](./data/visuals/state_wise_ev_penetration_2021_2024.png)
 
 **Market Opportunity**: Northeastern and central states represent a **₹890 crore untapped market opportunity** based on demographic and economic similarity to current high-adoption regions.
 
-### 2. Manufacturer Performance & Market Consolidation Trends
+### 2. Market Structure & Concentration Insights
 
-**Finding**: Top 5 manufacturers control **67% of the 2-wheeler EV market**, while 4-wheeler segment shows 78% concentration among leading brands, indicating rapid market consolidation.
+#### Key Findings
 
-**Performance Metrics**:
-- **2-Wheeler Leaders**: Ola Electric (28% share), TVS (15% share), Bajaj (12% share)
-- **4-Wheeler Leaders**: Tata Motors (45% share), Mahindra (18% share), MG Motor (12% share)
-- **Growth Consistency**: Leading manufacturers maintain 25%+ quarterly growth rates, while bottom quartile shows volatile -10% to +40% swings
+**2-Wheeler EV Market**: Top 5 players control **68%** of the market. The Herfindahl-Hirschman Index (HHI) is **1,340**, which is classified as low concentration. This suggests a competitive environment, with potential for market share shifts and room for new entrants to grow—especially with innovative products or better charging infrastructure.
 
-![Manufacturer Market Share Evolution](./data/visuals/manufacturer_performance_trends.png)
+![market share and concentration trend for 2 wheelers](./data/visuals/markeshare_and_concetration_index_2_wheelers.png)
 
-**Strategic Implication**: Market consolidation creates barriers to entry for new players while offering partnership opportunities for established automotive companies transitioning to electric.
+**4-Wheeler EV Market**: Top 5 players dominate with a massive **97%** share. The HHI is **4,190**, indicating high concentration. This means the market is highly consolidated, and new entrants face substantial barriers unless they enter via partnerships, joint ventures, or disruptive innovations.
+
+![market share and concentration trend in 4 wheeler](./data/visuals/marketshare_and_concetration_index_four_wheelers.png)
+
+#### Performance Highlights
+
+**2W Leaders**: Ola Electric (**25.6%**), TVS (**14.3%**), Ather (**10.7%**), Hero Electric (**8.9%**), Ampere (**8.7%**)  
+
+**4W Leaders**: Tata Motors (**58.1%**), Mahindra & Mahindra (**26.9%**), MG Motor (**9.0%**), BYD India (**1.6%**), Hyundai Motor (**1.4%**)
+
+#### Strategic Implications
+
+**2W Segment**: The relatively low HHI shows there’s competitive breathing space. Emerging brands can still capture share through differentiated battery tech, urban mobility solutions, or rural expansion strategies.
+
+**4W Segment**: The high HHI reflects a near-duopoly. For smaller brands, direct competition is risky; strategic alliances with leaders or focusing on niche premium/luxury EV segments may be the only viable growth paths.
 
 ### 3. Seasonal Sales Intelligence & Inventory Optimization
 
-**Finding**: EV sales demonstrate clear seasonal patterns with **October-December generating 42% of annual volumes**, while May-July represents the lowest-performing quarter at 18% of annual sales.
+**Finding**: EV sales show pronounced seasonality, with **March emerging as the peak month** (29,887 units, 69.4% above the monthly average) and **June as the lowest month** (10,579 units, 38.0% below average). The peak-to-low ratio stands at **2.7x**, indicating strong seasonal swings, and monthly sales volatility is **28.2%**.
 
 **Seasonal Breakdown**:
-- **Peak Season (Oct-Dec)**: 156% of average monthly sales
-- **Growth Season (Jan-Mar)**: 118% of average monthly sales  
-- **Moderate Season (Apr-Jun)**: 82% of average monthly sales
-- **Low Season (Jul-Sep)**: 64% of average monthly sales
+- **Peak Month (March)**: 169% of average monthly sales  
+- **High Season (Feb-Apr)**: Sustained above-average sales momentum  
+- **Low Month (June)**: 62% below peak, highlighting mid-year slowdown  
+- **Recovery Phase (Oct-Nov)**: Noticeable demand rebound after mid-year dip
 
-![Monthly Sales Seasonality Pattern](./data/visuals/seasonal_analysis_radar.png)
+![Monthly Sales Seasonality Pattern](./data/visuals/Monthly_Sales_Seasonality.png)
 
-**Operational Impact**: Seasonal variance of 144% between peak and low months requires dynamic inventory management and targeted marketing spend allocation to optimize working capital efficiency.
+**Operational Impact**: The substantial gap between peak and low months requires:
+- Scaling production ahead of March to capitalize on demand
+- Running promotional campaigns in June to counteract the trough
+- Adjusting inventory and staffing to match seasonal peaks and lulls for optimal working capital utilization
 
-### 4. Growth Trajectory & Market Maturity Analysis
+## 4. Growth Trajectory & Market Maturity Analysis  
 
-**Finding**: States exhibit four distinct maturity stages—10% in Advanced stage (>15% penetration), 30% in Developing stage (5-15% penetration), 35% in Emerging stage (1-5% penetration), and 25% in Early stage (<1% penetration).
+**Maturity Stage Distribution**:  
+- **Emerging** (1–5% EV penetration) → **50%** of states — the largest segment, showing promising early adoption but still needing awareness and infrastructure push.  
+- **Early** (<1% penetration) → **35.3%** of states — minimal EV presence; focus here should be on policy advocacy, awareness campaigns, and dealer incentives.  
+- **Developing** (5–15% penetration) → **14.7%** of states — strong mid-tier adoption; ready for scaling infrastructure and introducing premium EV models.  
+- **Advanced** (>15% penetration) → None — no state has reached high maturity levels yet, showing market-wide growth potential.  
 
-**CAGR Performance Tiers**:
-- **Hyper-Growth Markets**: 80-120% CAGR (Gujarat, Rajasthan, Haryana)
-- **High-Growth Markets**: 50-80% CAGR (Karnataka, Tamil Nadu, Kerala)
-- **Steady-Growth Markets**: 25-50% CAGR (Maharashtra, Delhi, West Bengal)
-- **Emerging Markets**: 10-25% CAGR (Most northeastern and central states)
+**CAGR Performance Tier Distribution**:  
+- **Emerging** (<25% CAGR) → **44.1%** of states — slower EV sales growth; need demand activation and stronger incentives.  
+- **Steady-Growth** (25–50% CAGR) → **29.4%** — sustainable adoption momentum; well-suited for expanding value-added EV services.  
+- **High-Growth** (50–80% CAGR) → **20.6%** — rapid adoption pace; focus on charging network expansion to sustain momentum.  
+- **Hyper-Growth** (>80% CAGR) → **5.9%** — explosive growth; immediate investment in production and infra scaling required.  
 
-![Market Maturity Quadrant Analysis](./data/visuals/market_maturity_matrix.png)
+---
 
-**Investment Strategy**: Hyper-growth markets require immediate capacity expansion, while emerging markets need infrastructure development partnerships with state governments.
+<img src="./data/visuals/Maturity Stage Distribution.png" width="100%" />
+
+---
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+    <div>
+        <b>Early Stage States</b>  
+        <a href="./data/visuals/Early stage states.png">
+            <img src="./data/visuals/Early stage states.png" width="100%">
+        </a>
+    </div>
+    <div>
+        <b>Emerging Stage States</b>  
+        <a href="./data/visuals/Hyper_Growth_Low_maturity_state.png">
+            <img src="./data/visuals/Hyper_Growth_Low_maturity_state.png" width="100%">
+        </a>
+    </div>
+    <div>
+        <b>Developing Stage States</b>  
+        <a href="./data/visuals/steady_high_growth_states.png">
+            <img src="./data/visuals/steady_high_growth_states.png" width="100%">
+        </a>
+    </div>
+</div>
+
+
+---
+
+<img src="./data/visuals/CAGR Performance Tier Distribution.png" width="100%" />
+
+---
+
+**Key Insights**:  
+- Half of all states are in the **Emerging maturity stage**, meaning the bulk of India’s EV opportunity lies in moving them up the curve.  
+- **Hyper-Growth** states are rare but high-value — they can deliver immediate returns if supported with infrastructure and financing options.  
+- The **Early** stage states (35%) are the most challenging but represent untapped potential if approached with strong policy partnerships.  
+- No state is yet **Advanced**, highlighting that the Indian EV market still has a long runway before saturation.  
+
+**Strategic Recommendations**:  
+- **Hyper & High Growth** → Prioritize infra rollout, fast-track model launches.  
+- **Steady-Growth** → Deepen market penetration with premium services.  
+- **Emerging/Early** → Drive adoption via subsidies, awareness campaigns, and rural outreach.  
 
 ---
 
@@ -208,4 +268,4 @@ Based on market maturity analysis and economic indicators:
 
 *This analysis represents a comprehensive examination of India's EV market dynamics and provides data-driven frameworks for strategic decision-making. For detailed technical methodology, data processing steps, and interactive dashboards, explore the complete project repository.*
 
-**[Launch Interactive Dashboard →](./app/main.py)** | **[Technical Documentation →](./docs/)** | **[Data Processing Details →](./notebooks/)**
+**[Launch Interactive Dashboard →](https://ev-analysis.streamlit.app)** | **[Technical Documentation →](./docs/)** | **[Data Processing Details →](./notebooks/)**

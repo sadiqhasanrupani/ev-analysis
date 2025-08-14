@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e0e973f2473c03a7",
+        "id": "4cf76117afcf3979",
         "type": "tabs",
         "children": [
           {
-            "id": "52a11b6553b3386a",
+            "id": "2d6601e3d7a9611e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 348.5
   },
   "right": {
     "id": "76863b670d0ef7e5",
@@ -168,10 +168,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52a11b6553b3386a",
+  "active": "2d6601e3d7a9611e",
   "lastOpenFiles": [
-    "README_old.md",
+    "data/visuals/CAGR Performance Tier Distribution.png",
+    "data/visuals/Maturity Stage Distribution.png",
+    "data/visuals/maturity_stage_distribution.png",
     "README.md",
+    "Pasted.md",
+    "notebooks/research/Early stage states.png",
+    "data/visuals/Hyper_Growth_Low_maturity_state.png",
+    "data/visuals/Early stage states.png",
+    "notebooks/research/ev_peak_low_months.ipynb",
+    "data/visuals/ev_peak_low_months.ipynb",
+    "data/visuals/steady_high_growth_states.png",
+    "notebooks/research/ev_peak_low_months.ipynb~",
+    "data/visuals/Monthly_Sales_Seasonality.png",
+    "data/visuals/newplot(3).png",
+    "data/visuals/marketshare_and_concetration_index_four_wheelers.png",
+    "data/visuals/markeshare_and_concetration_index_2_wheelers.png",
+    "notebooks/market share and concetration index (2 wheelers)",
+    "notebooks/EDA_analysis.ipynb",
+    "README_old.md",
     "docs/analysis_summary/comprehensive_market_analysis.md"
   ]
 }

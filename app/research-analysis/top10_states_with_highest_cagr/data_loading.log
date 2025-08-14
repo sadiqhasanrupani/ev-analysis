@@ -116,3 +116,11 @@
 2025-08-14 15:01:39,617 - ev_analysis_data_loader - INFO - Date dimension data loaded successfully from: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/dim_date.csv
 2025-08-14 15:01:39,635 - ev_analysis_data_loader - INFO - Data merged successfully. Shape after merge: (2445, 7)
 2025-08-14 15:01:39,655 - ev_analysis_data_loader - INFO - Data processed successfully with fiscal years: 103 rows, 4 columns
+2025-08-14 16:13:56,579 - ev_analysis_data_loader - INFO - Project root identified as: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis
+2025-08-14 16:13:56,579 - ev_analysis_data_loader - INFO - Sales data path: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv
+2025-08-14 16:13:56,580 - ev_analysis_data_loader - INFO - Date dimension path: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/dim_date.csv
+2025-08-14 16:13:56,584 - ev_analysis_data_loader - INFO - Sales data loaded successfully from: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/electric_vehicle_sales_by_state.csv
+2025-08-14 16:13:56,584 - ev_analysis_data_loader - INFO - File size: 0.09 MB, Rows: 2445, Columns: 5
+2025-08-14 16:13:56,586 - ev_analysis_data_loader - INFO - Date dimension data loaded successfully from: /mnt/data/projects/data-analyst/python-based/ev-analysis/ev-analysis/data/raw/dim_date.csv
+2025-08-14 16:13:56,591 - ev_analysis_data_loader - INFO - Data merged successfully. Shape after merge: (2445, 7)
+2025-08-14 16:13:56,597 - ev_analysis_data_loader - INFO - Data processed successfully with fiscal years: 103 rows, 4 columns
